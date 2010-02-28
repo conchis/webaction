@@ -1,0 +1,39 @@
+Webaction
+---------
+A Javascript application library for exploring and using JCR-based content in teaching and learning.
+
+What is Webaction?
+------------------
+Webaction is an object-oriented JavaScript library that provides two elements: a powerful abstraction for exploring and accessing content from a JCR repository, and a set of high level widgets for presenting and working with that content. Webaction is in part a product of the JCR-Connect project, a project to build tools for supporting the reuse of content for teaching, learning, and research. 
+
+Webaction's powerful Tree class is designed to provide an easy to use abstraction for applications that directly access content from a JCR repository. Webaction also makes use of and integrates Base2 and jQuery libraries to create a collection of high level widgets that can be used to browse and present JCR-based content. Webaction builds on the open-source jQuery and Base2 libraries.
+
+Base2 is an excellent minimalist library for organizing JavaScript code. Base2 really shines when by letting developers organize their software into packages (with exports and imports) and classes with the ability to call overridden methods without a great deal of ceremony. Base2 does not pollute the global namespace, so it can easily be used with other libraries.
+
+jQuery stands out as an excellent open-source library (second to none) for manipulating the DOM. As it is it is great for creating effects and coding event-triggered changes in a page. What it is missing is a framework for building an object-oriented MVC application in a browser. There is no support for packages, building classes of interactive widgets, etc.
+
+The Near Future
+---------------
+The 1.0 release is due at the end of March, before then I will be adding:
+
+- Support for accessing content via Jackrabbit's web service, which, using JCR-Connect software can also be used to provide a hub for content from Fedora and XTF repositories.
+
+- High level, reusable widgets for browsing and manipulating content in a JCR repository. These will be designed so they can be used with any presentation framework, for example Plone, or Ruby or Rails.
+
+- Support for working with content structured according to JCR-Connect's Default Content Model.
+
+- Better web accessability.
+
+Links
+-----
+JCR-Connect
+http://jcr-connect.at.northwestern.edu
+
+jQuery:
+http://jquery.com/
+
+Base2:
+http://code.google.com/p/base2/
+
+Apache Jackrabbit:
+http://jackrabbit.apache.org/
