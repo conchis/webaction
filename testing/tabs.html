@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Tabs Sample</title>
+
+    <script src="../base/1.0/base2-p.js" 	type="text/javascript"></script>
+    <script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+    <script src="../core/options.js" 		type="text/javascript"></script>
+    <script src="../core/observers.js" 		type="text/javascript"></script>
+    <script src="../core/collections.js" 	type="text/javascript"></script>
+    <script src="../core/strings.js" 		type="text/javascript"></script>
+    <script src="../core/generator.js" 		type="text/javascript"></script>
+    <script src="../core/controls.js" 		type="text/javascript"></script>
+
+    <script src="../controls/tabs.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="../controls/tabs.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script>
+
+    $(document).ready(function() {
+    	eval(base2.tabs.namespace);
+
+    	var choices = [
+			{label:"One", has_close: false},
+			{label:"Two",  has_close: true},
+			{label:"This is a long tab", has_close: true},
+			{label:"This is a long tab", has_close: true},
+			{label:"Three",  has_close: true},
+			{label:"Four",  has_close: true},
+			{label:"Five",  has_close: true}
+    	];
+
+		var tabs = new TabRow({choices: choices, select: 0});
+        $('#tabs2').makeControl(tabs);
+    });
+
+    </script>
+</head>
+<body>
+<div class="wa_area" style="top: 5px; left: 5px; width: 400px; height: 160px;">
+    <div id="tabs2">
+    </div>
+</div>
+
+</body>
+</html>

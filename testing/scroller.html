@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Scroller Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 		type="text/javascript"></script>
+  	<script src="../core/observers.js" 		type="text/javascript"></script>
+  	<script src="../core/collections.js" 	type="text/javascript"></script>
+  	<script src="../core/strings.js" 	    type="text/javascript"></script>
+    <script src="../core/generator.js" 	    type="text/javascript"></script>
+    <script src="../core/controls.js" 	    type="text/javascript"></script>
+  	<script src="../core/jsonStringify.js"  type="text/javascript"></script>
+
+    <script src="../controls/buttons.js" type="text/javascript"></script>
+    <script src="../controls/scroller.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="../controls/buttons.css"/>
+	<link rel="stylesheet" href="../controls/scroller.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script type="text/javascript">
+        eval(base2.scroller.namespace);
+        eval(base2.controls.namespace);
+        eval(base2.generator.namespace);
+        eval(base2.buttons.namespace);
+
+    var TestItem = Control.extend({
+
+        constructor: function (options) {
+            this.base(options, {
+                width: '100%', height: 35,
+                style: {backgroundColor:'red', marginBottom:3}
+            });
+            this.label = this.option("label", "__");
+        },
+
+        generate: function (dom_element) {
+            dom_element.append(span({style: {color:'white', font_size: 18,
+                    margin: 5}}, this.label));
+
+            var label = this.label;
+            var close_button = new Button({label: "X", width: 12});
+            close_button.makeControl(dom_element);
+            var self = this;
+            close_button.addListener("changed", function () {
+                self.remove();
+            });
+        }
+    });
+
+    $(document).ready(function() {
+        var items = [];
+        for (var count = 0; count < 40; count += 1) {
+            var item = new TestItem({label: "" + (count + 1)});
+            items.push(item);
+        }
+        var scroller = new Scroller({width: 300, height: 350, contents: items});
+        scroller.makeControl(jQuery("#content"));
+
+        var add_count = 0;
+        var add_button = new Button({label: "+ Add"});
+        add_button.makeControl(jQuery("#controls"));
+        add_button.addListener("changed", function () {
+            add_count += 1;
+            scroller.add(new TestItem({label: 'Extra ' + add_count}));
+        });
+     });
+
+    </script>
+</head>
+<body>
+<div id="content" class="wa_area" style="left: 5px; top: 5px; width: 672px; height: 400px;">
+    <div id = "controls" style="position: absolute; left: 340px; top: 10px;"></div>
+</div>
+</body>
+</html>

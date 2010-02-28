@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Table From Tree</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 			type="text/javascript"></script>
+  	<script src="../core/observers.js" 			type="text/javascript"></script>
+  	<script src="../core/collections.js" 		type="text/javascript"></script>
+  	<script src="../core/models.js" 			type="text/javascript"></script>
+  	<script src="../core/strings.js" 			type="text/javascript"></script>
+    <script src="../core/generator.js" 			type="text/javascript"></script>
+    <script src="../core/controls.js" 			type="text/javascript"></script>
+	<script src="../core/paths.js"              type="text/javascript"></script>
+	<script src="../core/trees.js"              type="text/javascript"></script>
+    <script src="../core/list_models.js" 		type="text/javascript"></script>
+    <script src="../core/connectors.js" 		type="text/javascript"></script>
+
+    <script src="../controls/tables.js" 		type="text/javascript"></script>
+
+    <link href="../controls/buttons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="../controls/tables.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script>
+
+    $(document).ready(function() {
+    	eval(base2.tables.namespace);
+    	eval(base2.list_models.namespace);
+    	eval(base2.strings.namespace);
+        eval(base2.trees.namespace);
+        eval(base2.connectors.namespace);
+
+        jQuery.get("tree.json", {}, function (text) {
+            var node_data = eval("(" + text + ")");
+            var tree = new Node('/');
+            tree.initializeFrom(node_data);
+
+            var table = new Table({
+                model: tree,
+                columns: [
+                    new Column("name", 		{width: 220, sortable: true}),
+                    new Column("title", 	{width: 400, sortable: true})
+                ]
+            });
+            $("#table_area").makeControl(table);
+
+
+        });
+
+
+    });
+
+    </script>
+</head>
+<body>
+
+	<div id="table_area" class="wa_area" style="width: 750px; height: 300px;">
+	</div>
+
+</body>
+</html>

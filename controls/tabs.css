@@ -1,0 +1,73 @@
+/** Tab Styles */
+
+.wa_tab_row {
+    background-color: #FFFFFF;
+    height: 20px;
+    overflow: hidden;
+}
+
+.wa_tab_slide {
+    background-color: #FFFFFF;
+    height: 16px;
+    width: 3000px;
+    overflow: visible;
+
+    border-bottom: 1px #999 solid;
+}
+
+.wa_tab_table {
+    float: left;
+    background-color: transparent;
+    padding-top: 0px;
+    padding-left: 3px;
+    border-spacing: 0px;
+    table-layout: fixed;
+}
+
+.wa_tab {
+    float: left;
+    margin-right: 2px;
+    padding-right: 7px;
+    height: 13px;
+    border: 1px #999 solid;
+    background-image: url(../../webaction/images/grad-blue-16r.png);
+    background-color: #FFFFFF;
+    vertical-align: top;
+    border-bottom: 1px #999 solid;
+}
+
+.wa_tab_pressed {
+    float: left;
+    height: 13px;
+    border-left: 1px #999 solid;
+    border-top: 1px #999 solid;
+    border-right: 1px #999 solid;
+    border-bottom: none;
+    margin-right: 2px;
+    padding-left: 3px;
+    background-color: #FFFFFF;
+    background-image: none;
+    border-bottom: 1px white solid;
+}
+
+.wa_tab_label {
+    float: left;
+    margin-top: 0px;
+    margin-left: 3px;
+}
+
+.wa_tab_close {
+    float: right;
+    margin-top: 0px;
+    margin-right: -4px;
+    margin-left: 3px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/tab-close.png);
+}
+
+.wa_tab a {
+    color: #000000;
+    font-size: 10px;
+    font-family: verdana, arial, helvetica, sans-serif;
+}

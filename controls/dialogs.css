@@ -1,0 +1,31 @@
+/** Styles for dialog boxes. */
+
+.wa_dialog {
+	position: absolute;
+	left: 100px;
+	top: 20px;
+}
+
+.wa_dialog_shadow {
+	position: absolute;
+	background-color: #000000;
+	opacity: 0.05;
+}
+
+.wa_dialog_content {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px #888888 solid;
+	background-color: white;
+}
+
+.wa_dialog_item {
+	position: absolute;
+}
+
+.wa_dialog_message {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	margin: 10px;
+}

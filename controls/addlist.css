@@ -1,0 +1,27 @@
+.wa_addlist_list {
+	position: relative;
+	width: 200px;
+	height: 145px;
+	border: 1px inset #EEEEEE;
+	margin-bottom: 5px;
+	overflow: auto;
+}
+
+.wa_addlist_selected {
+	color: #FFFFFF;
+	background-color: #697798;
+}
+
+.wa_addlist_id {
+	width: 40px;
+}
+
+.wa_addlist_label {
+	width: 140px;
+}
+
+.wa_dialog {
+	position: absolute;
+	left: 100px;
+	top: -8px;
+}

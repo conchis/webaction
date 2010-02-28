@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction AddList Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 			type="text/javascript"></script>
+  	<script src="../core/observers.js" 			type="text/javascript"></script>
+  	<script src="../core/collections.js" 		type="text/javascript"></script>
+  	<script src="../core/strings.js" 			type="text/javascript"></script>
+    <script src="../core/generator.js" 			type="text/javascript"></script>
+    <script src="../core/controls.js" 			type="text/javascript"></script>
+    <script src="../core/list_models.js" 		type="text/javascript"></script>
+
+    <script src="../controls/buttons.js" 		type="text/javascript"></script>
+    <script src="../controls/dialogs.js" 		type="text/javascript"></script>
+    <script src="../controls/checklist.js" 		type="text/javascript"></script>
+    <script src="../controls/addlist.js" 		type="text/javascript"></script>
+
+    <link href="../controls/buttons.css"        rel="stylesheet" />
+    <link href="../controls/dialogs.css"        rel="stylesheet" />
+    <link href="../controls/checklist.css"      rel="stylesheet" />
+    <link href="../controls/addlist.css"        rel="stylesheet" />
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script>
+
+    $(document).ready(function() {
+    	eval(base2.addlist.namespace);
+    	eval(base2.buttons.namespace);
+    	eval(base2.list_models.namespace);
+
+    	var items = new ListModel([
+    			{name: "abc123", print_name: "User abc123"},
+    			{name: "bbc123", print_name: "User bbc123"},
+     			{name: "cbc123", print_name: "User cbc123"},
+     			{name: "dbc123", print_name: "User dbc123"},
+    			{name: "ebc123", print_name: "User ebc123"},
+     			{name: "fbc123", print_name: "User fbc123"},
+    			{name: "gbc123", print_name: "User gbc123"},
+     			{name: "hbc123", print_name: "User hbc123"},
+     			{name: "ibc123", print_name: "User ibc123"},
+    			{name: "jbc123", print_name: "User jbc123"},
+    			{name: "kbc123", print_name: "User kbc123"},
+    			{name: "lbc123", print_name: "User lbc123"},
+     			{name: "mbc123", print_name: "User mbc123"},
+     			{name: "nbc123", print_name: "User nbc123"},
+    			{name: "obc123", print_name: "User obc123"},
+     			{name: "pbc123", print_name: "User pbc123"},
+    			{name: "qbc123", print_name: "User qbc123"},
+     			{name: "rbc123", print_name: "User rbc123"},
+     			{name: "sbc123", print_name: "User sbc123"},
+    			{name: "tbc123", print_name: "User tbc123"}
+    		]);
+
+    	var source = new ListModel([
+    			{name: "abc123", print_name: "User abc123"},
+    			{name: "abc223", print_name: "User abc223"},
+    			{name: "bbc123", print_name: "User bbc123"},
+    			{name: "bbc223", print_name: "User bbc223"},
+     			{name: "cbc123", print_name: "User cbc123"},
+     			{name: "cbc223", print_name: "User cbc223"},
+     			{name: "dbc123", print_name: "User dbc123"},
+     			{name: "dbc223", print_name: "User dbc223"},
+    			{name: "ebc123", print_name: "User ebc123"},
+    			{name: "ebc223", print_name: "User ebc223"},
+     			{name: "fbc123", print_name: "User fbc123"},
+     			{name: "fbc223", print_name: "User fbc223"},
+    			{name: "gbc123", print_name: "User gbc123"},
+    			{name: "gbc223", print_name: "User gbc223"},
+     			{name: "hbc123", print_name: "User hbc123"},
+     			{name: "hbc223", print_name: "User hbc223"},
+     			{name: "ibc123", print_name: "User ibc123"},
+     			{name: "ibc223", print_name: "User ibc223"},
+    			{name: "jbc123", print_name: "User jbc123"},
+    			{name: "jbc223", print_name: "User jbc223"},
+    			{name: "kbc123", print_name: "User kbc123"},
+    			{name: "kbc223", print_name: "User kbc223"},
+    			{name: "lbc123", print_name: "User lbc123"},
+    			{name: "lbc223", print_name: "User lbc223"},
+     			{name: "mbc123", print_name: "User mbc123"},
+     			{name: "mbc223", print_name: "User mbc223"},
+     			{name: "nbc123", print_name: "User nbc123"},
+     			{name: "nbc223", print_name: "User nbc223"},
+    			{name: "obc123", print_name: "User obc123"},
+    			{name: "obc223", print_name: "User obc223"},
+     			{name: "pbc123", print_name: "User pbc123"},
+     			{name: "pbc223", print_name: "User pbc223"},
+    			{name: "qbc123", print_name: "User qbc123"},
+    			{name: "qbc223", print_name: "User qbc223"},
+     			{name: "rbc123", print_name: "User rbc123"},
+     			{name: "rbc223", print_name: "User rbc223"},
+     			{name: "sbc123", print_name: "User sbc123"},
+     			{name: "sbc223", print_name: "User sbc223"},
+    			{name: "tbc123", print_name: "User tbc123"},
+    			{name: "tbc223", print_name: "User tbc223"}
+    		]);
+
+		var add_list = new AddList({items: items, source: source,
+			item_id: "name",
+			label: function (item) { return item.print_name; },
+			group: function (item) {
+				return item.name.charAt(0).toUpperCase();
+			}
+		});
+		add_list.makeControl($("#adds"));
+    });
+
+    </script>
+</head>
+<body>
+
+<div class="wa_area" style="left: 5px; top: 5px; width: 500px; height: 350px">
+    <div id="adds" style="position:absolute;left:20px;top:20px;"></div>
+</div>
+
+</body>
+</html>

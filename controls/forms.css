@@ -1,0 +1,71 @@
+/* *** Form Styles */
+
+.wa_form_table {
+    border-spacing: 0px;
+    table-layout: fixed;
+    width: 500px;
+}
+
+.wa_form_label {
+    font-family: helvetica, arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: right;
+    width: 100px;
+    vertical-align: top;
+    text-transform: capitalize;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+
+.wa_form_message {
+    font-family: helvetica, arial, helvetica, sans-serif;
+    font-weight: bold;
+    color: #990000;
+}
+
+.wa_text {
+    width: 260px;
+    padding-bottom: 7px;
+    font-size: 8pt;
+    font-family: helvetica, arial, helvetica, sans-serif;
+}
+
+.wa_text_item {
+    width: 260px;
+    height: 17px;
+    border: 1px inset #AAAAAA;
+    font-size: 8pt;
+    font-family: helvetica, arial, helvetica, sans-serif;
+}
+
+.wa_form_text_var {
+    margin-left: 0px;
+    height: 17px;
+    border: 1px inset #AAAAAA;
+    font-size: 8pt;
+    font-family: helvetica, arial, helvetica, sans-serif;
+}
+
+.wa_text_area {
+    width: 262px;
+    border: 1px inset #AAAAAA;
+    font-size: 8pt;
+    font-family: helvetica, arial, helvetica, sans-serif;
+}
+
+.wa_form_password_confirm {
+    font-family: helvetica, arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 4px;
+}
+
+.wa_form_submit {
+    width: 100px;
+}
+
+.wa_form_cancel {
+    width: 100px;
+    margin-left: 3px;
+}

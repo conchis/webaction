@@ -1,0 +1,8 @@
+
+.wa_scroller {
+    position:relative;
+    overflow: auto;
+    border: 1px dotted #AAAAAA;
+}
+
+.wa_scroller_content { margin: 5px; }

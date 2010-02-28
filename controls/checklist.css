@@ -1,0 +1,89 @@
+/* Checklist styles */
+
+.wa_clist
+{
+	position: absolute;
+	height: 260px;
+	border: #666666 1px dotted;
+}
+
+.wa_clist_select
+{
+	position: relative;
+	width: 255px;
+	height: 45px;
+	padding-bottom: 5px;
+	line-height: 17px;
+	overflow: hidden;
+}
+
+.wa_clist_group_buton {
+	float: left;
+	color: #000000;
+	background-color: #FAFAFA;
+	border: #AAAAAA 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: 2px;
+}
+
+.wa_clist_items {
+	position: absolute;
+	height: 240px;
+	overflow: auto;
+}
+
+.wa_clist_items table {
+    table-layout: fixed;
+}
+
+.wa_clist_items td {
+	padding: 0px;
+	margin: 0px;
+	padding-left: 3px;
+}
+
+.wa_clist_group_row {
+	background-color: #DDDDDD;
+}
+
+.wa_clist_group_row td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 10px;
+	background-color: #DDDDDD;
+}
+
+.wa_clist_group_selected {
+	color: #FFFFFF;
+	background-color: #697798;
+}
+
+.wa_clist_checkbox {
+    position: relative;
+    top: -2px;
+    left: -3px;
+	width: 17px;
+	height: 16px;
+	background-image: URL(../images/checkbox-up.jpg);
+}
+
+.wa_clist_checkbox_selected {
+	background-image: URL(../images/checkbox-down.jpg);
+}
+
+.wa_clist_checkcol {
+	width: 17px;
+	height: 16px;
+    vertical-align: top;
+}
+
+
+.wa_clist_id {
+    vertical-align: top;
+}
+
+.wa_clist_label {
+	width: 120px;
+    vertical-align: top;
+}

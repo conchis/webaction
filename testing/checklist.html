@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Checklist Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 			type="text/javascript"></script>
+  	<script src="../core/observers.js" 			type="text/javascript"></script>
+  	<script src="../core/collections.js" 		type="text/javascript"></script>
+  	<script src="../core/list_models.js" 		type="text/javascript"></script>
+    <script src="../core/generator.js" 			type="text/javascript"></script>
+    <script src="../core/controls.js" 			type="text/javascript"></script>
+
+    <script src="../controls/checklist.js" 		type="text/javascript"></script>
+    <link href="../controls/checklist.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script>
+    <!--
+
+    var groups = [{"name":"admin","print_name":"MMS Administrator"},{"name":"altman","print_name":"User altman"},{"name":"bbt521","print_name":"User bbt521"},{"name":"bcp396","print_name":"User bcp396"},{"name":"bmc112","print_name":"User bmc112"},{"name":"bnielsen","print_name":"User bnielsen"},{"name":"bws229","print_name":"User bws229"},{"name":"cha419","print_name":"User cha419"},{"name":"ctw816","print_name":"User ctw816"},{"name":"dml526","print_name":"User dml526"},{"name":"ejp253","print_name":"User ejp253"},{"name":"fec807","print_name":"User fec807"},{"name":"gtf104","print_name":"User gtf104"},{"name":"jsm712","print_name":"User jsm712"},{"name":"jtf163","print_name":"User jtf163"},{"name":"map078","print_name":"User map078"},{"name":"rda164","print_name":"User rda164"},{"name":"rha093","print_name":"User rha093"},{"name":"roark","print_name":"User roark"},{"name":"rsm363","print_name":"User rsm363"},{"name":"saa109","print_name":"User saa109"},{"name":"sap327","print_name":"User sap327"},{"name":"sbf286","print_name":"User sbf286"},{"name":"Shan Jiang","print_name":"User Shan Jiang"},{"name":"sji279","print_name":"User sji279"},{"name":"smi792","print_name":"User smi792"},{"name":"stud12","print_name":"User stud12"},{"name":"zil714","print_name":"User zil714"}];
+
+    $(document).ready(function() {
+    	eval(base2.checklist.namespace);
+    	eval(base2.list_models.namespace);
+
+    	var model = new ListModel(groups);
+
+    	var c1 = new Checklist({model: model,
+    		item_id: "name",
+    		label: "print_name",
+    		group: function (item) {
+    			return item.name.charAt(0).toUpperCase();
+    		}});
+    	c1.makeControl($('#c1'));
+    });
+
+	-->
+    </script>
+</head>
+<body>
+
+<div class="wa_area" style="left: 5px; top: 5px; width: 500px; height: 350px;">
+    <span id="c1"></span>
+</div>
+
+</body>
+</html>

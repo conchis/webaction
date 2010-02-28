@@ -1,0 +1,43 @@
+
+
+.wa_tags_readout {
+    position: relative;
+    width: 190px;
+    height: 30px;
+    margin-top: 3px;
+    padding: 3px;
+    border: 1px dotted #AAAAAA;
+    overflow: hidden;
+}
+
+.wa_tags_select {
+    position: relative;
+    width: 185px;
+    height: 175px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px dotted #AAAAAA;
+    overflow: auto;
+}
+
+.wa_tags_buttons {
+    margin-top: 5px;
+}
+
+.wa_tags_tag {
+    cursor: pointer; cursor: hand;
+}
+
+.wa_tags_tag:hover {
+	background-color: #F0F2F9;
+}
+
+.wa_tags_selected {
+    color: #FFFFFF;
+    background-color: #697798;
+}
+
+.wa_tags_selected:hover {
+    color: #FFFFFF;
+    background-color: #697798;
+}

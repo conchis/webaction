@@ -1,0 +1,106 @@
+.wa_table_div {
+}
+
+.wa_table_header {
+    position:relative;
+    top:3px;
+    height: 18px;
+    padding: 0px;
+    background-image: url(../../webaction/images/grad-blue-20.png);
+    border-left: 1px dotted #AAAAAA;;
+    overflow: hidden;
+}
+
+.wa_table_header table {
+    border-spacing: 0px;
+    table-layout: fixed;
+}
+
+.wa_table_header_cell {
+    vertical-align: top;
+    height: 18px;
+    text-align: left;
+    padding-left: 4px;
+    border-left: 1px #DDDDDD outset;
+    border-right: 1px #DDDDDD outset;
+    font-size: 11px;
+    text-transform: capitalize;
+    cursor: pointer; cursor: hand;
+    overflow: hidden;
+}
+
+.wa_table_end {
+    background-color: #EEEEEE;
+}
+
+.wa_table_body {
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px dotted #AAAAAA;;
+    border-left: 1px dotted #AAAAAA;;
+    overflow: auto;
+}
+
+.wa_table_body table {
+    margin-top: 3px;
+    border-spacing: 0px;
+    table-layout: fixed;
+    overflow: hidden;
+}
+
+.wa_table_body td {
+    padding: 4px;
+    border-left: 1px #FFFFFF solid;
+    border-right: 1px #DDDDDD solid;
+    font-size: 11px;
+    vertical-align: top;
+    cursor: pointer; cursor: hand;
+    overflow: hidden;
+}
+
+.wa_table_cell {
+    padding-left: 7px;
+    vertical-align: middle;
+}
+
+.wa_table_cell_highlight {
+    background-image: url(../../webaction/images/grad-blue-20r.png);
+}
+
+.wa_table_selected {
+    color: #FFFFFF;
+    background-color: #697798;
+}
+
+.wa_sort_text {
+    float: left;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.wa_sort_icon {
+    float: right;
+    margin-top: -1px;
+    margin-right: 3px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../webaction/images/sort-both-16.png);
+}
+
+.wa_sort_icon_up {
+    float: right;
+    margin-top: -1px;
+    margin-right: 3px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../webaction/images/sort-up-16.png);
+}
+
+.wa_sort_icon_down {
+    float: right;
+    margin-top: -1px;
+    margin-right: 3px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../webaction/images/sort-down-16.png);
+}

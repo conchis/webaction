@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Buttons Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 			type="text/javascript"></script>
+  	<script src="../core/observers.js" 			type="text/javascript"></script>
+  	<script src="../core/collections.js" 		type="text/javascript"></script>
+    <script src="../core/generator.js" 			type="text/javascript"></script>
+    <script src="../core/controls.js" 			type="text/javascript"></script>
+
+    <script src="../controls/buttons.js" 		type="text/javascript"></script>
+    <link href="../controls/buttons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script>
+
+    $(document).ready(function() {
+
+    	eval(base2.buttons.namespace);
+
+    	var b1 = new Button({label: "Button 1"});
+    	b1.makeControl($('#b1'));
+
+    	var b2 = new Button({label: "Button 2", active: false});
+    	b2.makeControl($('#b2'));
+
+    	var b3 = new Button({label: "Button 3", pressed: true, toggles: true});
+    	b3.makeControl($('#b3'));
+
+    	var bx1 = new Button({width: 50, label: "Generate"});
+    	bx1.makeControl($('#bx1'));
+    });
+
+    </script>
+</head>
+<body>
+
+<div class="wa_area" style="left: 5px; top: 5px; width: 180px; height: 60px;">
+    <span id="b1" style="width: 80px;"></span>
+    <span id="b2" style="width: 80px;"></span>
+    <span id="b3" style="width: 80px; margin-top: 3px;"></span>
+</div>
+
+<div id="bx1" class="wa_area" style="left: 5px; top: 90px; width: 180px; height: 60px;"></div>
+
+</body>
+</html>

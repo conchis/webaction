@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Label Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 		    type="text/javascript"></script>
+  	<script src="../core/observers.js" 		    type="text/javascript"></script>
+  	<script src="../core/collections.js" 	    type="text/javascript"></script>
+  	<script src="../core/strings.js" 		    type="text/javascript"></script>
+    <script src="../core/generator.js" 	        type="text/javascript"></script>
+    <script src="../core/controls.js" 	        type="text/javascript"></script>
+  	<script src="../core/jsonStringify.js"      type="text/javascript"></script>
+
+    <script src="../controls/label.js" 		    type="text/javascript"></script>
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+	<link rel="stylesheet" href="../controls/label.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+    	eval(base2.controls.namespace);
+    	eval(base2.label.namespace);
+
+        new Label("Label 1").makeControl(jQuery("#label_area"));
+        new Label("Label 2").makeControl("#label_area");
+        new Label("Label 3").makeControl("label_area");
+
+        new Label("Label 4", {
+            position: 'absolute', left: 10, top:  60,
+            style: {fontSize: 18}
+        }).makeControl("label_area");
+    });
+
+    </script>
+</head>
+<body>
+
+<div id="label_area" class="wa_area" style="left: 10px; top: 10px; width: 400px; height: 260px;">
+</div>
+
+</body>
+</html>

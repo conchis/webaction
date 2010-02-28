@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Webaction Slide Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 			type="text/javascript"></script>
+  	<script src="../core/observers.js" 			type="text/javascript"></script>
+  	<script src="../core/collections.js" 		type="text/javascript"></script>
+  	<script src="../core/models.js" 			type="text/javascript"></script>
+  	<script src="../core/strings.js" 			type="text/javascript"></script>
+    <script src="../core/generator.js" 			type="text/javascript"></script>
+    <script src="../core/controls.js" 			type="text/javascript"></script>
+
+	<script src="../controls/slide.js" 			type="text/javascript"></script>
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="samples.css"/>
+
+    <script>
+
+    $(document).ready(function() {
+    	eval(base2.controls.namespace);
+
+		$("#slide").makeSlide();
+    });
+
+    </script>
+</head>
+<body>
+
+<div id="slide" class="wa_area" style="left: 5px; top: 5px; width: 460px; height: 200px;">
+	<div>
+		<h3>Slide 1</h3>
+	</div>
+	<div>
+		<h3>Slide 2</h3>
+	</div>
+	<div>
+		<h3>Slide 3</h3>
+	</div>
+</div>
+
+</body>
+</html>
