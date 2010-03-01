@@ -43,7 +43,7 @@ new function(_) {
     // changed while these methods are in use.
     //
     // Note: TreeNode supports the interface needed to allow a node to be
-    // wrapped by a ListFilter insance (sse list_models).  The ListFilter can
+    // wrapped by a ListFilter instance (sse list_models).  The ListFilter can
     // be used as a filtered and sorted view of the node's children.
 
     var TreeNode = Broadcaster.extend({
