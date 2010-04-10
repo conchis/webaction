@@ -119,7 +119,7 @@ document.cookie=cookie+";expires="+now+";path=/";}}
 eval(this.exports);};
 
 // core/generator.js
-new function(_){var generator=new base2.Package(this,{name:"generator",version:"0.1",imports:"",exports:"element,tag,div,span,table,tr,th,td,p,a,br,form,"
+new function(_){var generator=new base2.Package(this,{name:"generator",version:"0.1",imports:"",exports:"element,tag,div,span,ul,ol,li,table,tr,th,td,p,a,br,form,"
 +"input,textarea,select,option,img,style"});eval(this.imports);function attributes(attribute_map){if(typeof attribute_map=="undefined"||attribute_map==null)
 return"";var results=new Array();for(var name in attribute_map){if(name=='style')
 results.push("style=\""+style(attribute_map[name])+"\"");else
@@ -149,6 +149,19 @@ function div(attribute_map){var contents=new Array();for(var index=1;index<argum
 contents.push(arguments[index]);return element("div",attribute_map,contents);}
 function span(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
 contents.push(arguments[index]);return element("span",attribute_map,contents);}
+function p(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
+contents.push(arguments[index]);return element("p",attribute_map,contents);}
+function a(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
+contents.push(arguments[index]);return element("a",attribute_map,contents);}
+function br(){if(arguments.length>0)
+throw new Error('Invalid <br/>');return element("br");}
+function img(attribute_map){var contents=new Array();return element("img",attribute_map);}
+function ul(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
+contents.push(arguments[index]);return element("ul",attribute_map,contents);}
+function ol(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
+contents.push(arguments[index]);return element("ol",attribute_map,contents);}
+function li(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
+contents.push(arguments[index]);return element("li",attribute_map,contents);}
 function table(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
 contents.push(arguments[index]);return element("table",attribute_map,contents);}
 function tr(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
@@ -157,12 +170,6 @@ function th(attribute_map){var contents=new Array();for(var index=1;index<argume
 contents.push(arguments[index]);return element("th",attribute_map,contents);}
 function td(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
 contents.push(arguments[index]);return element("td",attribute_map,contents);}
-function p(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
-contents.push(arguments[index]);return element("p",attribute_map,contents);}
-function a(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
-contents.push(arguments[index]);return element("a",attribute_map,contents);}
-function br(){if(arguments.length>0)
-throw new Error('Invalid <br/>');return element("br");}
 function form(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
 contents.push(arguments[index]);return element("form",attribute_map,contents);}
 function input(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
@@ -173,7 +180,6 @@ function select(attribute_map){var contents=new Array();for(var index=1;index<ar
 contents.push(arguments[index]);return element("select",attribute_map,contents);}
 function option(attribute_map){var contents=new Array();for(var index=1;index<arguments.length;index+=1)
 contents.push(arguments[index]);return element("option",attribute_map,contents);}
-function img(attribute_map){var contents=new Array();return element("img",attribute_map);}
 eval(this.exports);};
 
 // core/controls.js
@@ -538,6 +544,11 @@ else if(mode=="or"){this.one_button.setPressed(false);this.and_button.setPressed
 tags.push(tag);}
 var locations=this.tag_index.collectLocations(tags,(this.mode=="and"));var included={};for(var index=0;index<locations.length;index+=1)
 included[locations[index]]=true;this.included=included;this.broadcast("changed",included);}});eval(this.exports);};
+
+// controls/text_selector.js
+new function(_){var tag_selector=new base2.Package(this,{name:"text_selector",version:"0.1",imports:"observers,generator,controls,buttons",exports:"TextSelector"});eval(this.imports);var TextSelector=Control.extend({constructor:function(options){this.base(options);this.fields=this.option("fields",["title"]);},generate:function(dom_element){var control_name=this.id+"_input";var attributes={type:'text',name:control_name};attributes['class']='wa_text_sel_input';dom_element.append(input(attributes));this.control=jQuery("> input",dom_element);var self=this;this.control.keyup(function(event){self.onChanged();});},onChanged:function(){var text=this.control.val();if(text!=this.text){this.text=text;this.pattern=new RegExp(text,"i");this.broadcast("changed",this.pattern);}},getFilter:function(){var self=this;return function(item,index){var fields=self.fields;var pattern=self.pattern;for(var index=0;index<fields.length;index+=1){var field_name=fields[index];var text=item[field_name].toString();if(text.match(pattern)!=null)
+return true;}
+return false;}},getState:function(){return{text:this.text};},restoreState:function(state_object){this.control.val(state_object.text);this.onChanged();}});eval(this.exports);};
 
 // controls/dialogs.js
 new function(_){var dialogs=new base2.Package(this,{name:"dialogs",version:"0.1",imports:"observers,generator,controls,buttons",exports:"Dialog,OkCancelDialog"});eval(this.imports);var SHADOW_SIZE=6;var Dialog=Control.extend({constructor:function(options,defaults){this.base(defaults,{width:300,height:260,css_class:'wa_dialog'});this.setOptions(options);},generate:function(dom_element){var width=this.option('width');var height=this.option('height');dom_element.append(div({'class':'wa_dialog_shadow',style:{width:width-SHADOW_SIZE,height:height-SHADOW_SIZE,left:SHADOW_SIZE,top:SHADOW_SIZE}}));dom_element.append(div({'class':'wa_dialog_content',style:{width:width-SHADOW_SIZE,height:height-SHADOW_SIZE}}));this.setContentsElement(jQuery('.wa_dialog_content',dom_element));},show:function(){this.dom_element.show("fast");},hide:function(){this.dom_element.hide();}});var OkCancelDialog=Dialog.extend({constructor:function(options){this.base(options,{width:300,height:100,css_class:'wa_dialog'});},generate:function(dom_element){this.base(dom_element);var width=this.width;var height=this.height;var okay_button=new Button({position:'absolute',left:width-118,top:height-30,label:"Ok",width:45});this.add(okay_button);okay_button.addListener("changed",this,"onOkPressed");var cancel_button=new Button({position:'absolute',left:width-63,top:height-30,label:"Cancel",width:45});this.add(cancel_button);cancel_button.addListener("changed",this,"onCancelPressed");var contents_element=this.contents_element;var message_id=this.id+"_message";contents_element.append(div({id:message_id,'class':'wa_dialog_message'}));this.message_area=jQuery('#'+message_id);dom_element.hide();},ask:function(text,ok_callback,cancel_callback){this.ok_callback=ok_callback;this.cancel_callback=cancel_callback;this.message_area.html(text);this.show();},onOkPressed:function(){this.hide();var ok_callback=this.ok_callback;if(ok_callback)ok_callback();},onCancelPressed:function(){this.hide();var cancel_callback=this.cancel_callback;if(cancel_callback)cancel_callback();}});eval(this.exports);};

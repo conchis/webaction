@@ -57,6 +57,7 @@ SCRIPT_FILES = [
   "controls/forms.js",
   "controls/tables.js",
   "controls/tag_selector.js",
+  "controls/text_selector.js",
   "controls/dialogs.js",
   "controls/checklist.js",
   "controls/addlist.js",
@@ -74,6 +75,7 @@ CSS_FILES = [
   "controls/checklist.css",
   "controls/addlist.css",
   "controls/tag_selector.css",
+  "controls/text_selector.css",
   "controls/label.css",
   "controls/scroller.css"
 ]
@@ -84,7 +86,7 @@ end
 
 desc "Create a combined Javascript file"
 file COMBINED_JS_FILE => SCRIPT_FILES do
-    script = LICIENCE
+    script = LICIENCE.clone
     SCRIPT_FILES.each do | file_name |
         puts "adding: #{file_name}"
         script << "\n\n// #{file_name}"
@@ -97,7 +99,7 @@ end
 
 desc "Create a combined CSS file"
 file COMBINED_CSS_FILE => CSS_FILES do
-    css = LICIENCE
+    css = LICIENCE.clone
     CSS_FILES.each do | file_name |
       puts "adding: #{file_name}"
       css << JSMin.minify(File.new(file_name))
