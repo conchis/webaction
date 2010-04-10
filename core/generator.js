@@ -20,7 +20,7 @@
         name:    "generator",
         version: "0.1",
         imports: "",
-        exports: "element,tag,div,span,table,tr,th,td,p,a,br,form,"
+        exports: "element,tag,div,span,ul,ol,li,table,tr,th,td,p,a,br,form,"
         	   + "input,textarea,select,option,img,style"
     });
 
@@ -135,6 +135,8 @@
             contents.push(arguments[index]);
         return element(name, attribute_map, contents);
     }
+    
+    // **** Containers
 
     // Constructs a div HTML element <div attribute1=value1..></div> inserting
     // any additional arguments as contents of the element.
@@ -155,6 +157,77 @@
             contents.push(arguments[index]);
         return element("span", attribute_map, contents);
     }
+    
+    // **** Text & Images
+
+    // Constructs a p HTML element <p attribute1=value1..></p> inserting
+    // any additional arguments as contents of the element.
+
+    function p(attribute_map) {
+        var contents = new Array();
+        for (var index = 1; index < arguments.length; index += 1)
+            contents.push(arguments[index]);
+        return element("p", attribute_map, contents);
+    }
+
+    // Constructs a 'a' HTML element <a attribute1=value1..></a> inserting
+    // any additional arguments as contents of the element.
+
+    function a(attribute_map) {
+        var contents = new Array();
+        for (var index = 1; index < arguments.length; index += 1)
+            contents.push(arguments[index]);
+        return element("a", attribute_map, contents);
+    }
+
+    // Constructs a br HTML element <br/>.
+
+    function br() {
+        if (arguments.length > 0)
+            throw new Error('Invalid <br/>');
+        return element("br");
+    }
+
+    // Constructs an img HTML element <img attribute1=value1../>
+
+    function img(attribute_map) {
+        var contents = new Array();
+        return element("img", attribute_map);
+    }
+    
+    // **** Lists
+    
+    // Constructs a ul HTML element <ul attribute1=value1..></ul>
+    // inserting any additional arguments as contents of the element.
+    
+    function ul(attribute_map) {
+        var contents = new Array();
+        for (var index = 1; index < arguments.length; index += 1)
+            contents.push(arguments[index]);
+        return element("ul", attribute_map, contents);
+    }
+    
+    // Constructs an ol HTML element <ol attribute1=value1..></ol>
+    // inserting any additional arguments as contents of the element.
+    
+    function ol(attribute_map) {
+        var contents = new Array();
+        for (var index = 1; index < arguments.length; index += 1)
+            contents.push(arguments[index]);
+        return element("ol", attribute_map, contents);
+    }
+    
+    // Constructs an li HTML element <li attribute1=value1..></li>
+    // inserting any additional arguments as contents of the element.
+    
+    function li(attribute_map) {
+        var contents = new Array();
+        for (var index = 1; index < arguments.length; index += 1)
+            contents.push(arguments[index]);
+        return element("li", attribute_map, contents);
+    }
+    
+    // **** Tables
 
     // Constructs a table HTML element <table attribute1=value1..></table> inserting
     // any additional arguments as contents of the element.
@@ -195,34 +268,8 @@
             contents.push(arguments[index]);
         return element("td", attribute_map, contents);
     }
-
-    // Constructs a p HTML element <p attribute1=value1..></p> inserting
-    // any additional arguments as contents of the element.
-
-    function p(attribute_map) {
-        var contents = new Array();
-        for (var index = 1; index < arguments.length; index += 1)
-            contents.push(arguments[index]);
-        return element("p", attribute_map, contents);
-    }
-
-    // Constructs a 'a' HTML element <a attribute1=value1..></a> inserting
-    // any additional arguments as contents of the element.
-
-    function a(attribute_map) {
-        var contents = new Array();
-        for (var index = 1; index < arguments.length; index += 1)
-            contents.push(arguments[index]);
-        return element("a", attribute_map, contents);
-    }
-
-    // Constructs a br HTML element <br/>.
-
-    function br() {
-        if (arguments.length > 0)
-            throw new Error('Invalid <br/>');
-        return element("br");
-    }
+    
+    // **** Forms
 
     // Constructs a form HTML element <form attribute1=value1..></form> inserting
     // any additional arguments as contents of the element.
@@ -272,13 +319,6 @@
         for (var index = 1; index < arguments.length; index += 1)
             contents.push(arguments[index]);
         return element("option", attribute_map, contents);
-    }
-
-    // Constructs an img HTML element <img attribute1=value1../>
-
-    function img(attribute_map) {
-        var contents = new Array();
-        return element("img", attribute_map);
     }
 
     // **** Evaluate the exported namespace

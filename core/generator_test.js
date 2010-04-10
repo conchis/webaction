@@ -47,14 +47,24 @@ test('nested', function () {
     equals(tab, '<table><tr><th/><th/></tr><tr><td/><td/></tr><tr><td/><td/></tr><tr><td/><td/></tr></table>');
 });
 
-// "br,form,input,textarea"
-
 test("div", function () {
     equals(div({"class": "s1"}, "inside"), '<div class="s1">inside</div>');
 });
 
 test("span", function () {
     equals(span({"class": "s1"}, "inside"), '<span class="s1">inside</span>');
+});
+
+test("ul", function () {
+    equals(ul({"class": "s1"}, "inside"), '<ul class="s1">inside</ul>');
+});
+
+test("ol", function () {
+    equals(ol({"class": "s1"}, "inside"), '<ol class="s1">inside</ol>');
+});
+
+test("li", function () {
+    equals(li({"class": "s1"}, "inside"), '<li class="s1">inside</li>');
 });
 
 test("table", function () {
