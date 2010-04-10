@@ -46,7 +46,7 @@
         
             var control_name = this.id + "_input";
             var attributes = {type: 'text', name: control_name};
-            attributes['class'] = 'wa_form_text_var';
+            attributes['class'] = 'wa_text_sel_input';
                 
             dom_element.append(input(attributes));
             this.control = jQuery("> input", dom_element);
