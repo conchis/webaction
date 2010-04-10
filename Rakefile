@@ -23,7 +23,7 @@ def find_css_in(directory)
 end
 
 LICIENCE=%q[/**
- * Copyright 2009, 2010 Jonathan A. Smith
+ * Copyright 2009, 2010 Northwestern University, Jonathan A. Smith
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
