@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 <head>
-    <title>Webaction - Tag Selector</title>
+    <title>Webaction - Text Selector</title>
 
     <script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
     <script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
@@ -24,7 +24,7 @@
     <script src="../core/connectors.js" 		type="text/javascript"></script>
 
     <script src="../controls/buttons.js" 	    type="text/javascript"></script>
-    <script src="../controls/tag_selector.js" 	type="text/javascript"></script>
+    <script src="../controls/text_selector.js" 	type="text/javascript"></script>
     <script src="../controls/tables.js" 		type="text/javascript"></script>
 
     <link href="../controls/buttons.css" rel="stylesheet" />
@@ -41,7 +41,7 @@
     	eval(base2.strings.namespace);
         eval(base2.trees.namespace);
         eval(base2.connectors.namespace);
-        eval(base2.tag_selector.namespace);
+        eval(base2.text_selector.namespace);
         eval(base2.cookies.namespace);
 
         jQuery.get("tree.json", {}, function (text) {
@@ -58,14 +58,13 @@
             });
             $("#table_div").makeControl(table);
 
-            var selector = new TagSelector({model: tree});
+            var selector = new TextSelector({fields: ["title", "name"]});
             $("#selector_div").makeControl(selector);
-            selector.addListener("changed", function (included) {
-                table.filter.filterBy(function (item, index) {
-                    return included[index] || false;
-                });
+            
+            selector.addListener("changed", function (pattern) {
+                table.filter.filterBy(selector.getFilter());
             });
-
+            
             var selector_state = null;
 
             $("#save").click(function () {
@@ -76,12 +75,8 @@
             $("#restore").click(function () {
                 var state_data = getCookie("state");
                 selector.restoreState(state_data);
-            });
-
+            })
         });
-
-
-
 
     });
 

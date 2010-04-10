@@ -87,7 +87,7 @@
     		this.parent = null;
     		this.contents = null;
 
-        // Add initial contents
+            // Add initial contents
     		var contents = this.option("contents", []);
     		for (var index = 0; index < contents.length; index += 1)
     		    this.add(contents[index]);
