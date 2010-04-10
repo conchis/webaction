@@ -12,8 +12,10 @@
 }
 
 .wa_table_header table {
+    border-collapse: collapse;
     border-spacing: 0px;
     table-layout: fixed;
+    overflow: hidden;
 }
 
 .wa_table_header_cell {
@@ -42,9 +44,10 @@
 }
 
 .wa_table_body table {
-    margin-top: 3px;
+    border-collapse: collapse;
     border-spacing: 0px;
     table-layout: fixed;
+    margin-top: 3px;
     overflow: hidden;
 }
 

@@ -20,7 +20,7 @@
         name:    "generator",
         version: "0.1",
         imports: "",
-        exports: "element,tag,div,span,ul,ol,li,table,tr,th,td,p,a,br,form,"
+        exports: "element,tag,div,span,ul,ol,li,table,col,tr,th,td,p,a,br,form,"
         	   + "input,textarea,select,option,img,style"
     });
 
@@ -267,6 +267,16 @@
         for (var index = 1; index < arguments.length; index += 1)
             contents.push(arguments[index]);
         return element("td", attribute_map, contents);
+    }
+    
+    // Constructs a col HTML element <col attribute1=value1..></col> inserting
+    // any additional arguments as contents of the element.
+
+    function col(attribute_map) {
+        var contents = new Array();
+        for (var index = 1; index < arguments.length; index += 1)
+            contents.push(arguments[index]);
+        return element("col", attribute_map, contents);
     }
     
     // **** Forms
