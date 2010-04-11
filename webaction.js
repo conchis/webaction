@@ -1,12 +1,12 @@
 /**
  * Copyright 2009, 2010 Northwestern University, Jonathan A. Smith
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -369,12 +369,15 @@ out.push('}');return out;}
 return out;}
 out.push('null');return out;case'unknown':case'undefined':case'function':if(!this.includeFunctions){out.push(u);return out};arg="JSONincludedFunc:"+arg;out.push('"');var a=['\n','\\n','\r','\\r','"','\\"'];arg+="";for(var i=0;i<6;i+=2){arg=arg.split(a[i]).join(a[i+1])};out.push(arg);out.push('"');return out;case'string':if(this.restore&&arg.indexOf("JSONcircRef:")==0){this.restoreCode.push('this.myObj.'+this.path.join(".")+"="+arg.split("JSONcircRef:").join("this.myObj."));};out.push('"');var a=['\n','\\n','\r','\\r','"','\\"'];arg+="";for(var i=0;i<6;i+=2){arg=arg.split(a[i]).join(a[i+1])};out.push(arg);out.push('"');return out;default:out.push(String(arg));return out;}}};
 
+// controls/label.js
+new function(_){var label=new base2.Package(this,{name:"label",version:"0.1",imports:"generator,controls",exports:"Label"});eval(this.imports);var Label=Control.extend({constructor:function(text,options){this.base(options,{css_class:'wa_label'});this.text=text;},element_tag:'span',generate:function(dom_element){dom_element.append(this.text);},setText:function(text){this.dom_element.html(text);}});eval(this.exports);};
+
 // controls/buttons.js
 new function(_){var buttons=new base2.Package(this,{name:"buttons",version:"0.1",imports:"observers,generator,controls",exports:"Button"});eval(this.imports);var Button=Control.extend({class_name:"Button",constructor:function(options){this.base(options);this.is_pressed=this.option("pressed",false);this.label=this.option("label",null);this.toggles=this.option("toggles",false);this.is_active=this.option("active",true);this.is_down=this.is_pressed;},element_tag:'span',generate:function(dom_element){var label=this.label;dom_element.addClass("wa_button").append(label);var me=this;dom_element.bind('mousedown',function(){me.toggle();});dom_element.bind('mouseup',function(){me.action();});},update:function(){var dom_element=this.dom_element;if(!this.is_active)
-dom_element.addClass('wa_button_grey');else if(this.is_down)
+dom_element.addClass('wa_button_grey');else{dom_element.removeClass('wa_button_grey');if(this.is_down)
 dom_element.addClass('wa_button_pressed');else
-dom_element.removeClass('wa_button_pressed');},toggle:function(){this.is_down=!this.is_down;this.update();},setPressed:function(is_pressed){if(is_pressed==this.is_pressed)
-return;this.is_pressed=is_pressed;this.is_down=is_pressed;this.update();this.broadcast("changed",this.is_pressed);},action:function(){if(!this.is_active)return;if(this.toggles){this.is_pressed=!this.is_pressed;this.broadcast("changed",this.is_pressed);}
+dom_element.removeClass('wa_button_pressed');}},toggle:function(){this.is_down=!this.is_down;this.update();},setPressed:function(is_pressed){if(is_pressed==this.is_pressed)
+return;this.is_pressed=is_pressed;this.is_down=is_pressed;this.update();this.broadcast("changed",this.is_pressed);},setActive:function(is_active){if(this.is_active!=is_active){this.is_active=is_active;this.update();}},action:function(){if(!this.is_active)return;if(this.toggles){this.is_pressed=!this.is_pressed;this.broadcast("changed",this.is_pressed);}
 else{this.is_pressed=true;this.broadcast("changed",this.is_pressed);this.is_pressed=false;}
 this.is_down=this.is_pressed;this.update();}});eval(this.exports);};
 
@@ -560,7 +563,9 @@ var locations=this.tag_index.collectLocations(tags,(this.mode=="and"));var inclu
 included[locations[index]]=true;this.included=included;this.broadcast("changed",included);}});eval(this.exports);};
 
 // controls/text_selector.js
-new function(_){var tag_selector=new base2.Package(this,{name:"text_selector",version:"0.1",imports:"observers,generator,controls,buttons",exports:"TextSelector"});eval(this.imports);var TextSelector=Control.extend({constructor:function(options){this.base(options);this.fields=this.option("fields",["title"]);},generate:function(dom_element){var control_name=this.id+"_input";var attributes={type:'text',name:control_name};attributes['class']='wa_text_sel_input';dom_element.append(input(attributes));this.control=jQuery("> input",dom_element);var self=this;this.control.keyup(function(event){self.onChanged();});},onChanged:function(){var text=this.control.val();if(text!=this.text){this.text=text;this.pattern=new RegExp(text,"i");this.broadcast("changed",this.pattern);}},getFilter:function(){var self=this;return function(item,index){var fields=self.fields;var pattern=self.pattern;for(var index=0;index<fields.length;index+=1){var field_name=fields[index];var text=item[field_name].toString();if(text.match(pattern)!=null)
+new function(_){var tag_selector=new base2.Package(this,{name:"text_selector",version:"0.1",imports:"observers,generator,controls,buttons,label",exports:"TextSelector"});eval(this.imports);var CLEAR_BUTTON_WIDTH=14;var TextSelector=Control.extend({constructor:function(options){this.base(options);this.width=this.option("width",180);this.fields=this.option("fields",["title"]);},generate:function(dom_element){dom_element.addClass('wa_text_sel');var control_name=this.id+"_input";dom_element.append(input({type:'text','class':'wa_text_sel_input',name:control_name,style:{width:this.width-CLEAR_BUTTON_WIDTH-16}}));this.control=jQuery("> input",dom_element);var self=this;this.control.keyup(function(event){self.onChanged();});var clear_button=new Button({label:"x",width:CLEAR_BUTTON_WIDTH});this.clear_button=clear_button;clear_button.makeControl(dom_element);clear_button.setActive(false);clear_button.addListener("changed",function(){self.clear();});var search_label=new Label("Search");this.search_label=search_label;search_label.makeControl(dom_element);},clear:function(){this.control.val("");this.onChanged();},setValue:function(text){if(text!=this.text){this.text=text;this.pattern=new RegExp(text,"i");this.broadcast("changed",this.pattern);}},onChanged:function(){var text=this.control.val();if(text.length>0){this.clear_button.setActive(true);this.search_label.hide();}
+else{this.clear_button.setActive(false);this.search_label.show();}
+this.setValue(text);},getFilter:function(){var self=this;return function(item,index){var fields=self.fields;var pattern=self.pattern;for(var index=0;index<fields.length;index+=1){var field_name=fields[index];var text=item[field_name].toString();if(text.match(pattern)!=null)
 return true;}
 return false;}},getState:function(){return{text:this.text};},restoreState:function(state_object){this.control.val(state_object.text);this.onChanged();}});eval(this.exports);};
 
@@ -612,9 +617,6 @@ var table_element=this.table_element;table_element.empty();var getLabel=this.get
 var row_element=jQuery('tr:eq('+index+') > td',table_element);row_element.addClass('wa_addlist_selected');this.selected=index;},add:function(){this.dialog.show();},onAdd:function(index,value){this.update();this.broadcast("added",value,index);},onRemove:function(index,value){this.update();this.broadcast("removed",value,index);},remove:function(){var selected=this.selected;if(selected<0)return;var item=this.items.get(selected);this.items.remove(selected);this.selected=-1;var getItemId=this.getItemId;var item_id=getItemId(item);var dialog=this.dialog;this.source.each(function(source_item,source_index){if(getItemId(source_item)==item_id){dialog.remove(source_item);}});}});var AddDialog=Dialog.extend({constructor:function(options){this.base(options,{width:216,height:325});this.getLabel=this.option("getLabel");this.getGroup=this.option("getGroup");this.getItemId=this.option("getItemId");var items=this.option('items',new ListModel());this.items=items;var source=this.option('source',new ListModel());this.source=source;this.initializedSelected(items,source);var checklist=new Checklist({model:this.source,item_id:this.getItemId,label:this.getLabel,group:this.getGroup,left:5,top:5});this.checklist=checklist;checklist.addListener("checked",this,"onAdd");checklist.addListener("unchecked",this,"onRemove");this.add(checklist);var close_button=new Button({label:"Ok",width:40,position:'absolute',left:this.width-75,top:this.height-30});this.add(close_button);close_button.addListener("changed",this,"onClose");},initializedSelected:function(items,source){var getItemId=this.getItemId;var id_map={};items.each(function(item){id_map[getItemId(item)]=true;});source.each(function(source_item){if(id_map[getItemId(source_item)])
 source_item.selected=true;});},generate:function(dom_element){this.base(dom_element);dom_element.hide();},show:function(){this.base();this.checklist.show();},onAdd:function(check_item){;this.items.add(check_item);},onRemove:function(check_item){var getItemId=this.getItemId;var check_id=getItemId(check_item);var items=this.items;items.each(function(item,index){var item_id=getItemId(item);if(item_id==check_id)
 items.remove(index);});},remove:function(item){this.checklist.uncheck(item);},onClose:function(){this.hide();}});eval(this.exports);};
-
-// controls/label.js
-new function(_){var label=new base2.Package(this,{name:"label",version:"0.1",imports:"generator,controls",exports:"Label"});eval(this.imports);var Label=Control.extend({constructor:function(text,options){this.base(options,{css_class:'wa_label'});this.text=text;},element_tag:'span',generate:function(dom_element){dom_element.append(this.text);},setText:function(text){this.dom_element.html(text);}});eval(this.exports);};
 
 // controls/scroller.js
 new function(_){var scroller=new base2.Package(this,{name:"scroller",version:"0.1",imports:"controls,options,generator",exports:"Scroller"});eval(this.imports);var Scroller=Control.extend({class_name:"Scroller",constructor:function(options){this.base(options,{css_class:'wa_scroller'});},generate:function(dom_element){var content_id=this.id+"_content";dom_element.append(div({id:content_id,'class':'wa_scroller_content'}));this.setContentsElement(jQuery("#"+content_id));}});eval(this.exports);};

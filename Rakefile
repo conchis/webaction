@@ -24,13 +24,13 @@ end
 
 LICIENCE=%q[/**
  * Copyright 2009, 2010 Northwestern University, Jonathan A. Smith
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -52,6 +52,7 @@ SCRIPT_FILES = [
   "core/trees.js",
   "core/connectors.js",
   "core/jsonStringify.js",
+  "controls/label.js",
   "controls/buttons.js",
   "controls/tabs.js",
   "controls/forms.js",
@@ -61,12 +62,12 @@ SCRIPT_FILES = [
   "controls/dialogs.js",
   "controls/checklist.js",
   "controls/addlist.js",
-  "controls/label.js",
   "controls/scroller.js"
 ]
 
 CSS_FILES = [
   "core/controls.css",
+  "controls/label.css",
   "controls/buttons.css",
   "controls/tabs.css",
   "controls/forms.css",
@@ -76,7 +77,6 @@ CSS_FILES = [
   "controls/addlist.css",
   "controls/tag_selector.css",
   "controls/text_selector.css",
-  "controls/label.css",
   "controls/scroller.css"
 ]
 
