@@ -19,12 +19,14 @@
     var tag_selector = new base2.Package(this, {
         name:    "text_selector",
         version: "0.1",
-        imports: "observers,generator,controls,buttons",
+        imports: "observers,generator,controls,buttons,label",
         exports: "TextSelector"
     });
 
     // evaluate the imported namespace
     eval(this.imports); 
+    
+    var CLEAR_BUTTON_WIDTH = 14;
     
     // A simple input field for constructing a filter function to select only
     // objects with values that match the input text. This control broadcasts
@@ -37,23 +39,55 @@
     
         constructor: function (options) {
             this.base(options);
+            this.width = this.option("width", 180);
             this.fields = this.option("fields", ["title"]);
         },
         
         // Generates an input field for the selector
         
-        generate: function (dom_element) {
+        generate: function (dom_element) {  
+            dom_element.addClass('wa_text_sel');
         
-            var control_name = this.id + "_input";
-            var attributes = {type: 'text', name: control_name};
-            attributes['class'] = 'wa_text_sel_input';
-                
-            dom_element.append(input(attributes));
+            var control_name = this.id + "_input";               
+            dom_element.append(input({
+                type: 'text', 
+                'class':'wa_text_sel_input', 
+                name: control_name,
+                style: {width: this.width - CLEAR_BUTTON_WIDTH - 16}
+            }));
+            
             this.control = jQuery("> input", dom_element);
             var self = this;
             this.control.keyup(function (event) {
                 self.onChanged();    
             }); 
+            
+            var clear_button = new Button({label: "x", width: CLEAR_BUTTON_WIDTH});
+            this.clear_button = clear_button;
+            clear_button.makeControl(dom_element);
+            clear_button.setActive(false);
+            clear_button.addListener("changed", function () { self.clear(); });
+            
+            var search_label = new Label("Search");
+            this.search_label = search_label;
+            search_label.makeControl(dom_element);
+        },
+        
+        // Clears the value of the text field
+        
+        clear: function () {
+            this.control.val("");
+            this.onChanged();
+        },
+        
+        // Sets the value of the control
+        
+        setValue: function (text) {
+            if (text != this.text) {
+                this.text = text;
+                this.pattern = new RegExp(text, "i");
+                this.broadcast("changed", this.pattern);
+            }
         },
         
         // On a change in the field value, compiles a regular expression
@@ -61,11 +95,15 @@
         
         onChanged: function () {
             var text = this.control.val();
-            if (text != this.text) {
-                this.text = text;
-                this.pattern = new RegExp(text, "i");
-                this.broadcast("changed", this.pattern);
+            if (text.length > 0) {
+                this.clear_button.setActive(true);
+                this.search_label.hide();
             }
+            else {
+                this.clear_button.setActive(false);
+                this.search_label.show();
+            } 
+            this.setValue(text);
         },
         
         // Returns a filter function to select items in a ListModel

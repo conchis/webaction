@@ -75,11 +75,14 @@
     	update: function () {
     		var dom_element = this.dom_element;
        		if (!this.is_active)
-				dom_element.addClass('wa_button_grey');
-    		else if (this.is_down)
-    			dom_element.addClass('wa_button_pressed');
-    		else
-    			dom_element.removeClass('wa_button_pressed');
+                dom_element.addClass('wa_button_grey');
+    		else {
+    		    dom_element.removeClass('wa_button_grey');
+                if (this.is_down)
+                    dom_element.addClass('wa_button_pressed');
+                else
+                    dom_element.removeClass('wa_button_pressed');
+            }
     	},
 
     	// Called when the user clicks on the button. Temporarily
@@ -104,6 +107,15 @@
 
             // Broadcast changed state
             this.broadcast("changed", this.is_pressed);
+        },
+        
+        // Set the active state
+        
+        setActive: function (is_active) {
+            if (this.is_active != is_active) {
+                this.is_active = is_active;
+                this.update();
+            }
         },
 
     	// Change state on button release.
