@@ -1,0 +1,19 @@
+addlist             OK  1.4.2
+buttons             OK  1.4.2
+checklist           OK  1.4.2   Wrong cursor over group buttons
+dialogs             OK  1.4.2
+forms               OK  1.4.2
+graphics            OK  1.4.2
+label               OK  1.4.2
+panels              OK  1.4.2
+scroll_bar          U   1.4.2
+scroller            OK  1.4.2
+slide               N   1.4.2
+table_from_tree     OK  1.4.2   Parse Error
+tables              OK  1.4.2
+tabs                OK  1.4.2
+tag_selector        OK  1.4.2   Parse Error
+text_selector       OK  1.4.2
+
+N = Not Functioning
+U = Unfinished

@@ -1,0 +1,72 @@
+/** scroll_bar */
+
+.wa_sbar {
+    position:relative;
+    width: 16px;
+    overflow: hidden;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+}
+
+.wa_sbar_handle {
+    position:absolute;
+    width: 14px;
+    margin: 1px 1px;
+    background-color: #FFF;
+	cursor: pointer; cursor: hand;
+}
+
+.wa_sbar > .wa_button {
+    position:absolute;
+	width: 16px;
+	height: 17px;
+	padding: 0px;
+	margin-right: 0px;
+    border: none;
+	background-color: #FDFDFD;
+}
+
+.wa_sbar > .wa_button:hover {
+	background-color: #F0F2F9;
+}
+
+.wa_sbar > .wa_button_pressed {
+    color: #FFFFFF;
+	background-color: red;
+}
+
+.wa_sbar_up {
+    position:absolute;
+	width: 16px;
+	height: 17px;
+	background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+	cursor: pointer; cursor: hand;
+}
+
+.wa_sbar_down {    position:absolute;
+	width: 16px;
+	height: 17px;
+	background-color: #FFF;
+	cursor: pointer; cursor: hand;
+    border-top: 1px solid #CCC;
+	cursor: pointer; cursor: hand;
+}
+
+.wa_sbar_button {
+    position:absolute;
+	width: 16px;
+	height: 17px;
+	background-color: #FFF;
+	cursor: pointer; cursor: hand;
+}
+
+.wa_sbar_button:hover {
+	background-color: #F8F8F8;
+}
+
+.wa_sbar_button_pressed {
+    color: #FFFFFF;
+	background-color: #666;
+}
+

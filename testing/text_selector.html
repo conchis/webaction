@@ -44,8 +44,8 @@
         eval(base2.text_selector.namespace);
         eval(base2.cookies.namespace);
 
-        jQuery.get("tree.json", {}, function (text) {
-            var node_data = eval("(" + text + ")");
+        jQuery.getJSON("tree.json", {}, function (node_data) {
+            //var node_data = eval("(" + text + ")");
             var tree = new Node('/');
             tree.initializeFrom(node_data);
 

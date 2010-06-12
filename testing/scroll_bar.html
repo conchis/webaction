@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <title>Webaction Scroller Sample</title>
+
+  	<script src="../base/1.0/base2-p.js" 		type="text/javascript"></script>
+  	<script src="../jquery/jquery-latest.js" 	type="text/javascript"></script>
+
+  	<script src="../core/options.js" 		type="text/javascript"></script>
+  	<script src="../core/observers.js" 		type="text/javascript"></script>
+  	<script src="../core/collections.js" 	type="text/javascript"></script>
+  	<script src="../core/strings.js" 	    type="text/javascript"></script>
+    <script src="../core/generator.js" 	    type="text/javascript"></script>
+    <script src="../core/controls.js" 	    type="text/javascript"></script>
+  	<script src="../core/jsonStringify.js"  type="text/javascript"></script>
+
+    <script src="../controls/buttons.js"    type="text/javascript"></script>
+    <script src="../controls/scroll_bar.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="../core/controls.css"/>
+    <link rel="stylesheet" href="../controls/buttons.css"/>
+	<link rel="stylesheet" href="../controls/scroll_bar.css"/>
+
+    <script type="text/javascript">
+        eval(base2.scroll_bar.namespace);
+        eval(base2.controls.namespace);
+        eval(base2.generator.namespace);
+        eval(base2.buttons.namespace);
+
+    $(document).ready(function() {
+
+        var scroll_bar = new ScrollBar({height: 350, left: 600});
+        scroll_bar.makeControl(jQuery("#content"));
+     });
+
+    </script>
+</head>
+<body>
+<div id="content" class="wa_area" style="left: 5px; top: 5px; width: 672px; height: 400px;">
+    <div id = "controls" style="position: absolute; left: 340px; top: 10px;"></div>
+</div>
+</body>
+</html>

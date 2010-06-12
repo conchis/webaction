@@ -294,6 +294,8 @@
             table_body.addListener("select", this);
             this.table_body = table_body;
         },
+        
+        // Update filter if none specified
 
         update: function () {
             var model = this.model;
@@ -303,6 +305,8 @@
                 this.table_body.setModel(this.filter);
             }
         },
+        
+        // Broadcast selection
 
         select: function (index, item) {
             this.broadcast("select", index, item);
@@ -425,10 +429,12 @@
 
         toggle: function () {
             var model = this.model;
-            if (model.is_sorted)
-                model.setAscending(!model.is_ascending);
-            else
-                model.setSorted(true);
+            if (model.sortable) {
+                if (model.is_sorted)
+                    model.setAscending(!model.is_ascending);
+                else
+                    model.setSorted(true);
+            }
         },
 
         // Update button state

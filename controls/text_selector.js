@@ -41,6 +41,7 @@
             this.base(options);
             this.width = this.option("width", 180);
             this.fields = this.option("fields", ["title"]);
+            this.has_focus = false;
         },
         
         // Generates an input field for the selector
@@ -61,6 +62,12 @@
             this.control.keyup(function (event) {
                 self.onChanged();    
             }); 
+            this.control.focus(function () {
+                self.onFocus();
+            });
+            this.control.blur(function () {
+                self.onBlur();
+            });
             
             var clear_button = new Button({label: "x", width: CLEAR_BUTTON_WIDTH});
             this.clear_button = clear_button;
@@ -95,15 +102,25 @@
         
         onChanged: function () {
             var text = this.control.val();
-            if (text.length > 0) {
-                this.clear_button.setActive(true);
-                this.search_label.hide();
-            }
-            else {
-                this.clear_button.setActive(false);
-                this.search_label.show();
-            } 
+            if (text.length == 0 && !this.has_focus)
+                this.search_label.show();   
+            this.clear_button.setActive(text.length > 0);
             this.setValue(text);
+        },
+        
+        // Called when the control receives focus
+        
+        onFocus: function () {
+            this.has_focus = true;
+            this.search_label.hide();    
+        },
+        
+        // Called when the control looses focus
+        
+        onBlur: function () {
+            this.has_focus = false;
+            if (this.text.length == 0)
+                this.search_label.show();      
         },
         
         // Returns a filter function to select items in a ListModel

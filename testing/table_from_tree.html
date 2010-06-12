@@ -34,8 +34,8 @@
         eval(base2.trees.namespace);
         eval(base2.connectors.namespace);
 
-        jQuery.get("tree.json", {}, function (text) {
-            var node_data = eval("(" + text + ")");
+        jQuery.getJSON("tree.json", {}, function (node_data) {
+            //var node_data = eval("(" + text + ")");
             var tree = new Node('/');
             tree.initializeFrom(node_data);
 

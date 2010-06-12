@@ -1,1829 +1,3675 @@
 {
-    "uuid":"cc499a6c-9ed0-4c61-9fa2-0ab0e08ac502",
-    "name":"medical_video",
-    "title":"Collection: medical_video",
-    "class":"Collection",
-    "tags":[],
-    "path":"\/content\/rsm363\/medical_video",
-    "children":[{
-        "uuid":"08fa41b1-aae0-4958-bcea-29f97394034b",
-        "name":"8-25-2008_SBM_IntroLomasney",
-        "title":"Introduction to The Scientific Basis of Medicine",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"0e7f87ec-42cd-416a-9276-503eff5bb73d",
-        "name":"8-25-2008_SBM_001_IntroMedBac",
-        "title":"Introduction to Medical Bacteriology",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f5cdb864-8d1f-413c-92d9-004a821aee24",
-        "name":"8-25-2008_SBM_002_BactStructFunct",
-        "title":"Bacterial Structure And Function",
-        "class":"Item",
-        "tags":["Week 1","Bacterial Structure","Gram-positive","Gram-negative","capsules","flagella","pili","antigens","Biofilmsm","Chromosome"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a31d3ebf-77c1-4cd0-ad38-b7719ae2613d",
-        "name":"8-25-2008_SBM_003_Viruses1",
-        "title":"Viruses 1",
-        "class":"Item",
-        "tags":["Week 1","Virology","Metastability","PFU","MOI","CPE","Plaque Assay","Single-step growth curves","Microscopy"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"41911516-e06d-4cbc-9126-cf869ca978ee",
-        "name":"8-26-2008_SBM_004_BactPhysGen",
-        "title":"Bacterial Physiology and Genetics",
-        "class":"Item",
-        "tags":["Week 1","Bacterial Physiology","Genetics","Transformation","Transduction","Conjugation","Transposable elements","Insertion sequences","Transposons","Plasmids","Bacteriophages","Pathogenicity islands"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"483df82a-59ad-471e-ab24-28c8dd629d4e",
-        "name":"8-26-2008_SBM_005_GramPosBact",
-        "title":"Gram Positive Bacteria I",
-        "class":"Item",
-        "tags":["Week 1","Staphylococci","Streptococci","PATHOGENESIS","hemolytic streptococci","Viridans streptococci","bovis","pneumoniae","Streptococcus pyogenes"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"0ca1f16f-f04c-41f1-a499-75a995edf7a7",
-        "name":"8-26-2008_SBM_006_Viruses2",
-        "title":"Viruses 2",
-        "class":"Item",
-        "tags":["Week 1","Respiratory Viruses","Enteric Viruses","Influenza","Antigenic shift","Antigenic drift","SARS","Parvovirus B19","Measles","Mumps","Rubella","Common Cold","Rotaviruses"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"34c276d0-0182-4a2a-8d5f-604bb93a79d2",
-        "name":"8-27-2008_SBM_007_GramPosBactII",
-        "title":"Gram Positive Bacteria II",
-        "class":"Item",
-        "tags":["Week 1","Entercocci","Listeria","Bacillus","Corynebacteria","Bacillus anthracis","Corynebacterium diphtheriae"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5d1a521d-091b-4285-9a6e-c1e3c52edf93",
-        "name":"8-27-2008_SBM_008_GramPosBactIII",
-        "title":"Gram Positive Bacteria III",
-        "class":"Item",
-        "tags":["Week 1","Anaerobes","Actinomycetes","Clostridium tetani","Clostridium botulinum","Clostridium perfringens","Nocardia asteroides","Nocardia brasilliensis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6c3a8e17-761f-4e00-9a56-f941b4571c39",
-        "name":"8-27-2008_SBM_009_Viruses3",
-        "title":"Viruses 3",
-        "class":"Item",
-        "tags":["Week 1","Hepatic viruses"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6aaa192e-22be-4573-97c0-da16900878cb",
-        "name":"8-28-2008_SBM_011_Viruses2",
-        "title":"Gram Negative Bacteria I",
-        "class":"Item",
-        "tags":["Week 1","Enterobacteriaceae","Gram-Negative","UPEC","E. coli K1","ETEC","EPEC","EHEC","EIEC","EAEC","Salmonella enterica","Shigella dysenteriae","flexneri","boydii","sonnei","Yersinia","pestis","K. pneumonia","K. oxytoca","Enterobacter","Citrobacter","Serratia marcescens","Proteus","Providencia","Morganella Groupe"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c7c956d6-3c4d-4652-a89f-10199b9e8539",
-        "name":"8-28-2008_SBM_012_GramNegBactII",
-        "title":"Gram Negative Bacteria II",
-        "class":"Item",
-        "tags":["Week 1","Week 1","Gram-Negative","Respiratory","enteric","zoonotic","Vibrio","Campylobacter","Helicobacter","Pseudomonas aeruginosa","Haemophilus","Bordetella","Bordetella pertussis","Legionella","Legionella pneumophila"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"3bb84da6-5791-405a-97f4-46cafc00e940",
-        "name":"8-28-2008_SBM_Viruses5",
-        "title":"Viruses 5",
-        "class":"Item",
-        "tags":["Week 1","Herpesviruses","Latency"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e1128d78-831c-43d3-b2a2-62195a59de85",
-        "name":"8-28-2008_SBM_014_Viruses6",
-        "title":"Viruses 6",
-        "class":"Item",
-        "tags":["Week 1","Host Defense","Virus Stealth","Apoptosis","Interferons","Cytokines","Cytotoxic T cells","Viral vaccines"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"1e63a888-bb99-4ab9-91b3-38deda6b2c71",
-        "name":"8-29-2008_SBM_015_Mycobacteria",
-        "title":"Mycobacteria",
-        "class":"Item",
-        "tags":["Week 1","Mycobacteria","tuberculosis","leprae"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d761cf3d-a9ed-4645-ac08-3a70d989ce88",
-        "name":"8-29-2008_SBM_016_SpiroInfect",
-        "title":"Spirochetes and Zoonotic Infections",
-        "class":"Item",
-        "tags":["Week 1","Spirochetes","Obligate Intracellular Pathogens","Borrelia","Borrelia burgdorferi","Treponema","Leptospira","Rickettsiaceae","Coxiella burnetii","Ehrlichia chaffeensis","Bartonella henselae","Bartonella quintana","Chlamydia","Mycoplasma"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ff5b0678-268b-4cbc-9841-6261c2ac16f1",
-        "name":"9-2-2008_SBM_018_FungiDisease",
-        "title":"Fungi and Fungal Diseases",
-        "class":"Item",
-        "tags":["Week 2","Mycology","Superficial mycoses","Subcutaneous","Systemic","histoplasmosis","cryptococcosis","coccidioidomycosis","blastomycosis","Opportunistic mycoses","Candidiasis","Pneumocystosis","Aspergillosis","Mucormycosis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"0177f607-9880-4cbb-ac3c-a91f0b61af1b",
-        "name":"9-2-2008_SBM_019_IntProtozoa",
-        "title":"Intestinal Protozoa",
-        "class":"Item",
-        "tags":["Week 2","Parasitology","symbiosis","mutualism","commensalism","parasitism","cestode","nematode","trematode","zoonosis","autochthonous","Balantidiasis","Giardiasis","Cryptosporidiosis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"23aab452-ee89-40c8-be3c-294e70498281",
-        "name":"9-2-2008_SBM_020_BloodTisProtozoa",
-        "title":"Blood and Tissue Protozoa",
-        "class":"Item",
-        "tags":["Week 2","Parasitology","Primary Amoebic Meningoencephalitis","African Sleeping Sickness","Chagas' Disease","Leishmaniasis","Trichomoniasis","Malaria","Toxoplasmosis","Pneumocystosis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"386eea12-836b-43af-86a0-fdcc64610245",
-        "name":"9-3-2008_SBM_021_Malaria",
-        "title":"Malaria",
-        "class":"Item",
-        "tags":["Week 2","Malaria","circulating gametocytes","mosquito","trophozoite","multinucleated schizont","merozoites","ERYTHROCYTIC CYCLE","P. vivax","P. ovale","P. malariae","P. falciparum"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f4e2ea24-7ad0-4b3f-a02b-301573b327f3",
-        "name":"9-3-2008_SBM_022_Flatworms",
-        "title":"Flatworms",
-        "class":"Item",
-        "tags":["Week 2","FLATWORMS","Helminths","Platyhelminths","Trematodes","Schistosomiasis","Clonorchiasis","Fasciolopsiasis","Paragonimiasis","Cestodes","Diphyllobothriasis","Taeniasis saginata","Taeniasis solium","Echinococciasis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"39330b0f-787e-4544-b43b-c18268b88369",
-        "name":"9-4-2008_SBM_023_Roundworms",
-        "title":"Roundworms",
-        "class":"Item",
-        "tags":["Week 2","Roundworms","Parasitic Nematodes","Enterobiasis","Trichuriasis","Ascariasis","Hookworm","Strongyloidiasis","Filariasis","Trichinosis","Larva migrans"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"fa355b85-b75e-4352-b886-69f9c4fa1175",
-        "name":"9-4-2008_SBM_024_IntroImmunology",
-        "title":"Introduction to Immunology",
-        "class":"Item",
-        "tags":["Week 2","Innate","adaptive","immunity","specificity","diversity","memory","Primary lymphoid organs","Secondary lymphoid organs","Antigens","antigenic determinants","antigenicity","Adjuvants","Lymphocyte recirculation","leukocyte traffic"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"27e96308-f0dd-4b98-8263-6253454981b4",
-        "name":"9-5-2008_SBM_025_AbTCRStruct",
-        "title":"Ab and TCR Structure",
-        "class":"Item",
-        "tags":["Week 2","Structure of Ab molecules","Structure of TcR molecules","functional Ag receptors","Immunoglobulin","Isotype switching","Somatic hypermutation","Switch to secreted Ab"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"acc35ba7-fdc9-4c09-9c91-5b8fe02df420",
-        "name":"9-5-08_SBM_026_MHCANtigenPres",
-        "title":"MHC and Antigen Presentation",
-        "class":"Item",
-        "tags":["Week 2","MHC molecules","polymorphism","T cells","MHC Class I pathway","MHC Class II pathway","Antigen-presenting cells"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"89809a8d-f384-4f28-bb3e-865c484cc494",
-        "name":"9-5-2008_SBM_027_TLymphocyteAct",
-        "title":"T Lymphocyte Activation",
-        "class":"Item",
-        "tags":["Week 2","TcR\/CD3","signaling","Second signals","costimulation","Clonal expansion","T lymphocyte homeostasis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6bfa947a-4a72-47f0-ae2f-c3fc57cb25de",
-        "name":"9-5-08_SBM_028_BLymphocyteAct",
-        "title":"Lymphocyte Activation",
-        "class":"Item",
-        "tags":["Week 2","BcR","signaling","B -T cell interaction","lymph node","Isotype switching","Affinity maturation","Switch to secretion","memory cells"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"49441b25-de06-405b-98a9-668b7e4e2993",
-        "name":"9-9-2008_SBM_29_Cytokines",
-        "title":"Cytokines",
-        "class":"Item",
-        "tags":["Week 2","Cytokines","Brown"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"01f42c90-48fa-48b9-a377-b61c2dfd81d3",
-        "name":"9-9-2008_SBM_30_EffectFuncCM",
-        "title":"Effector Functions of Cell-mediated Immunity",
-        "class":"Item",
-        "tags":["Week 3","Cytotoxic T lymphocyte"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e56faa7e-eb0c-4e01-acd8-ff6a69d1d550",
-        "name":"9-10-2008_SBM_31_EffectorFunctions",
-        "title":"Effector Functions of Humoral Immunity",
-        "class":"Item",
-        "tags":["Week 3","Effector functions of different Ab isotypes","FcR-dependent functions of Ab","complement in humoral immune responses","Diseases due to complement pathway deficiencies"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"08844417-e7ec-49a1-8229-557d5f4e0477",
-        "name":"9-10-2008_SBM_32_InnateImmunity",
-        "title":"Innate Immunity",
-        "class":"Item",
-        "tags":["Week 3","Innate Immune response","Serum factors","Adaptive Immune response"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"25b8b1a2-127c-4006-867a-36f5fbcb98f7",
-        "name":"9-11-2008_SBM_33_ImmunityMicrobes",
-        "title":"Immunity to Microbes",
-        "class":"Item",
-        "tags":["Week 3","Immunity to intracellular bacteria","Immunity to extracellular bacteria","Immunity to viruses","Immunity to fungi","Immunity to parasites"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f557a002-4549-422f-b639-a1c9262f804f",
-        "name":"9-11-2008_SBM_34_ImmunTol",
-        "title":"Immunologic Tolerance",
-        "class":"Item",
-        "tags":["Week 3","Central tolerance","Peripheral tolerance","Clonal anergy","Clonal deletion","Suppression","Homeostasis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"58f16f2c-100e-406b-87a4-3bdabe6359e1",
-        "name":"9-12-2008_SBM_35_HyperAuto",
-        "title":"Hypersensitivity & Autoimmunity ",
-        "class":"Item",
-        "tags":["Week 3","Immediate hypersensitivity","Ab mediated","Immune complex mediated","T cell mediated","Inappropriate expression of costimulators","Molecular mimicry","Mutation or defective function of regulatory molecules"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e8ddfaae-3406-44b3-9852-46b1908cebce",
-        "name":"9-12-2008_SBM_36_ImmunTrans",
-        "title":"Immunodeficiency and Transplantation",
-        "class":"Item",
-        "tags":["Week 3","Severe combined immunodeficiency","Bare lymphocyte syndrome","X-linked agammaglobulinemia","Hyper-IgM syndrome","T cell signaling defects","Leukocyte adhesion deficiency-1","T cell recognition of allo-Ag","Allograft rejection","Bone marrow transplantation"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e67cd8a8-9972-4392-b810-5e7ff7d6ef32",
-        "name":"9-15-2008_SBM_037_AntiviralDrugs",
-        "title":"Antiviral Drugs",
-        "class":"Item",
-        "tags":["Week 4","Antiviral Drugs","Sutton"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d56ee7f1-e601-41b7-8994-b2709a2ef4ae",
-        "name":"9-15-2008_SBM_038_Immunosuppressants",
-        "title":"Immunosuppressants",
-        "class":"Item",
-        "tags":["Week 4","mmunosuppressants","Gallon"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a045381b-65e3-4cbe-a4d4-7f66055bca6e",
-        "name":"9-16-2008_SBM_039_AcuteInflamI",
-        "title":"Accute Inflammation I",
-        "class":"Item",
-        "tags":["Week 4","Accute Inflammation I","Karpus"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2aaf67fd-8c5d-4048-8701-001511d21b99",
-        "name":"9-16-2008_SBM_040_AcuteInflamII",
-        "title":"Accute Inflammation II",
-        "class":"Item",
-        "tags":["Week 4","Accute Inflammation II","Karpus"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f36b1ed8-9254-45d1-9142-b7c35ada03e1",
-        "name":"9-17-2008_SBM_041_ChronicInflamI",
-        "title":"Chronic Inflammation",
-        "class":"Item",
-        "tags":["Week 4","Chronic Inflammation","Karpus"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"cc02b179-b171-4f34-adff-4c93f6842c6d",
-        "name":"9-18-2008_SBM_043_RepairRegen",
-        "title":"Repair & Regeneration",
-        "class":"Item",
-        "tags":["Week 4","Repair & Regeneration","Karpus"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"bfab646b-018a-4508-9612-4a7aa7f2d629",
-        "name":"9-18-2008_SBM_044_Sepsis",
-        "title":"Sepsis",
-        "class":"Item",
-        "tags":["Week 4","Sepsis","Karpus"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b75f25ae-627d-46cf-b72c-f2cee597d9b1",
-        "name":"9-23-2008_SBM_045_GenVar",
-        "title":"Genetic Variation",
-        "class":"Item",
-        "tags":["Week 5","Electrophoresis","Human Hexosaminidases","POLYMORPHISM","Apolipoprotein B-100","Apolipoprotein-B Alleles","Apo-B100 Haplotypes"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"77fa5925-d67e-4e34-8dc0-ca0c12658ffb",
-        "name":"9-23-2008_SBM_046_AutoRecDisI",
-        "title":"Autosomal Dominant Disorders I",
-        "class":"Item",
-        "tags":["Week 5","Autosomal Recessive Inheritance","Alterations of Enzyme Activity","Deficient enzyme activity","SUBSTRATE ACCUMULATION","Tay-Sachs disease","Mucopolysaccharidoses","I-cell disease (Mucolipidosis II)","Glycogen storage diseases","Urea cycle disorders","Propionic acidemia","Multiple carboxylase deficiency","Galactosemia"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"275717f6-822c-4e18-b913-8fb31bc620f0",
-        "name":"9-24-2008-SBM_047_AutoRecDisII",
-        "title":"Autosomal Recessive Disorders II",
-        "class":"Item",
-        "tags":["Week 5","normal variation","abnormal variation","primary peptide structure","protein stability","ntracellular transport","packaging in organelles","active site","subunit assembly","Deficient enzyme activity","SUBSTRATE ACCUMULATION","Tay-Sachs disease","Mucopolysaccharidoses","I-cell disease","Glycogen storage diseases","Urea cycle disorders","Propionic acidemia","Multiple carboxylase deficiency","Galactosemia"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"62dfad78-fcf2-4a7b-bd56-e4151ce8c425",
-        "name":"9-24-2008_SBM_048_AutoDomDis",
-        "title":"Autosomal Dominant Disorders I",
-        "class":"Item",
-        "tags":["Week 5","Haploinsufficiency","Familial hypercholesterolemia","Dominant negative","Insulin Chicago","Osteogenesis imperfecta","Achondroplasia","Wolf-Hirschhorn","Familial male precocious puberty"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b0c23ca3-98c1-4923-b68b-3c2f14085d00",
-        "name":"9-25-2008_SBM_049_ChromAnom",
-        "title":"Chromosome Anomalies",
-        "class":"Item",
-        "tags":["Week 5","Meiotic nondisjunction","mosaicism","RECIPROCAL TRANSLOCATIONS","ROBERTSONIAN TRANSLOCATIONS","CHROMOSOMAL SYNDROMES","Down syndrome"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6e789e49-7991-45ea-9f21-e840a45fb75e",
-        "name":"9-25-2008_SBM_050_TriNucRepDis",
-        "title":"Trinucleotide Repeats and Disease",
-        "class":"Item",
-        "tags":["Week 5","Fragile-X Syndrome","trinucleotide repeat length","Myotonic dystrophy","Spinal and bulbar muscular atrophy","Huntington disease"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"58e56dea-81bc-4984-8cf4-aca9f18ef319",
-        "name":"9-26-2008_SBM_052_CongenAnom",
-        "title":"Congenital Anomalies",
-        "class":"Item",
-        "tags":["Week 5","Malformations","Deformations","Disruptions"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ae7cbe22-175f-456a-ba40-60af6345e813",
-        "name":"9-29-2008_SBM_053_DevPatForm",
-        "title":"Development and Pattern Formation",
-        "class":"Item",
-        "tags":["Week 6","Cell fate specification","Pattern formation","Maternal-effect genes","Segmentation genes","Gap genes","Segment polarity genes","Homeotic genes"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"38f9bf1a-a238-46a0-96e8-981ae58bf35d",
-        "name":"9-29-2008_SBM_054_GeneTher",
-        "title":"Gene Therapy",
-        "class":"Item",
-        "tags":["Week 6","n vivo","ex vivo","naked DNA","liposomes","viral vectors","Retrovirus vectors","Lentiviral vectors","Adenovirus vectors","Parkinson\u2019s disease","Lou Gehrig\u2019s disease"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5fba09c8-4187-4544-85b1-863946e6dfbd",
-        "name":"9-29-2008_SBM_055_DosResRelat",
-        "title":"Dose Response Relationships",
-        "class":"Item",
-        "tags":["Week 6","RECEPTORS","AGONISTS","ANTAGONISTS","PARTIAL AGONISTS","INVERSE AGONISTS","ALLOSTERIC MODULATION","Negative allosterism","ED50","Competitive antagonists","Non-competitive antagonists","Inhibition-response curves","Schild Analysis","Monod-Wyman-Changeux model","Koshland-Nemethy-Filmer model"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"dd758311-b6a6-4097-bc74-fb3e8428049f",
-        "name":"9-29-2008_SBM_056_RecepTheory",
-        "title":"Receptory Theory",
-        "class":"Item",
-        "tags":["Week 6","RECEPTORS","AGONISTS","ANTAGONISTS","PARTIAL AGONISTS","INVERSE AGONISTS","ALLOSTERIC MODULATION","Negative allosterism","ED50","Competitive antagonists","Non-competitive antagonists","Inhibition-response curves","Schild Analysis","Monod-Wyman-Changeux model","Koshland-Nemethy-Filmer model"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9928a003-9d4e-426f-ba89-011480ceae4a",
-        "name":"9-30-2008_SBM_057_RecepSig",
-        "title":"Receptor Signaling",
-        "class":"Item",
-        "tags":["Week 6","endogenous regulatory ligands","Intracellular receptors","Transmembrane proteins with intrinsic or auxiliary enzymatic activities","Ligand- or voltage-gated ion channels","G-protein coupled receptors","DESENSITIZATION\/TACHYPHYLAXIS","Receptor-mediated","Non-receptor-mediated"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b45e2a00-5905-403e-9f9a-28f631663a76",
-        "name":"9-30-2008_SBM_058_DrugTrans",
-        "title":"Drug Transport",
-        "class":"Item",
-        "tags":["Aquaporins","Aqueous diffusion","Cytosis","Dialyzing membranes","Endothelial Fenestrae","Facilitated diffusion","Henderson-Hasselbalch equation","Lipid diffusion","Paracellular transport and barrier","Primary Active transport","Secondary Active Transport","Selectively permeable membranes","Solute carrier (SLC) transporters","The cut-off phenomenon for lipid-solubility","Vectorial transport","Week 6"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"1cd1247f-0e38-40fa-b9fa-008757691889",
-        "name":"10-1-2008_SBM_059_DrugDist",
-        "title":"Drug Distribution",
-        "class":"Item",
-        "tags":["Week 6","Rectal administration","Intravenous injection","Intramuscular injection","Subcutaneous injection","Intrathecal injection","Inhalation","Bioequivalence","Blood-brain barrier","Cerebrospinal fluid (CSF)-brain barrier"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b3dd01bd-126a-4cf8-8ee8-d28c31c65cb2",
-        "name":"10-1-2008_SBM_060_DrugExcre",
-        "title":"Drug Excretion",
-        "class":"Item",
-        "tags":["Week 6","Glomerular filtration","Tubular secretion","Passive tubular reabsorption","lteration of renal excretion of drug","Drug excretion in the bile"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"18b6566b-0b1c-40be-ad56-6e0d4bc68706",
-        "name":"10-1-2008_SBM_062_DrugMetab",
-        "title":"Drug Metabolism II",
-        "class":"Item",
-        "tags":["Week 6","Glucuronyl Transferase","Sulfotransferases","Acetyl transferases","Amino acid conjugation","Glutathione S-transferase (mercapturate biosynthesis)","hepatic metabolism","Age","diet","co-administered drugs","genetics","renal and hepatic function","personal habits like smoking","Enzyme inhibition","Enzyme Induction","Depletion of substrates like PAPS","UDP-glucuronate and glutathione"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"473c736c-c300-4ef9-abf7-8aa7b79586f5",
-        "name":"10-02-08_SBM_063_PharmacokineticsI",
-        "title":"Pharmacokinetics I",
-        "class":"Item",
-        "tags":["Week 6","Volume of distribution","plasma equivalent apparent"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e1c3d38c-b2d4-4128-84b5-0799c2954250",
-        "name":"10-02-08_SBM_064_PharmacokineticsII",
-        "title":"Pharmacokinetics II",
-        "class":"Item",
-        "tags":["Week 6","Half-Life","Plateau Principle","Dose Calculation","Distribution Kinetics"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"09759933-f2b0-4da4-96d3-429d38e16b47",
-        "name":"10-02-08_SBM_065_PharmacokineticsIII",
-        "title":"Pharmacokinetics III ",
-        "class":"Item",
-        "tags":["Week 6","Elimination Clearance","Extravascular Drug Administration","Pharmacodynamics"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e0e0d06b-7ce1-4c24-afb6-029db37c34c4",
-        "name":"10-02-08_SBM_066_AntimicrobialsI ",
-        "title":"Antimicrobial Chemotherapy I ",
-        "class":"Item",
-        "tags":["Week 6","Selective toxicity","Bactericidal","Bacteriostatic","Spectrum of antibacterial activity","Determinants of therapy effectiveness","Intrinsic resistance","Escape from the antibiotic effects","Mechanisms of resistance","Disk-diffusion method","Serial dilution method","Agar dilution method","Superinfections","Prophylactic use of antibiotics","Antibiotic combinations","\u03b2-Lactam Antibiotics","Autolysins","Cephalosporins","Pharmacokinetics","Carbapenems","Monobactams","\u03b2-Lactamase Inhibitors"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"1a3209a1-477e-493e-a506-f81ea16cdc23",
-        "name":"10-03-08_SBM_067_AntimicrobialsII",
-        "title":"Antimicrobial Chemotherapy II",
-        "class":"Item",
-        "tags":["Week 6","Inhibitors of Cell Wall Synthesis","Vancomycin","Teicoplanin","Fosfomycin","Bacitracin","Cycloserine"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"deca470a-7b9c-4789-8532-2d77c7236d6f",
-        "name":"10-03-08_SBM_068_AntimicrobialsIII",
-        "title":"Antimicrobial Chemotherapy III",
-        "class":"Item",
-        "tags":["Week 6","Bacterial Protein Synthesis","Tetracyclines","Chloramphenicol","Macrolide antibiotics","Clindamycin","Aminoglycosides"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"505e2174-c6b5-4d2b-ac4a-374641089fc0",
-        "name":"10-06-08_SBM_069_AntimicrobialsIV",
-        "title":"Antimicrobial Chemotherapy IV",
-        "class":"Item",
-        "tags":["Week 7","Antifolate Drugs","Sulfonamides","Trimethoprim","Sulfonamide plus a folate reductase inhibitor","Sulfamethoxazole + trimethoprim","Sulfadoxine + pyrimethamine","Sulfadiazine + pyrimethamine","DNA Gyrase and Topoisomerase Inhibitors: Fluoroquinolones"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"623908ad-bd12-4d6b-85e4-8d41298d717f",
-        "name":"10-06-08_SBM_070_AntimicrobialsV",
-        "title":"Antimicrobial Chemotherapy V",
-        "class":"Item",
-        "tags":["Week 7","Polyene antibiotics","Amphotericin B","Nystatin","Flucytosine","Azoles","Ketoconazole","Miconazole","Clotrimazole","Itraconazole","Fluconazole","Voriconazole","Terbinafine"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9f58228e-ea57-463e-9e06-d1585f280575",
-        "name":"10-07-08_SBM_072_CellAdapInjuryI",
-        "title":"Cellular Adaptation, Injury and Death I",
-        "class":"Item",
-        "tags":["Week 7","Conditionally dividing cells\/tissues","Non-dividing cells\/tissues","Stem Cell","Committed Progenitor","Transient Amplification","Differentiation","Replacement","Cell Signaling- Growth factors","Endocrine","autocrine","paracrine","Hyperplasia","Hypertrophy","Atrophy","Hypoplasia","Metaplasia","Epithelial metaplasias","Squamous metaplasia","Glandular metaplasia","Connective tissue metaplasias","Dysplasia","Neoplasia"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f7a1118d-eee4-4fef-a8e5-518e04335711",
-        "name":"10-08-08_SBM_073_CellAdapInjuryII",
-        "title":"Cellular Adaptation, Injury and Death II",
-        "class":"Item",
-        "tags":["Week 7","Coagulative necrosis","Liquefaction necrosis","Caseous necrosis","Fat necrosis","Gangrenous necrosis","Tumor necrosis","ATP depletion","Loss of calcium homeostasis","Reactive oxygen species (ROS)","Loss of membrane permeability","Hypoxic\/anoxic injury","Oxidative damage","Reactive nitrogen oxide species","Lipid peroxidation","Apoptosis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"775dca3a-04c7-4738-8f65-b85d0277d926",
-        "name":"10-08-08_SBM_074_CellAdapInjuryIII",
-        "title":"Cellular Adaptation, Injury and Death III",
-        "class":"Item",
-        "tags":["Week 7","Cell Injury: Subacute","Chronic","Reye's syndrome","Ubiquitination of cellular proteins","Exogenous Accumulations","Pathological (Ectopic) Mineralization","Endogenous accumulations","Multiorgan fatty metamorphosis","Fatty liver","Alcoholic steatohepatitis","Non-alcoholic steatohepatitis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e871a7d6-fac8-44ff-8034-607c7a66f149",
-        "name":"10-09-08_SBM_075_NeoplasiaI",
-        "title":"Neoplasia I",
-        "class":"Item",
-        "tags":["Week 7","Neoplasia","Pelling"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"0ee9d750-3c47-4b90-89a8-e748c057e70b",
-        "name":"10-10-08_SBM_076_Neoplasia II",
-        "title":"Neoplasia III",
-        "class":"Item",
-        "tags":["Week 7","Neoplasia","Hyperplasia","Pelling"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e50b8d68-e89b-49cf-8152-bcb388376f66",
-        "name":"10-10-08_SBM_077_NeoplasiaIII",
-        "title":"Neoplasia III",
-        "class":"Item",
-        "tags":["Week 7","Neoplasia","Hyperplasia","Pelling"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9c32865c-c58e-4cff-a351-9a55d8f8b06f",
-        "name":"10-10-08_SBM_078_NeoplasiaIV",
-        "title":"Neoplasia IV",
-        "class":"Item",
-        "tags":["Week 7","Neoplasia","Hyperplasia","Pelling"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"3e0364a7-2815-43b5-bb4a-83a1a288a7e3",
-        "name":"10-13-08_SBM_079_NeoplasiaV",
-        "title":"Neoplasia V",
-        "class":"Item",
-        "tags":["Week 7","Neoplasia","Hyperplasia","Pelling"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"4cd7b428-712f-4c61-a994-ddbdaeebe90f",
-        "name":"10-13-08_SBM_080_NeoplasiaV",
-        "title":"Neoplasia V",
-        "class":"Item",
-        "tags":["Week 7","Neoplasia","Hyperplasia","Pelling"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"99d60ed6-e20f-4920-bc17-f7910d1e7e51",
-        "name":"10-14-08_SBM_080_HemoDisord",
-        "title":"Hemodynamic Disorders, Thromboembolic Disease & Shock",
-        "class":"Item",
-        "tags":["Week 8","Intravascular space","Lymphatic space","Cellular (intracellular) space","Interstitial\/ intercellular space","Endothelial Cell Role in Maintenance of the Vascular Space","Edema","Transudate\/Exudate","Congestion","Thrombosis","Embolus","Infarct","Shock"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a99063e2-fa61-4fdf-bc06-08ba650a0e85",
-        "name":"10-14-08_SBM_081_PathReject",
-        "title":"Principles of Liver and Heart Transplantation",
-        "class":"Item",
-        "tags":["Week 8","Autograft","Isograft","Allograft","Xenotransplant","Orthotopic transplantation","Heterotransplantation","Rejection"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"37f5c5f1-bf86-45ac-8b64-98343ad885a7",
-        "name":"10-15-08_SBM_082_Autoimmune",
-        "title":"Autoimmune Disorders",
-        "class":"Item",
-        "tags":["Week 8","clonal deletion","Clonal anergy","Sustained activation","Suppressor cell (TH)","AUTOIMMUNE DISORDERS","Grave's Disease","Hashimoto's Thyroiditis","Myasthenia Gravis","Goodpasture's Syndrome","Pernicious Anemia"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e156454b-3ede-4154-8605-cb2ea73233a6",
-        "name":"10-15-08_SBM_083_ConnectTisDisI",
-        "title":"Connective Tissue Disorders I",
-        "class":"Item",
-        "tags":["Week 8","Connective Tissue Disorders","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"679d0b2f-8cf1-41bc-bd0d-af04c4754ce2",
-        "name":"10-16-08_SBM_084_ConnectTisDisII",
-        "title":"Connective Tissue Disorders II",
-        "class":"Item",
-        "tags":["Week 8","Connective Tissue Disorders","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"aa2c8d64-e177-489b-a552-b8088c5c5ed0",
-        "name":"10-16-08_SBM_085_AmyloidosisColl",
-        "title":"Amyloidosis",
-        "class":"Item",
-        "tags":["Week 8","Primary amyloidosis","Secondary amylodosis","Familial amyloidosis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9e71b86f-44f0-4784-9911-e3dec99ccdb5",
-        "name":"10-17-08_SBM_086_Alloantibody",
-        "title":"Alloantibody-Mediated Diseases",
-        "class":"Item",
-        "tags":["Week 8","Alloantibody-Mediated Diseases","Ramsey"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d645397f-e8f9-4518-b23b-06d04ab7faff",
-        "name":"10-17-08_SBM_087_MolecularTech",
-        "title":"Molecular Diagnostics",
-        "class":"Item",
-        "tags":["Week 8","Hybridization","DNA sequencing","Polymerase Chain Reaction","Southern blotting"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"1988ada8-e675-46af-8c38-b775f0d95377",
-        "name":"10-21-08_SBM_088_IntroHema",
-        "title":"Introduction to Hematology",
-        "class":"Item",
-        "tags":["Week 9. Hemetology","Introduction to Hematology","Green"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b07da6df-4797-4bd9-bb7a-eb37318f47a8",
-        "name":"10-21-08_SBM_089_Hematopoiesis",
-        "title":"Hematopoiesis and Cytokines",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Hematopoiesis","Growth Factors","Eklund"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b5e9c058-6cf0-485b-95b0-7f7f215cba41",
-        "name":"10-21-08_SBM_090_IronDefOver",
-        "title":"Anemias: Introduction",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Iron deficiency and iron overload","Green"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"3ca02e4f-ec5a-46b8-adf0-2d6d1d6abe09",
-        "name":"10-21-08_SBM_091_HemoglobinopathiesII",
-        "title":"Hemoglobinopathies II: Thalassemia Syndromes",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Hemoglobinopathies II","Thompson"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9f93a192-057f-4055-9f50-258fbac10a9a",
-        "name":"10-22-08_SBM_092_ConHemoAnem",
-        "title":"Congenital Hemolytic Anemias",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Congenital Hemolytic Anemias","Zakarija"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"8370fb40-4450-4640-b56e-1d452ea54f71",
-        "name":"10-22-08_SBM_093_AcqHemoAnem",
-        "title":"Acquired Hemolytic Anemias",
-        "class":"Item",
-        "tags":["Week 9","HHemetology","Acquired Hemolytic Anemias","Zakarija"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"59fed8ad-2945-42d3-a923-38575c07d2fa",
-        "name":"10-22-08_SBM_094_BloodComp",
-        "title":"Blood Components",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Blood Components","Ramsey"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5fe8240e-fc72-4cb0-bdba-9224042c083b",
-        "name":"10-22-08_SBM_095_Transfusion",
-        "title":"Transfusion Safety",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Transfusion Safety","Ramsey"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"90c7423c-432a-4359-8f0a-f6d1b8540a01",
-        "name":"08_SBM_096_HemoglobinopathiesI",
-        "title":"Hemoglobinopathies II: Sickle Cell Disease",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Hemoglobinopathies I","Liem"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"49594346-6eca-43ac-bb7d-99ebe1ea1408",
-        "name":"10-23-08_SBM_097_MegaAnem",
-        "title":"Megaloblastic Anemias",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Megaloblastic Anemias","Nelson"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"42912256-f73b-457a-bd95-03a29d3697f4",
-        "name":"10-24-08_SBM_099_Thrombocytopenias",
-        "title":"Thrombocytopenia",
-        "class":"Item",
-        "tags":["Week 9","Hemetology","Thrombocytopenias","Zakarija"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6c1ac94c-9837-4093-9ee7-e60f311ea3ea",
-        "name":"10-27-08_SBM_100_CoagCas",
-        "title":"Coagulation Cascade & Physiological Anticoagulants",
-        "class":"Item",
-        "tags":["Week 10","Hemetology","Coagulation Cascade","Allen"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"97f382a7-1fe2-4291-aecb-87964269f4d1",
-        "name":"10-27-08_SBM_101_InBleedDis",
-        "title":"Inherited Bleeding Disorders",
-        "class":"Item",
-        "tags":["Week 10","VHemetology","Inherited Bleeding disorders","Allen"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a2e8b101-1b50-4cf6-8041-a7121437452a",
-        "name":"10-27-08_SBM_102_InClotDis",
-        "title":"Inherited Thrombophilia",
-        "class":"Item",
-        "tags":["Week 10","Hemetology","Inherited Clotting disorders","Green"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f1278e26-fc17-486c-be23-d1f05f3d5d9d",
-        "name":"10-28-08_SBM_103_AntiCoagI",
-        "title":"Pharmacology of Anticoagulants I",
-        "class":"Item",
-        "tags":["Week 10","Hemetology","Anticoagulants I","Green"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"592682d4-e3bd-40ca-9786-33062365fae4",
-        "name":"10-28-08_SBM_104_AntiCoagII",
-        "title":"Pharmacology of Anticoagulants II",
-        "class":"Item",
-        "tags":["Week 10","WHemetology","Anticoagulants II","Green"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"13892227-3e31-474a-bee6-439380c3465b",
-        "name":"10-29-08_SBM_105_AcqCoagDis",
-        "title":"Acquired Coagulopathy",
-        "class":"Item",
-        "tags":["Week 10","Hemetology","Acquired Coagulation Disorders","McMahon"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"fbb18a3f-c9b4-4b90-81c1-c91f4c74645d",
-        "name":"10-29-08_SBM_106_FibriThrom",
-        "title":"Fibrinolysis and Thrombolytic Therapy",
-        "class":"Item",
-        "tags":["Week 10","Hemetology","Fibrinolysis & Thrombolytic Rx","Kwaan"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"48c0d7f2-2b5b-4c8a-87e3-1b16c941d279",
-        "name":"10-30-08_SBM_107_IntroOncol",
-        "title":"Introduction to Oncology",
-        "class":"Item",
-        "tags":["Week 10","Oncology","Introduction to Oncology","Cianfrocca"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"3efec3ed-0136-459b-91f0-ee1d036f2fbd",
-        "name":"10-31-08_SBM_110_PlasmaCellDis",
-        "title":"Plasma Cell Disorders",
-        "class":"Item",
-        "tags":["Week 10","Oncology","Plasma Cell Disorders","Rosen"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6cd78e42-a832-44c5-b46e-790a4ec7265e",
-        "name":"10-31-08_SBM_111_ALL",
-        "title":"Acute Lymphoblastic Leukemia\/Lymphoma; ALLAcute Lymphoblastic Leukemia\/Lymphoma; ALL",
-        "class":"Item",
-        "tags":["Week 10","Oncology","ALL","Nelson"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"cef052c6-d89d-42fa-bde5-4ec0606c06b2",
-        "name":"11-3-08_SBM_112_AML",
-        "title":"Acute Myeloid Leukemia",
-        "class":"Item",
-        "tags":["Week 11","Oncology","AML","Frankfurt"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ecbe148c-6bad-4fb1-a15a-a382a5f991f5",
-        "name":"11-3-08_SBM_113_CML",
-        "title":"Chronic Myelogenous Leukemia",
-        "class":"Item",
-        "tags":["Week 11","Oncology","CML","Frankfurt"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"dec2d259-66e5-4251-b603-93c377313a84",
-        "name":"11-4-08_SBM_114_MDS",
-        "title":"Myelodysplastic Syndromes",
-        "class":"Item",
-        "tags":["Week 11","Oncology","MDS","Eklund"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"46a73906-e6f1-4bc8-a569-b6703112fbdd",
-        "name":"11-5-08_SBM_115_NHL",
-        "title":"Non-Hodgkin Lymphomas",
-        "class":"Item",
-        "tags":["Week 11","Oncology","NHL","Evens"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"00d9ec21-cde8-48fd-ab55-d842f3fef9fd",
-        "name":"11-5-08_SBM_116_NHLPath",
-        "title":"Non-Hodgkin Lymphomas Pathology",
-        "class":"Item",
-        "tags":["Week 11","Oncology","NHL Pathology","Variakojis"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"54131771-b1c7-40c1-ab7e-a7fe6103f327",
-        "name":"11-6-08_SBM_117_HD",
-        "title":"Hodgkin\u2019s Disease (aka Hodgkin Lymphoma)",
-        "class":"Item",
-        "tags":["Week 11","Oncology","HD","Evens"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2eedff2e-174d-4bb0-9b7b-7f0ad95475b0",
-        "name":"11-6-08_SBM_118_Transplant",
-        "title":"Hematopoietic Stem Cell Transplantation",
-        "class":"Item",
-        "tags":["Week 11","Oncology","Transplant","Mehta"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"4b2cc1fc-56df-4420-8525-1017322ecb01",
-        "name":"11-11-08_SBM_125_EndoPharmMetBoneI",
-        "title":"Endocrine Pharmacology I: Mineral Metabolism & Bone",
-        "class":"Item",
-        "tags":["Week 12","Endocrinology","Endo Pharm I: Mineral Metabolism & Bone I","Stern"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d5cfb730-165a-43fb-b993-d69dfec5c79f",
-        "name":"11-11-08_SBM_126_EndoPharmMetBoneII",
-        "title":"Mineral Metabolism and Bone II ",
-        "class":"Item",
-        "tags":["Week 12","Endocrinology","Endo Pharm I: Mineral Metabolism & Bone II","Edwards"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"86ce848a-6b49-4552-baa5-f6981fdadd96",
-        "name":"11-12-08_SBM_127_ReproEndoI",
-        "title":"Human Reproduction I",
-        "class":"Item",
-        "tags":["Endocrinology","Reproductive Endocrinology I","Dunaif"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"cb85f909-c709-4101-9618-59b0e811899a",
-        "name":"11-12-08_SBM_128_ReproEndoII",
-        "title":"Human Reproduction II",
-        "class":"Item",
-        "tags":["Week 12","Endocrinology","Reproductive Endocrinology II","Dunaif"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d4904af5-ebd2-4626-a819-ec735597d077",
-        "name":"11-13-08_SBM_129_HypoPitI",
-        "title":"Hypothalamus\/Pituitary I",
-        "class":"Item",
-        "tags":["Week 12","Endocrinology","Hypothalamus\/Pituitary I","Molitch"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"459f64d5-c429-4f97-8711-fefcc0d1f1c9",
-        "name":"11-13-08_SBM_130_HypoPitII",
-        "title":"Hypothalamus\/Pituitary II",
-        "class":"Item",
-        "tags":["Week 12","Endocrinology","Hypothalamus\/Pituitary II","Molitch"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5fbe95b6-38da-449d-acc3-e005ef3859b4",
-        "name":"11-14-08_SBM_131_GrowthDev",
-        "title":"Growth & Development",
-        "class":"Item",
-        "tags":["Week 12","Endocrinology","Growth and Development","Habiby"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"679794ff-5dc7-4c74-b93b-bbb54bfb1aee",
-        "name":"11-18-08_SBM_134_DiabetesI",
-        "title":"Diabetes I",
-        "class":"Item",
-        "tags":["Week 13","Endocrinology","Diabetes I","Lowe"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a675b518-b588-45b4-a7e0-44b4821fda40",
-        "name":"11-18-08_SBM_135_DiabetesII",
-        "title":"Diabetes II",
-        "class":"Item",
-        "tags":["Week 13","Endocrinology","Diabetes I","Lowe"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"74c23998-5cbc-4100-89f2-89472d21a726",
-        "name":"11-19-08_SBM_137_GonadHormAgen",
-        "title":"Endocrine Pharmacology II: Gonadal Hormones and Related Agents",
-        "class":"Item",
-        "tags":["Week 13","Endocrinology","Endo Pharm II: Gonadal Hormones & Agents","Stern"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d6692150-6c8f-4fe2-8833-67221081f383",
-        "name":"11-21-08_SBM_141_SexDiff",
-        "title":"Sex Differentiation",
-        "class":"Item",
-        "tags":["Week 13","Endocrinology","Sexual Differentiation","Brickman"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"8e377a53-141e-4f53-aa76-7ea23fa7e20d",
-        "name":"11-24-08_SBM_142_ThyAdPan",
-        "title":"Endocrine Pharmacology III: Thyroid, Adrenal and Pancreas",
-        "class":"Item",
-        "tags":["Week 13","Endocrinology","Endo Pharm III: Thyroid","Adrenal","& Pancreas","Stern"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a68fec3f-b3ff-437c-a83c-42c87c1a94b8",
-        "name":"11-24-08_SBM_143_ThyAdPan",
-        "title":"Endocrine Pharmacology III: Thyroid, Adrenal and Pancreas",
-        "class":"Item",
-        "tags":["Week 13","Endocrinology","Endo Pharm III: Thyroid","Adrenal","& Pancreas","Stern"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b41e82ac-21bf-431b-833a-1e5e69059826",
-        "name":"12-1-08_SBM_144_IntroRenalPhys",
-        "title":"Introduction to Renal Physiology",
-        "class":"Item",
-        "tags":["Week 15","Introduction to Renal Physiology","Paparello"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"8d8c827c-f561-4c46-9452-b61d1ce22a1e",
-        "name":"12-1-08_SBM_145_RenalSyn",
-        "title":"Renal Syndromes",
-        "class":"Item",
-        "tags":["Week 15","Renal Syndromes","Paparello"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2221427e-f824-4ccb-8d9c-ef259fc8ddcd",
-        "name":"12-1-08_SBM_146_NephroticSyn",
-        "title":"Proteinuria and the Nephrotic Syndrome",
-        "class":"Item",
-        "tags":["Week 15","Proteinuria and the Nephrotic Syndrome","Schnaper"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2a3a84c7-6729-4487-912e-e7c340eef3c4",
-        "name":"12-2-08_SBM_147_RenalGlomDisI",
-        "title":"Renal Glomerular Disease I",
-        "class":"Item",
-        "tags":["Week 15","Renal Glomerular Disease I","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d8213083-cc4e-4a19-95c6-1b913d2ae5c4",
-        "name":"12-2-08_SBM_148_RenalGlomDisII",
-        "title":"Renal Glomerular Disease II",
-        "class":"Item",
-        "tags":["Week 15","Renal Glomerular Disease II","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c1b80291-05a9-4810-8bb0-2ee4a617cb71",
-        "name":"12-2-08_SBM_149_RenalGlomDisIII",
-        "title":"Renal Glomerular Disease III",
-        "class":"Item",
-        "tags":["Week 15","Renal Glomerular Disease III","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5ccfe005-0f97-4093-ac75-49c13e29c581",
-        "name":"12-2-08_SBM_150_MetaAcidosis",
-        "title":"Metabolic Acidosis and Alkalosis",
-        "class":"Item",
-        "tags":["Week 15","R Metabolic Acidosis and Alkalosis","Batlle"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"50145191-2a27-4960-800e-f641c3e436ea",
-        "name":"12-3-08_SBM_151_Dysnatremia",
-        "title":"Disorders of Water Metabolism: Hypernatremia and Hyponatremia",
-        "class":"Item",
-        "tags":["Week 15","R Disorders of Water Metabolism","Hypernatremia and Hyponatremia","Batlle"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"48305400-2f11-48bf-81b2-43f55987c17f",
-        "name":"12-3-08_SBM_152_PotassiumDis",
-        "title":"Disorders of Potassium Balance",
-        "class":"Item",
-        "tags":["Week 15","Disorders of Potassium Balance","Batlle"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"eecddfdf-9b47-4110-8454-dfed98a7c294",
-        "name":"12-3-08_SBM_153_LocalAnesthetics",
-        "title":"Local Anesthetics",
-        "class":"Item",
-        "tags":["Week 15","Local Anesthetics","Yeh"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"bc0e9aa2-de72-4790-adfd-c4098e9a68a5",
-        "name":"12-08-08_SBM_161_KidneyTrans",
-        "title":"Kidney Transplantation Rejection",
-        "class":"Item",
-        "tags":["Week 16","Kidney Transplantation Rejection","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"345f5b37-a8f5-469d-9868-06e5b59f2198",
-        "name":"12-08-08_SBM_162_TuboCysticDis",
-        "title":"Renal Tubulointerstitial Diseases I",
-        "class":"Item",
-        "tags":["Week 16","Renal Tubulointerstitial Diseases I","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"13e451c6-70e0-4ca5-a75c-90001899fa1c",
-        "name":"12-9-08_SBM_163_TuboCysticDisII",
-        "title":"Renal Tubulointerstitial Diseases II",
-        "class":"Item",
-        "tags":["Week 16","Renal Tubulointerstitial Diseases II","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"46ee95a6-b066-4b1c-88c9-5449212c6b50",
-        "name":"12-9-08_SBM_164_CysticDisease",
-        "title":"Congenital Anomalies & Renal Cystic Disease",
-        "class":"Item",
-        "tags":["Week 16","Congenital Anomalies & Renal Cystic Disease","Kanwar"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"900f44bd-726e-4259-b31f-eb2cd8d2d8fd",
-        "name":"12-11-08_SBM_168_RenCalcium",
-        "title":"Renal Calcium",
-        "class":"Item",
-        "tags":["Week 16","Chronic Renal Failure","Ghossein"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ec632673-bd52-45ee-91dd-8b628ef15166",
-        "name":"12-11-08_SBM_169_ChronicRenalFail",
-        "title":"Chronic Kidney Disease",
-        "class":"Item",
-        "tags":["Week 16","Chronic Renal Failure","Ghossein"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9627d881-cfe1-444a-b3cd-fef4c704897a",
-        "name":"12-11-08_SBM_170_AcuteRenalFail",
-        "title":"Acute Renal Failure",
-        "class":"Item",
-        "tags":["Week 16","CAcute Renal Failure","Friedewald"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"fbe45b09-c42a-40eb-a544-a5df7d197d24",
-        "name":"12-11-08_SBM_171_DisVolBal",
-        "title":"Disorders of Volume Balance",
-        "class":"Item",
-        "tags":["Week16","Disorders of Volume Balance","Paparello"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"bb955002-9dd1-44fa-8a76-f3524f9776f9",
-        "name":"12-12-2008_SBM_172_DiabeticNeph",
-        "title":"Diabetic Nephropathy",
-        "class":"Item",
-        "tags":["Week 16","Diabetic Nephropathy","Chen"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ebaf6795-e50b-41aa-b2b1-218dd9a442da",
-        "name":"12-12-2008_SBM_173_DiureticsIVF",
-        "title":"IVF, Diuretics, & Summary",
-        "class":"Item",
-        "tags":["Week 16","IVF","Diuretics","& Summary","Paparello"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5ad45300-2f0b-42aa-85bd-86c9c171382b",
-        "name":"12-15-08_SBM_174_RenalUroCanI",
-        "title":"Renal and Urothelial Cancers I",
-        "class":"Item",
-        "tags":["Week 17","Renal and Urothelial Cancers I","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"67fd9be6-19e4-4455-85bd-0469eb545972",
-        "name":"12-15-08_SBM_175_RenalUroCanII",
-        "title":"Renal and Urothelial Cancer II",
-        "class":"Item",
-        "tags":["Week 17","Renal and Urothelial Cancers II","Kozlowski"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c7707f5f-5471-4ff4-a66f-a88c4638b84e",
-        "name":"12-15-08_SBM_176_PathProstate",
-        "title":"Pathology of the Prostate Gland & Male External Genitalia",
-        "class":"Item",
-        "tags":["Week 17","Pathology of the Prostate Gland & Male External Genitalia","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d1baa34f-1a81-400c-a948-a01b7e299b84",
-        "name":"12-15-08_SBM_177_UrniaryInfec",
-        "title":"Urinary Tract Infection: A Military Migration of Microbes",
-        "class":"Item",
-        "tags":["Week 17","Urinary Tract Infection: A Military Migration of Microbes","Schaeffer"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"16c658db-496f-4873-84e8-3aa90208d8d7",
-        "name":"12-16-08_SBM_178_UrinObstSTone",
-        "title":"Hydronephrosis, Nephrolithiasis: Urinary Obstruction\/Urinary Stone Disease",
-        "class":"Item",
-        "tags":["Week 17","PHydronephrosis","Nephrolithiasis: Urinary Obstruction\/Urinary Stone Disease","Nadler"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d4491ef3-d32d-4d42-9c41-35e6d932de4e",
-        "name":"12-16-08_SBM_179_ProstateCan",
-        "title":"Benign Prostatic Hyperplasia\/Prostate Cancer",
-        "class":"Item",
-        "tags":["Week 17","Benign Prostatic Hyperplasia\/Prostate Cancer","McVary"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"db2ec88a-f70f-44f4-8768-f95f58711f43",
-        "name":"12-17-08_SBM_180_PathTestis",
-        "title":"Pathology of the Testis",
-        "class":"Item",
-        "tags":["Week 17","Pathology of the Testis","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"7131c46f-899c-4460-9b00-d2e17a56e866",
-        "name":"12-17-08_SBM_181_DisScrotumTestis",
-        "title":"Benign Scrotal Conditions, Testis Cancer, Penile Cancer, & Urethral Cancer",
-        "class":"Item",
-        "tags":["Week 17","Benign Scrotal Conditions","Testis Cancer","Penile Cancer","& Urethral Cancer","Kozlowski"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"27f5cc26-122a-4fa5-a0af-911a1bfc76c1",
-        "name":"12-18-08_SBM_182_Neurourology",
-        "title":"Neurourology and Voiding Dysfunction",
-        "class":"Item",
-        "tags":["Week 17","Neurourology and Voiding Dysfunction","Kielb"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5d16fe92-d1e3-44db-aca2-ccf472093a7d",
-        "name":"01-05-09_SBM_183_EmbDevRepro",
-        "title":"Embryology, Developmental Biology, Reproductive Biology",
-        "class":"Item",
-        "tags":["Week 18","Embryology","Developmental Biology","Reproductive Biology","Bulun"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"1f675594-9756-4b70-a64a-0bca8ae6db1e",
-        "name":"01-05-09_SBM_184_GynePathI",
-        "title":"Gynecological Pathology I: Vulva, Vagina and Cervix",
-        "class":"Item",
-        "tags":["Week 18","Gynecological Pathology I: Vulva","Vagina and Cervix","Pins","Haines","Laskin"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6279c29b-d2a4-4b88-9015-f5b39e20658d",
-        "name":"01-05-09_SBM_185_GynePathII",
-        "title":"Gynecological Pathology II: Uterus",
-        "class":"Item",
-        "tags":["Week 18","Gynecological Pathology II: Uterus","Pins","Haines","Laskin"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"023434bd-4374-4908-b38f-a8587cc7dcf1",
-        "name":"01-05-09_SBM_186_GynePathIII",
-        "title":"Gynecological Pathology III: Ovaries",
-        "class":"Item",
-        "tags":["Week 18","Gynecological Pathology III: Ovaries","Pins","Haines","Laskin"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"37f98bd2-81f8-46ae-b785-dd9a53775af0",
-        "name":"01-06-09_SBM_187_BreastI",
-        "title":"Breast I",
-        "class":"Item",
-        "tags":["Week 18","Breast I","Cothran"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"418f946b-bcab-44a5-8ccc-f347bb50dd73",
-        "name":"01-06-09_SBM_188_BreastII_Part1",
-        "title":"Breast Pathology II",
-        "class":"Item",
-        "tags":["Week 18","Breast Pathology II","Susnik"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c2ce7996-a676-4fce-9db9-a067aaf547f7",
-        "name":"01-07-09_SBM_189_BreastII_Part2",
-        "title":"Breast Pathology II",
-        "class":"Item",
-        "tags":["Week 18","Breast Pathology II","Susnik"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c6b7ef42-d687-45c9-9101-62e442c85dfe",
-        "name":"01-07-09_SBM_190_GyneOncology",
-        "title":"Gynecologic Oncology",
-        "class":"Item",
-        "tags":["Week 18","Gynecologic Oncology","Lowe"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2540b0cd-cc95-4b5b-859a-6967ab8cc1c2",
-        "name":"01-07-09_SBM_191_MicroSTD",
-        "title":"Microbiology of Sexually Transmitted Diseases",
-        "class":"Item",
-        "tags":["Week 18","Microbiology of Sexually Transmitted Diseases","Hauser"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2e988321-7026-49b5-9fc1-a8674b288abc",
-        "name":"01-07-09_SBM_192_MicroHIV",
-        "title":"HIV-1 Virology and Pathophysiology",
-        "class":"Item",
-        "tags":["Flaherty","HIV-1 Virology and Pathophysiology","Week 18"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"71578059-a6bc-45cc-9d4d-6f224c5453ad",
-        "name":"01-08-09_SBM_193_STDRepro",
-        "title":"Sexually Transmitted Infections: Impact on Reproductive Health",
-        "class":"Item",
-        "tags":["Week 18","Sexually Transmitted Infections: Impact on Reproductive Health","Garcia"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"134deaaf-867c-4814-ae7d-bc84e603e81d",
-        "name":"01-08-09_SBM_194_MensCycle",
-        "title":"The Menstrual Cycle and Amenorrhea",
-        "class":"Item",
-        "tags":["Week 18","The Menstrual Cycle and Amenorrhea","Baer"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"78a9a201-e96c-47fa-a0c8-8f2c7ff3bc98",
-        "name":"01-09-09_SBM_195_Infertility",
-        "title":"Infertility",
-        "class":"Item",
-        "tags":["Week 18","Infertility","Kazer"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a0e1100c-7cec-453e-8c9c-36e31cfa5b4e",
-        "name":"01-09-09_SBM_196_Contra",
-        "title":"Science of Contraception",
-        "class":"Item",
-        "tags":["Week 18","Science of Contraception","Stika"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"20db1264-15f2-46e2-b1d3-348ae3466550",
-        "name":"01-09-09_SBM_197_PregFail",
-        "title":"Pregnancy Failure",
-        "class":"Item",
-        "tags":["Week 18","Pregnancy Failure","Stika"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c02fd77e-2ca5-46cd-9377-43eb39be0525",
-        "name":"01-09-09_SBM_198_NormPregI",
-        "title":"Normal Pregnancy I",
-        "class":"Item",
-        "tags":["Week 18","Normal Pregnancy","McKnight"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5704f40e-c7fe-47f5-ac92-b416f1271190",
-        "name":"01-12-09_SBM_199_NormPregII",
-        "title":"Normal Pregnancy II",
-        "class":"Item",
-        "tags":["Week 19","Normal Pregnancy II","Peaceman"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c8db0bf6-72a8-4057-b314-d19ca9f8b1f1",
-        "name":"01-12-09_SBM_200_AbnPregI",
-        "title":"Abnormalities of Pregnancy: General Survey",
-        "class":"Item",
-        "tags":["Week 19","Abnormalities of Pregnancy: General Survey","Grobman"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"4a2b5fea-9c50-42f4-9174-9c34a51d243d",
-        "name":"01-12-09_SBM_201_AbnPregII",
-        "title":"Abnormal Pregnancy",
-        "class":"Item",
-        "tags":["Week 19","Abnormal Pregnancy","Grobman"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c97287c9-00e1-4e52-8f9a-d36dabc45b50",
-        "name":"01-12-09_SBM_202_FemSexDis",
-        "title":"Female Sexual Dysfunction",
-        "class":"Item",
-        "tags":["Week 19","Female Sexual Dysfunction","Donahey"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"44c896d6-8566-4db9-b3e7-1a49e2a2ec58",
-        "name":"01-14-09_SBM_203_MenoTherapy",
-        "title":"Menopause, Hormone Replacement",
-        "class":"Item",
-        "tags":["Week 19","FMenopause","Hormone Replacement","Tsai"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d6534fc2-bf7b-4208-8c91-41b19037cfcd",
-        "name":"01-15-09_SVM_208_CompCirrhosis",
-        "title":"GI Pathophysiology: Complications Of Cirrhosis",
-        "class":"Item",
-        "tags":["Week 19","FGI Pathophysiology: Complications Of Cirrhosis","Blei"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d6ac1bd3-486e-416e-9f9d-303311785721",
-        "name":"01-16-09_SBM_211_PancreasI",
-        "title":"Pancreas I",
-        "class":"Item",
-        "tags":["Week 19","PancreasI","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"e075a948-7248-45e8-8af4-b0811b0e773a",
-        "name":"01-16-09_SBM_212_PancreasII",
-        "title":"Pancreas II",
-        "class":"Item",
-        "tags":["Week 19","PancreasII","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"18001e85-4bad-4161-964a-e369c6760e8f",
-        "name":"01-20-09_SBM_214_BiliaryDisorder",
-        "title":"Biliary tract disorders and cholestasis",
-        "class":"Item",
-        "tags":["Week 20","Biliary tract disorders and cholestasis","Green"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d64931f0-4454-4c93-8cd6-34a1a66ca4e1",
-        "name":"01-21-09_SBM_215_Stomach",
-        "title":"Stomach",
-        "class":"Item",
-        "tags":["Week 20","Stomach","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5365c600-101b-4cae-a093-f6c6d34891f4",
-        "name":"01-21-09_SBM_216_SmIntestine",
-        "title":"Small Intestine",
-        "class":"Item",
-        "tags":["Week20","Small Intestine","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a1c463ea-7b71-4a9e-89be-c3c2c14eedae",
-        "name":"01-22-09_SBM_217_Colon",
-        "title":"Colon",
-        "class":"Item",
-        "tags":["Week 20","Colon","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c008c1b3-e429-409f-be82-b9279c380977",
-        "name":"01-22-09_SBM_218_ColorectalCan-2",
-        "title":"Colorectal Cancer",
-        "class":"Item",
-        "tags":["Week 20","Colorectal Cancer","Ferreira"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a57a8dfd-5dd2-45fb-b630-cce2f61dcd8e",
-        "name":"01-23-09_SBM_219_Esophagus",
-        "title":"Esophagus",
-        "class":"Item",
-        "tags":["Week 20","Esophagus","Yang"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2b13e295-9de9-436e-b050-c4ce1a3fde56",
-        "name":"01-26-09_SBM_221_PepticUlcer",
-        "title":"Peptic Ulcer Disease & Helicobacter Pylori Infection",
-        "class":"Item",
-        "tags":["Week 21","Peptic Ulcer Disease & Helicobacter Pylori Infection","Vanagunas"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"247cae68-8bd7-4c11-bc6a-7be6de0b57fb",
-        "name":"01-26-09_SBM_222_GIDisorders",
-        "title":"Functional GI Disorders",
-        "class":"Item",
-        "tags":["Week 21","Functional GI Disorders","Brenner"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"1a9c22a4-a05f-4f06-a5f3-87be3f992c2b",
-        "name":"01-27-09_SBM_223_MotilityDis",
-        "title":"Gastrointestinal Motility",
-        "class":"Item",
-        "tags":["Week 21","Gastrointestinal Motility","Hirano"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"c9ed56e3-853b-4068-8dc0-d8688fd52efc",
-        "name":"01-27-09_SBM_224_Malabsorption",
-        "title":"Malabsorption and Diarrhea",
-        "class":"Item",
-        "tags":["Week 21","Malabsorption and Diarrhea","Craig"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"de972d0d-421d-41ef-b7a0-a32176df0131",
-        "name":"01-28-09_SBM_225_Antihistamines",
-        "title":"Antihistamines: Alllergy and Acid Suppresive Therapy",
-        "class":"Item",
-        "tags":["Week 21","Antihistamines: Alllergy and Acid Suppresive Therapy","Silinsky"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"435cec30-eb8e-409d-8cf8-52ac1501adfd",
-        "name":"01-28-09_SBM_226_EnerticMicroPath",
-        "title":"Microbial Pathogens of the Gastrointestinal Tract",
-        "class":"Item",
-        "tags":["Week 21","Microbial Pathogens of the Gastrointestinal Tract","Hauser"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ae963493-6756-4a5d-bd3d-a6b16022fe7a",
-        "name":"01-29-09_SBM_227_InflamBowelDis",
-        "title":"Inflammatory Bowel Disease",
-        "class":"Item",
-        "tags":["Week 21","Inflammatory Bowel Disease"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"3987f9c1-4fa6-4290-bb33-eac1e07dbe6a",
-        "name":"01-29-09_SBM_228_InfectDisGI",
-        "title":"Intraabdominal Infections",
-        "class":"Item",
-        "tags":["Week 21","Intraabdominal Infections","Flaherty"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"3681f34f-ffbb-477d-b31b-4ba5ed38d09b",
-        "name":"01-30-09_SBM_229_GIPhramI",
-        "title":"Pharmacology of GI Disorders I",
-        "class":"Item",
-        "tags":["Week 21","Pharmacology of GI Disorders I","Howden"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"25f29c84-cc65-44fa-b2d0-144625e0f9d3",
-        "name":"1-30-09_SBM_230_GIPhramII",
-        "title":"Pharmacology of GI Disorders II",
-        "class":"Item",
-        "tags":["Week 21","Pharmacology of GI Disorders II","Howden"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b5a6540e-ba73-4669-87ac-b562aec2609e",
-        "name":"02-03-09_SBM_231_IntroCardioDis",
-        "title":"Introduction to Cardiovascular Diseases",
-        "class":"Item",
-        "tags":["Week 22","Introduction to Cardiovascular Diseases","Shah"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"291f6167-e282-4811-b649-37dbe360a3fe",
-        "name":"02-03-09_SBM_233_AtherPath",
-        "title":"The Pathogenesis of Atherosclerosis",
-        "class":"Item",
-        "tags":["Week 22","IThe Pathogenesis of Atherosclerosis","Muller"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"cf7d278a-8a5b-4886-b0f9-b3734d70952f",
-        "name":"02-04-09_SBM_238_PharmLipidDrugs",
-        "title":"Strategies for Atherosclerosis Treatment",
-        "class":"Item",
-        "tags":["Week 22","Strategies for Atherosclerosis Treatment","Stone"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9a55d8df-bbd4-4c8c-9dfd-15a35e53f0a2",
-        "name":"02-05-09_SBM_239_AcuteCorSyn",
-        "title":"Acute Coronary Syndromes",
-        "class":"Item",
-        "tags":["Week 22","Acute Coronary Syndromes","Fintel"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"717f89fc-f35d-4361-9c21-31f2c7ad4548",
-        "name":"02-05-09_SBM_240_CVDrugPharm",
-        "title":"Cardiovascular Drug Pharmacology",
-        "class":"Item",
-        "tags":["Week 22","Cardiovascular Drug Pharmacology","Fintel"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"d4eda967-014c-4fad-af5d-355bb5728adf",
-        "name":"02-05-09_SBM_241_IschemicHeartDis",
-        "title":"Chronic Ischemic Heart Disease",
-        "class":"Item",
-        "tags":["Week 22","Chronic Ischemic Heart Disease","Fintel"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"fc9fc83b-4cb8-4f9a-a2b7-bd87c813b595",
-        "name":"02-06-09_SBM_242_MyoPeriDis",
-        "title":"Pericardial\/Myocardial Disease",
-        "class":"Item",
-        "tags":["Week 22","Vericardial\/Myocardial Disease","Lomasney"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"8db03dd9-97b7-4370-b103-cd61e2835dda",
-        "name":"02-06-09_SBM_243_ValvHeartDis",
-        "title":"Valvular Pathology",
-        "class":"Item",
-        "tags":["Week 22","Valvular Pathology","Lomasney"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"f37dda0e-2ed0-4919-9f2f-9a2dbfc3c0d5",
-        "name":"02-09-09_SBM_244_CongHeartPath",
-        "title":"Heart Failure - Pathophysiology",
-        "class":"Item",
-        "tags":["Week 23","Heart Failure","Pathophysiology","O'Connell"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"967c77e0-4363-4714-82b2-413710efb8e8",
-        "name":"02-09-09_SBM_245_CongHeartPharm",
-        "title":"Heart Failure - Pharmacology",
-        "class":"Item",
-        "tags":["Week 23","Heart Failure","Pharmacology","O'Connell"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"85f54b0f-edf6-45f8-b0df-c4ae6ab14821",
-        "name":"02-09-09_SBM_246_BradycardiaCond",
-        "title":"Bradycardia and Heart Block",
-        "class":"Item",
-        "tags":["Week 23","Bradycardia","Heart Block","Kadish"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"bc8f5da6-4fe5-4da8-8d63-7141fa5c63ce",
-        "name":"02-09-09_SBM_247_IntroArrhySyn",
-        "title":"Syncope",
-        "class":"Item",
-        "tags":["Week 23","Syncope","Kadish"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"a465bde5-300c-4b55-88c1-20a9cd266229",
-        "name":"02-11-09_SBM_250_AntiarrhyDrugRecep",
-        "title":"The Cellular Electrophysiological Basis of Cardiac Arrhythmia 1",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"27e4c245-260e-4b60-9e0b-bd88366a76fb",
-        "name":"02-11-09_SBM_251_SupraventArrhy",
-        "title":"Supraventricular Arrhythmias",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6e41bd24-18e4-4570-bf0e-2662e3b7f538",
-        "name":"02-11-09_SBM_253_PharmAntiArrhyI",
-        "title":"Antiarrhythmic Drugs I",
-        "class":"Item",
-        "tags":["Week 23"," Antiarrhythmic Drugs I"," Arora"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ca6c349b-5474-4b4e-abec-8d7f79d2d4f0",
-        "name":"02-12-09_SBM_254_PharmAntiArrhyII",
-        "title":"Antiarrhythmic Drugs II",
-        "class":"Item",
-        "tags":["Week 23"," Antiarrhythmic Drugs II"," Arora"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"0f0f80b4-ab6f-4a8f-a33e-b19e080cd0ec",
-        "name":"02-16-09_SBM_257_AnatomPathCHDI",
-        "title":"Congenital Heart Disease I",
-        "class":"Item",
-        "tags":["Week 24"," Congenital Heart Disease I"," Bharati"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"771e3dc8-6e45-4942-b5d3-74e295eae465",
-        "name":"02-16-09_SBM_258_AnatomPathCHDII",
-        "title":"Congenital Heart Disease II",
-        "class":"Item",
-        "tags":["Week 24"," Congenital Heart Disease II"," Bharati"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"8fa1885a-3254-4b67-8266-ea287781d5fa",
-        "name":"02-16-09_SBM_260_PerVascDisPath",
-        "title":"Peripheral Vascular Disease Pathology",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b30c6a23-ce2f-4d42-8d72-915962052cb9",
-        "name":"02-17-09_SBM_261_HypertensPath",
-        "title":"Hypertension: Pathophysiology",
-        "class":"Item",
-        "tags":["Week 24"," Hypertension: Pathophysiology"," Battle"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"85fb4f9a-dabe-4950-8df3-3b6aa9740062",
-        "name":"02-17-09_SBM_262_PVDII",
-        "title":"Peripheral Vascular Disease II",
-        "class":"Item",
-        "tags":["Week 24"," Peripheral Vascular Disease II"," Kibbe"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"2ae0bea8-57ad-442b-996a-1d4984e4ccd2",
-        "name":"02-18-09_SBM_263_HypertenOver",
-        "title":"Hypertension: Agents for Treatment",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"73d5d5e8-5102-4139-a24b-d58c24ae86cf",
-        "name":"02-18-09_SBM_264_HypertenPharm",
-        "title":"Hypertension: Agents for Treatment",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"5d85923c-0577-4732-aab8-207a50c9556e",
-        "name":"02-23-09_SBM_271_Asthma",
-        "title":"Asthma",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9c4a956f-457a-41cc-9e44-e011e5abcf0d",
-        "name":"02-23-09_SBM272_PulmonaryEdema",
-        "title":"Pulmonary Edema",
-        "class":"Item",
-        "tags":["Week 25"," Pulmonary Edema"," Corbridge"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"ca44e375-a0d9-406b-9611-9d03f4251553",
-        "name":"02-24-09_SBM_273_AllergicRhinSin",
-        "title":"Allergic Rhinitis & Sinusitis",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"6081960b-9cf8-453e-a01f-9361d75a928a",
-        "name":"02-24-09_SBM_274_InterLungDis",
-        "title":"Interstitial Lung Disease I: Alveolar Wall Disease",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"afa375ce-ddc5-4595-a28b-8d456898fa18",
-        "name":"02-25-09_SBM_275_Phenumonia",
-        "title":"Pneumonia",
-        "class":"Item",
-        "tags":[],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"9938afac-bda7-47a7-a471-d650b813ba2d",
-        "name":"02-25-09_SBM_275_Phenumonia-1",
-        "title":"Pneumonia",
-        "class":"Item",
-        "tags":["Week 25"," Pneumonia"," Flaherty"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"0da7dd76-048e-41e2-8e78-b9e655955272",
-        "name":"02-25-09_SBM_276_Tuberculosis",
-        "title":"Tuberculosis",
-        "class":"Item",
-        "tags":["Week 25"," Tuberculosis"," Flaherty"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"b9c87b39-b4f2-42b7-b81e-e516582eb3e8",
-        "name":"02-25-09_SBM_277_MOTTFungInfec",
-        "title":"MOTT & Fungal Infection",
-        "class":"Item",
-        "tags":["Week 25"," PMOTT & Fungal Infection"," Flaherty"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"39a711f9-6996-4ad1-a18a-a153523e1a98",
-        "name":"02-25-09_SBM_278_COPD",
-        "title":"Chronic obstructive airway disease (COPD)",
-        "class":"Item",
-        "tags":["Week 25"," Chronic obstructive airway disease (COPD)"," Kalhan"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"43502738-ad0e-4ae0-81b6-aae0d2b63371",
-        "name":"02-27-09_SBM_279_PathNonNeoLung",
-        "title":"Pathology of non-malignant disease",
-        "class":"Item",
-        "tags":["Week 25"," Pathology of non-malignant disease"," Yeldandi"],
-        "incomplete":true,
-        "count":0
-    },{
-        "uuid":"99f08acc-68e5-4a23-b9c8-2a41de103ae2",
-        "name":"02-27-09_SBM_280_AsthmaPharm",
-        "title":"Asthma Pharmacology",
-        "class":"Item",
-        "tags":["Week 25"," Asthma Pharmacology"," Avila"],
-        "incomplete":true,
-        "count":0
-    }],
-    "content":{
-        "id":4,
-        "description":null
+    "uuid": "cc499a6c-9ed0-4c61-9fa2-0ab0e08ac502",
+    "name": "medical_video",
+    "title": "Collection: medical_video",
+    "class": "Collection",
+    "tags":
+    [
+    ],
+    "path": "\/content\/rsm363\/medical_video",
+    "children":
+    [
+    {
+        "uuid": "08fa41b1-aae0-4958-bcea-29f97394034b",
+        "name": "8-25-2008_SBM_IntroLomasney",
+        "title": "Introduction to The Scientific Basis of Medicine",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "0e7f87ec-42cd-416a-9276-503eff5bb73d",
+        "name": "8-25-2008_SBM_001_IntroMedBac",
+        "title": "Introduction to Medical Bacteriology",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f5cdb864-8d1f-413c-92d9-004a821aee24",
+        "name": "8-25-2008_SBM_002_BactStructFunct",
+        "title": "Bacterial Structure And Function",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Bacterial Structure",
+        "Gram-positive",
+        "Gram-negative",
+        "capsules",
+        "flagella",
+        "pili",
+        "antigens",
+        "Biofilmsm",
+        "Chromosome"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a31d3ebf-77c1-4cd0-ad38-b7719ae2613d",
+        "name": "8-25-2008_SBM_003_Viruses1",
+        "title": "Viruses 1",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Virology",
+        "Metastability",
+        "PFU",
+        "MOI",
+        "CPE",
+        "Plaque Assay",
+        "Single-step growth curves",
+        "Microscopy"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "41911516-e06d-4cbc-9126-cf869ca978ee",
+        "name": "8-26-2008_SBM_004_BactPhysGen",
+        "title": "Bacterial Physiology and Genetics",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Bacterial Physiology",
+        "Genetics",
+        "Transformation",
+        "Transduction",
+        "Conjugation",
+        "Transposable elements",
+        "Insertion sequences",
+        "Transposons",
+        "Plasmids",
+        "Bacteriophages",
+        "Pathogenicity islands"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "483df82a-59ad-471e-ab24-28c8dd629d4e",
+        "name": "8-26-2008_SBM_005_GramPosBact",
+        "title": "Gram Positive Bacteria I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Staphylococci",
+        "Streptococci",
+        "PATHOGENESIS",
+        "hemolytic streptococci",
+        "Viridans streptococci",
+        "bovis",
+        "pneumoniae",
+        "Streptococcus pyogenes"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "0ca1f16f-f04c-41f1-a499-75a995edf7a7",
+        "name": "8-26-2008_SBM_006_Viruses2",
+        "title": "Viruses 2",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Respiratory Viruses",
+        "Enteric Viruses",
+        "Influenza",
+        "Antigenic shift",
+        "Antigenic drift",
+        "SARS",
+        "Parvovirus B19",
+        "Measles",
+        "Mumps",
+        "Rubella",
+        "Common Cold",
+        "Rotaviruses"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "34c276d0-0182-4a2a-8d5f-604bb93a79d2",
+        "name": "8-27-2008_SBM_007_GramPosBactII",
+        "title": "Gram Positive Bacteria II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Entercocci",
+        "Listeria",
+        "Bacillus",
+        "Corynebacteria",
+        "Bacillus anthracis",
+        "Corynebacterium diphtheriae"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5d1a521d-091b-4285-9a6e-c1e3c52edf93",
+        "name": "8-27-2008_SBM_008_GramPosBactIII",
+        "title": "Gram Positive Bacteria III",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Anaerobes",
+        "Actinomycetes",
+        "Clostridium tetani",
+        "Clostridium botulinum",
+        "Clostridium perfringens",
+        "Nocardia asteroides",
+        "Nocardia brasilliensis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6c3a8e17-761f-4e00-9a56-f941b4571c39",
+        "name": "8-27-2008_SBM_009_Viruses3",
+        "title": "Viruses 3",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Hepatic viruses"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6aaa192e-22be-4573-97c0-da16900878cb",
+        "name": "8-28-2008_SBM_011_Viruses2",
+        "title": "Gram Negative Bacteria I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Enterobacteriaceae",
+        "Gram-Negative",
+        "UPEC",
+        "E. coli K1",
+        "ETEC",
+        "EPEC",
+        "EHEC",
+        "EIEC",
+        "EAEC",
+        "Salmonella enterica",
+        "Shigella dysenteriae",
+        "flexneri",
+        "boydii",
+        "sonnei",
+        "Yersinia",
+        "pestis",
+        "K. pneumonia",
+        "K. oxytoca",
+        "Enterobacter",
+        "Citrobacter",
+        "Serratia marcescens",
+        "Proteus",
+        "Providencia",
+        "Morganella Groupe"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c7c956d6-3c4d-4652-a89f-10199b9e8539",
+        "name": "8-28-2008_SBM_012_GramNegBactII",
+        "title": "Gram Negative Bacteria II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Week 1",
+        "Gram-Negative",
+        "Respiratory",
+        "enteric",
+        "zoonotic",
+        "Vibrio",
+        "Campylobacter",
+        "Helicobacter",
+        "Pseudomonas aeruginosa",
+        "Haemophilus",
+        "Bordetella",
+        "Bordetella pertussis",
+        "Legionella",
+        "Legionella pneumophila"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "3bb84da6-5791-405a-97f4-46cafc00e940",
+        "name": "8-28-2008_SBM_Viruses5",
+        "title": "Viruses 5",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Herpesviruses",
+        "Latency"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e1128d78-831c-43d3-b2a2-62195a59de85",
+        "name": "8-28-2008_SBM_014_Viruses6",
+        "title": "Viruses 6",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Host Defense",
+        "Virus Stealth",
+        "Apoptosis",
+        "Interferons",
+        "Cytokines",
+        "Cytotoxic T cells",
+        "Viral vaccines"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "1e63a888-bb99-4ab9-91b3-38deda6b2c71",
+        "name": "8-29-2008_SBM_015_Mycobacteria",
+        "title": "Mycobacteria",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Mycobacteria",
+        "tuberculosis",
+        "leprae"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d761cf3d-a9ed-4645-ac08-3a70d989ce88",
+        "name": "8-29-2008_SBM_016_SpiroInfect",
+        "title": "Spirochetes and Zoonotic Infections",
+        "class": "Item",
+        "tags":
+        [
+        "Week 1",
+        "Spirochetes",
+        "Obligate Intracellular Pathogens",
+        "Borrelia",
+        "Borrelia burgdorferi",
+        "Treponema",
+        "Leptospira",
+        "Rickettsiaceae",
+        "Coxiella burnetii",
+        "Ehrlichia chaffeensis",
+        "Bartonella henselae",
+        "Bartonella quintana",
+        "Chlamydia",
+        "Mycoplasma"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ff5b0678-268b-4cbc-9841-6261c2ac16f1",
+        "name": "9-2-2008_SBM_018_FungiDisease",
+        "title": "Fungi and Fungal Diseases",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Mycology",
+        "Superficial mycoses",
+        "Subcutaneous",
+        "Systemic",
+        "histoplasmosis",
+        "cryptococcosis",
+        "coccidioidomycosis",
+        "blastomycosis",
+        "Opportunistic mycoses",
+        "Candidiasis",
+        "Pneumocystosis",
+        "Aspergillosis",
+        "Mucormycosis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "0177f607-9880-4cbb-ac3c-a91f0b61af1b",
+        "name": "9-2-2008_SBM_019_IntProtozoa",
+        "title": "Intestinal Protozoa",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Parasitology",
+        "symbiosis",
+        "mutualism",
+        "commensalism",
+        "parasitism",
+        "cestode",
+        "nematode",
+        "trematode",
+        "zoonosis",
+        "autochthonous",
+        "Balantidiasis",
+        "Giardiasis",
+        "Cryptosporidiosis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "23aab452-ee89-40c8-be3c-294e70498281",
+        "name": "9-2-2008_SBM_020_BloodTisProtozoa",
+        "title": "Blood and Tissue Protozoa",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Parasitology",
+        "Primary Amoebic Meningoencephalitis",
+        "African Sleeping Sickness",
+        "Chagas' Disease",
+        "Leishmaniasis",
+        "Trichomoniasis",
+        "Malaria",
+        "Toxoplasmosis",
+        "Pneumocystosis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "386eea12-836b-43af-86a0-fdcc64610245",
+        "name": "9-3-2008_SBM_021_Malaria",
+        "title": "Malaria",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Malaria",
+        "circulating gametocytes",
+        "mosquito",
+        "trophozoite",
+        "multinucleated schizont",
+        "merozoites",
+        "ERYTHROCYTIC CYCLE",
+        "P. vivax",
+        "P. ovale",
+        "P. malariae",
+        "P. falciparum"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f4e2ea24-7ad0-4b3f-a02b-301573b327f3",
+        "name": "9-3-2008_SBM_022_Flatworms",
+        "title": "Flatworms",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "FLATWORMS",
+        "Helminths",
+        "Platyhelminths",
+        "Trematodes",
+        "Schistosomiasis",
+        "Clonorchiasis",
+        "Fasciolopsiasis",
+        "Paragonimiasis",
+        "Cestodes",
+        "Diphyllobothriasis",
+        "Taeniasis saginata",
+        "Taeniasis solium",
+        "Echinococciasis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "39330b0f-787e-4544-b43b-c18268b88369",
+        "name": "9-4-2008_SBM_023_Roundworms",
+        "title": "Roundworms",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Roundworms",
+        "Parasitic Nematodes",
+        "Enterobiasis",
+        "Trichuriasis",
+        "Ascariasis",
+        "Hookworm",
+        "Strongyloidiasis",
+        "Filariasis",
+        "Trichinosis",
+        "Larva migrans"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "fa355b85-b75e-4352-b886-69f9c4fa1175",
+        "name": "9-4-2008_SBM_024_IntroImmunology",
+        "title": "Introduction to Immunology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Innate",
+        "adaptive",
+        "immunity",
+        "specificity",
+        "diversity",
+        "memory",
+        "Primary lymphoid organs",
+        "Secondary lymphoid organs",
+        "Antigens",
+        "antigenic determinants",
+        "antigenicity",
+        "Adjuvants",
+        "Lymphocyte recirculation",
+        "leukocyte traffic"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "27e96308-f0dd-4b98-8263-6253454981b4",
+        "name": "9-5-2008_SBM_025_AbTCRStruct",
+        "title": "Ab and TCR Structure",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Structure of Ab molecules",
+        "Structure of TcR molecules",
+        "functional Ag receptors",
+        "Immunoglobulin",
+        "Isotype switching",
+        "Somatic hypermutation",
+        "Switch to secreted Ab"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "acc35ba7-fdc9-4c09-9c91-5b8fe02df420",
+        "name": "9-5-08_SBM_026_MHCANtigenPres",
+        "title": "MHC and Antigen Presentation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "MHC molecules",
+        "polymorphism",
+        "T cells",
+        "MHC Class I pathway",
+        "MHC Class II pathway",
+        "Antigen-presenting cells"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "89809a8d-f384-4f28-bb3e-865c484cc494",
+        "name": "9-5-2008_SBM_027_TLymphocyteAct",
+        "title": "T Lymphocyte Activation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "TcR\/CD3",
+        "signaling",
+        "Second signals",
+        "costimulation",
+        "Clonal expansion",
+        "T lymphocyte homeostasis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6bfa947a-4a72-47f0-ae2f-c3fc57cb25de",
+        "name": "9-5-08_SBM_028_BLymphocyteAct",
+        "title": "Lymphocyte Activation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "BcR",
+        "signaling",
+        "B -T cell interaction",
+        "lymph node",
+        "Isotype switching",
+        "Affinity maturation",
+        "Switch to secretion",
+        "memory cells"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "49441b25-de06-405b-98a9-668b7e4e2993",
+        "name": "9-9-2008_SBM_29_Cytokines",
+        "title": "Cytokines",
+        "class": "Item",
+        "tags":
+        [
+        "Week 2",
+        "Cytokines",
+        "Brown"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "01f42c90-48fa-48b9-a377-b61c2dfd81d3",
+        "name": "9-9-2008_SBM_30_EffectFuncCM",
+        "title": "Effector Functions of Cell-mediated Immunity",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Cytotoxic T lymphocyte"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e56faa7e-eb0c-4e01-acd8-ff6a69d1d550",
+        "name": "9-10-2008_SBM_31_EffectorFunctions",
+        "title": "Effector Functions of Humoral Immunity",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Effector functions of different Ab isotypes",
+        "FcR-dependent functions of Ab",
+        "complement in humoral immune responses",
+        "Diseases due to complement pathway deficiencies"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "08844417-e7ec-49a1-8229-557d5f4e0477",
+        "name": "9-10-2008_SBM_32_InnateImmunity",
+        "title": "Innate Immunity",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Innate Immune response",
+        "Serum factors",
+        "Adaptive Immune response"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "25b8b1a2-127c-4006-867a-36f5fbcb98f7",
+        "name": "9-11-2008_SBM_33_ImmunityMicrobes",
+        "title": "Immunity to Microbes",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Immunity to intracellular bacteria",
+        "Immunity to extracellular bacteria",
+        "Immunity to viruses",
+        "Immunity to fungi",
+        "Immunity to parasites"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f557a002-4549-422f-b639-a1c9262f804f",
+        "name": "9-11-2008_SBM_34_ImmunTol",
+        "title": "Immunologic Tolerance",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Central tolerance",
+        "Peripheral tolerance",
+        "Clonal anergy",
+        "Clonal deletion",
+        "Suppression",
+        "Homeostasis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "58f16f2c-100e-406b-87a4-3bdabe6359e1",
+        "name": "9-12-2008_SBM_35_HyperAuto",
+        "title": "Hypersensitivity & Autoimmunity ",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Immediate hypersensitivity",
+        "Ab mediated",
+        "Immune complex mediated",
+        "T cell mediated",
+        "Inappropriate expression of costimulators",
+        "Molecular mimicry",
+        "Mutation or defective function of regulatory molecules"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e8ddfaae-3406-44b3-9852-46b1908cebce",
+        "name": "9-12-2008_SBM_36_ImmunTrans",
+        "title": "Immunodeficiency and Transplantation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 3",
+        "Severe combined immunodeficiency",
+        "Bare lymphocyte syndrome",
+        "X-linked agammaglobulinemia",
+        "Hyper-IgM syndrome",
+        "T cell signaling defects",
+        "Leukocyte adhesion deficiency-1",
+        "T cell recognition of allo-Ag",
+        "Allograft rejection",
+        "Bone marrow transplantation"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e67cd8a8-9972-4392-b810-5e7ff7d6ef32",
+        "name": "9-15-2008_SBM_037_AntiviralDrugs",
+        "title": "Antiviral Drugs",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "Antiviral Drugs",
+        "Sutton"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d56ee7f1-e601-41b7-8994-b2709a2ef4ae",
+        "name": "9-15-2008_SBM_038_Immunosuppressants",
+        "title": "Immunosuppressants",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "mmunosuppressants",
+        "Gallon"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a045381b-65e3-4cbe-a4d4-7f66055bca6e",
+        "name": "9-16-2008_SBM_039_AcuteInflamI",
+        "title": "Accute Inflammation I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "Accute Inflammation I",
+        "Karpus"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2aaf67fd-8c5d-4048-8701-001511d21b99",
+        "name": "9-16-2008_SBM_040_AcuteInflamII",
+        "title": "Accute Inflammation II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "Accute Inflammation II",
+        "Karpus"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f36b1ed8-9254-45d1-9142-b7c35ada03e1",
+        "name": "9-17-2008_SBM_041_ChronicInflamI",
+        "title": "Chronic Inflammation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "Chronic Inflammation",
+        "Karpus"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "cc02b179-b171-4f34-adff-4c93f6842c6d",
+        "name": "9-18-2008_SBM_043_RepairRegen",
+        "title": "Repair & Regeneration",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "Repair & Regeneration",
+        "Karpus"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "bfab646b-018a-4508-9612-4a7aa7f2d629",
+        "name": "9-18-2008_SBM_044_Sepsis",
+        "title": "Sepsis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 4",
+        "Sepsis",
+        "Karpus"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b75f25ae-627d-46cf-b72c-f2cee597d9b1",
+        "name": "9-23-2008_SBM_045_GenVar",
+        "title": "Genetic Variation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "Electrophoresis",
+        "Human Hexosaminidases",
+        "POLYMORPHISM",
+        "Apolipoprotein B-100",
+        "Apolipoprotein-B Alleles",
+        "Apo-B100 Haplotypes"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "77fa5925-d67e-4e34-8dc0-ca0c12658ffb",
+        "name": "9-23-2008_SBM_046_AutoRecDisI",
+        "title": "Autosomal Dominant Disorders I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "Autosomal Recessive Inheritance",
+        "Alterations of Enzyme Activity",
+        "Deficient enzyme activity",
+        "SUBSTRATE ACCUMULATION",
+        "Tay-Sachs disease",
+        "Mucopolysaccharidoses",
+        "I-cell disease (Mucolipidosis II)",
+        "Glycogen storage diseases",
+        "Urea cycle disorders",
+        "Propionic acidemia",
+        "Multiple carboxylase deficiency",
+        "Galactosemia"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "275717f6-822c-4e18-b913-8fb31bc620f0",
+        "name": "9-24-2008-SBM_047_AutoRecDisII",
+        "title": "Autosomal Recessive Disorders II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "normal variation",
+        "abnormal variation",
+        "primary peptide structure",
+        "protein stability",
+        "ntracellular transport",
+        "packaging in organelles",
+        "active site",
+        "subunit assembly",
+        "Deficient enzyme activity",
+        "SUBSTRATE ACCUMULATION",
+        "Tay-Sachs disease",
+        "Mucopolysaccharidoses",
+        "I-cell disease",
+        "Glycogen storage diseases",
+        "Urea cycle disorders",
+        "Propionic acidemia",
+        "Multiple carboxylase deficiency",
+        "Galactosemia"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "62dfad78-fcf2-4a7b-bd56-e4151ce8c425",
+        "name": "9-24-2008_SBM_048_AutoDomDis",
+        "title": "Autosomal Dominant Disorders I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "Haploinsufficiency",
+        "Familial hypercholesterolemia",
+        "Dominant negative",
+        "Insulin Chicago",
+        "Osteogenesis imperfecta",
+        "Achondroplasia",
+        "Wolf-Hirschhorn",
+        "Familial male precocious puberty"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b0c23ca3-98c1-4923-b68b-3c2f14085d00",
+        "name": "9-25-2008_SBM_049_ChromAnom",
+        "title": "Chromosome Anomalies",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "Meiotic nondisjunction",
+        "mosaicism",
+        "RECIPROCAL TRANSLOCATIONS",
+        "ROBERTSONIAN TRANSLOCATIONS",
+        "CHROMOSOMAL SYNDROMES",
+        "Down syndrome"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6e789e49-7991-45ea-9f21-e840a45fb75e",
+        "name": "9-25-2008_SBM_050_TriNucRepDis",
+        "title": "Trinucleotide Repeats and Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "Fragile-X Syndrome",
+        "trinucleotide repeat length",
+        "Myotonic dystrophy",
+        "Spinal and bulbar muscular atrophy",
+        "Huntington disease"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "58e56dea-81bc-4984-8cf4-aca9f18ef319",
+        "name": "9-26-2008_SBM_052_CongenAnom",
+        "title": "Congenital Anomalies",
+        "class": "Item",
+        "tags":
+        [
+        "Week 5",
+        "Malformations",
+        "Deformations",
+        "Disruptions"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ae7cbe22-175f-456a-ba40-60af6345e813",
+        "name": "9-29-2008_SBM_053_DevPatForm",
+        "title": "Development and Pattern Formation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Cell fate specification",
+        "Pattern formation",
+        "Maternal-effect genes",
+        "Segmentation genes",
+        "Gap genes",
+        "Segment polarity genes",
+        "Homeotic genes"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "38f9bf1a-a238-46a0-96e8-981ae58bf35d",
+        "name": "9-29-2008_SBM_054_GeneTher",
+        "title": "Gene Therapy",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "n vivo",
+        "ex vivo",
+        "naked DNA",
+        "liposomes",
+        "viral vectors",
+        "Retrovirus vectors",
+        "Lentiviral vectors",
+        "Adenovirus vectors",
+        "Parkinson\u2019s disease",
+        "Lou Gehrig\u2019s disease"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5fba09c8-4187-4544-85b1-863946e6dfbd",
+        "name": "9-29-2008_SBM_055_DosResRelat",
+        "title": "Dose Response Relationships",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "RECEPTORS",
+        "AGONISTS",
+        "ANTAGONISTS",
+        "PARTIAL AGONISTS",
+        "INVERSE AGONISTS",
+        "ALLOSTERIC MODULATION",
+        "Negative allosterism",
+        "ED50",
+        "Competitive antagonists",
+        "Non-competitive antagonists",
+        "Inhibition-response curves",
+        "Schild Analysis",
+        "Monod-Wyman-Changeux model",
+        "Koshland-Nemethy-Filmer model"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "dd758311-b6a6-4097-bc74-fb3e8428049f",
+        "name": "9-29-2008_SBM_056_RecepTheory",
+        "title": "Receptory Theory",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "RECEPTORS",
+        "AGONISTS",
+        "ANTAGONISTS",
+        "PARTIAL AGONISTS",
+        "INVERSE AGONISTS",
+        "ALLOSTERIC MODULATION",
+        "Negative allosterism",
+        "ED50",
+        "Competitive antagonists",
+        "Non-competitive antagonists",
+        "Inhibition-response curves",
+        "Schild Analysis",
+        "Monod-Wyman-Changeux model",
+        "Koshland-Nemethy-Filmer model"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9928a003-9d4e-426f-ba89-011480ceae4a",
+        "name": "9-30-2008_SBM_057_RecepSig",
+        "title": "Receptor Signaling",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "endogenous regulatory ligands",
+        "Intracellular receptors",
+        "Transmembrane proteins with intrinsic or auxiliary enzymatic activities",
+        "Ligand- or voltage-gated ion channels",
+        "G-protein coupled receptors",
+        "DESENSITIZATION\/TACHYPHYLAXIS",
+        "Receptor-mediated",
+        "Non-receptor-mediated"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b45e2a00-5905-403e-9f9a-28f631663a76",
+        "name": "9-30-2008_SBM_058_DrugTrans",
+        "title": "Drug Transport",
+        "class": "Item",
+        "tags":
+        [
+        "Aquaporins",
+        "Aqueous diffusion",
+        "Cytosis",
+        "Dialyzing membranes",
+        "Endothelial Fenestrae",
+        "Facilitated diffusion",
+        "Henderson-Hasselbalch equation",
+        "Lipid diffusion",
+        "Paracellular transport and barrier",
+        "Primary Active transport",
+        "Secondary Active Transport",
+        "Selectively permeable membranes",
+        "Solute carrier (SLC) transporters",
+        "The cut-off phenomenon for lipid-solubility",
+        "Vectorial transport",
+        "Week 6"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "1cd1247f-0e38-40fa-b9fa-008757691889",
+        "name": "10-1-2008_SBM_059_DrugDist",
+        "title": "Drug Distribution",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Rectal administration",
+        "Intravenous injection",
+        "Intramuscular injection",
+        "Subcutaneous injection",
+        "Intrathecal injection",
+        "Inhalation",
+        "Bioequivalence",
+        "Blood-brain barrier",
+        "Cerebrospinal fluid (CSF)-brain barrier"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b3dd01bd-126a-4cf8-8ee8-d28c31c65cb2",
+        "name": "10-1-2008_SBM_060_DrugExcre",
+        "title": "Drug Excretion",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Glomerular filtration",
+        "Tubular secretion",
+        "Passive tubular reabsorption",
+        "lteration of renal excretion of drug",
+        "Drug excretion in the bile"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "18b6566b-0b1c-40be-ad56-6e0d4bc68706",
+        "name": "10-1-2008_SBM_062_DrugMetab",
+        "title": "Drug Metabolism II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Glucuronyl Transferase",
+        "Sulfotransferases",
+        "Acetyl transferases",
+        "Amino acid conjugation",
+        "Glutathione S-transferase (mercapturate biosynthesis)",
+        "hepatic metabolism",
+        "Age",
+        "diet",
+        "co-administered drugs",
+        "genetics",
+        "renal and hepatic function",
+        "personal habits like smoking",
+        "Enzyme inhibition",
+        "Enzyme Induction",
+        "Depletion of substrates like PAPS",
+        "UDP-glucuronate and glutathione"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "473c736c-c300-4ef9-abf7-8aa7b79586f5",
+        "name": "10-02-08_SBM_063_PharmacokineticsI",
+        "title": "Pharmacokinetics I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Volume of distribution",
+        "plasma equivalent apparent"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e1c3d38c-b2d4-4128-84b5-0799c2954250",
+        "name": "10-02-08_SBM_064_PharmacokineticsII",
+        "title": "Pharmacokinetics II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Half-Life",
+        "Plateau Principle",
+        "Dose Calculation",
+        "Distribution Kinetics"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "09759933-f2b0-4da4-96d3-429d38e16b47",
+        "name": "10-02-08_SBM_065_PharmacokineticsIII",
+        "title": "Pharmacokinetics III ",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Elimination Clearance",
+        "Extravascular Drug Administration",
+        "Pharmacodynamics"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e0e0d06b-7ce1-4c24-afb6-029db37c34c4",
+        "name": "10-02-08_SBM_066_AntimicrobialsI ",
+        "title": "Antimicrobial Chemotherapy I ",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Selective toxicity",
+        "Bactericidal",
+        "Bacteriostatic",
+        "Spectrum of antibacterial activity",
+        "Determinants of therapy effectiveness",
+        "Intrinsic resistance",
+        "Escape from the antibiotic effects",
+        "Mechanisms of resistance",
+        "Disk-diffusion method",
+        "Serial dilution method",
+        "Agar dilution method",
+        "Superinfections",
+        "Prophylactic use of antibiotics",
+        "Antibiotic combinations",
+        "\u03b2-Lactam Antibiotics",
+        "Autolysins",
+        "Cephalosporins",
+        "Pharmacokinetics",
+        "Carbapenems",
+        "Monobactams",
+        "\u03b2-Lactamase Inhibitors"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "1a3209a1-477e-493e-a506-f81ea16cdc23",
+        "name": "10-03-08_SBM_067_AntimicrobialsII",
+        "title": "Antimicrobial Chemotherapy II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Inhibitors of Cell Wall Synthesis",
+        "Vancomycin",
+        "Teicoplanin",
+        "Fosfomycin",
+        "Bacitracin",
+        "Cycloserine"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "deca470a-7b9c-4789-8532-2d77c7236d6f",
+        "name": "10-03-08_SBM_068_AntimicrobialsIII",
+        "title": "Antimicrobial Chemotherapy III",
+        "class": "Item",
+        "tags":
+        [
+        "Week 6",
+        "Bacterial Protein Synthesis",
+        "Tetracyclines",
+        "Chloramphenicol",
+        "Macrolide antibiotics",
+        "Clindamycin",
+        "Aminoglycosides"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "505e2174-c6b5-4d2b-ac4a-374641089fc0",
+        "name": "10-06-08_SBM_069_AntimicrobialsIV",
+        "title": "Antimicrobial Chemotherapy IV",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Antifolate Drugs",
+        "Sulfonamides",
+        "Trimethoprim",
+        "Sulfonamide plus a folate reductase inhibitor",
+        "Sulfamethoxazole + trimethoprim",
+        "Sulfadoxine + pyrimethamine",
+        "Sulfadiazine + pyrimethamine",
+        "DNA Gyrase and Topoisomerase Inhibitors: Fluoroquinolones"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "623908ad-bd12-4d6b-85e4-8d41298d717f",
+        "name": "10-06-08_SBM_070_AntimicrobialsV",
+        "title": "Antimicrobial Chemotherapy V",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Polyene antibiotics",
+        "Amphotericin B",
+        "Nystatin",
+        "Flucytosine",
+        "Azoles",
+        "Ketoconazole",
+        "Miconazole",
+        "Clotrimazole",
+        "Itraconazole",
+        "Fluconazole",
+        "Voriconazole",
+        "Terbinafine"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9f58228e-ea57-463e-9e06-d1585f280575",
+        "name": "10-07-08_SBM_072_CellAdapInjuryI",
+        "title": "Cellular Adaptation, Injury and Death I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Conditionally dividing cells\/tissues",
+        "Non-dividing cells\/tissues",
+        "Stem Cell",
+        "Committed Progenitor",
+        "Transient Amplification",
+        "Differentiation",
+        "Replacement",
+        "Cell Signaling- Growth factors",
+        "Endocrine",
+        "autocrine",
+        "paracrine",
+        "Hyperplasia",
+        "Hypertrophy",
+        "Atrophy",
+        "Hypoplasia",
+        "Metaplasia",
+        "Epithelial metaplasias",
+        "Squamous metaplasia",
+        "Glandular metaplasia",
+        "Connective tissue metaplasias",
+        "Dysplasia",
+        "Neoplasia"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f7a1118d-eee4-4fef-a8e5-518e04335711",
+        "name": "10-08-08_SBM_073_CellAdapInjuryII",
+        "title": "Cellular Adaptation, Injury and Death II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Coagulative necrosis",
+        "Liquefaction necrosis",
+        "Caseous necrosis",
+        "Fat necrosis",
+        "Gangrenous necrosis",
+        "Tumor necrosis",
+        "ATP depletion",
+        "Loss of calcium homeostasis",
+        "Reactive oxygen species (ROS)",
+        "Loss of membrane permeability",
+        "Hypoxic\/anoxic injury",
+        "Oxidative damage",
+        "Reactive nitrogen oxide species",
+        "Lipid peroxidation",
+        "Apoptosis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "775dca3a-04c7-4738-8f65-b85d0277d926",
+        "name": "10-08-08_SBM_074_CellAdapInjuryIII",
+        "title": "Cellular Adaptation, Injury and Death III",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Cell Injury: Subacute",
+        "Chronic",
+        "Reye's syndrome",
+        "Ubiquitination of cellular proteins",
+        "Exogenous Accumulations",
+        "Pathological (Ectopic) Mineralization",
+        "Endogenous accumulations",
+        "Multiorgan fatty metamorphosis",
+        "Fatty liver",
+        "Alcoholic steatohepatitis",
+        "Non-alcoholic steatohepatitis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e871a7d6-fac8-44ff-8034-607c7a66f149",
+        "name": "10-09-08_SBM_075_NeoplasiaI",
+        "title": "Neoplasia I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Neoplasia",
+        "Pelling"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "0ee9d750-3c47-4b90-89a8-e748c057e70b",
+        "name": "10-10-08_SBM_076_Neoplasia II",
+        "title": "Neoplasia III",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Neoplasia",
+        "Hyperplasia",
+        "Pelling"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e50b8d68-e89b-49cf-8152-bcb388376f66",
+        "name": "10-10-08_SBM_077_NeoplasiaIII",
+        "title": "Neoplasia III",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Neoplasia",
+        "Hyperplasia",
+        "Pelling"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9c32865c-c58e-4cff-a351-9a55d8f8b06f",
+        "name": "10-10-08_SBM_078_NeoplasiaIV",
+        "title": "Neoplasia IV",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Neoplasia",
+        "Hyperplasia",
+        "Pelling"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "3e0364a7-2815-43b5-bb4a-83a1a288a7e3",
+        "name": "10-13-08_SBM_079_NeoplasiaV",
+        "title": "Neoplasia V",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Neoplasia",
+        "Hyperplasia",
+        "Pelling"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "4cd7b428-712f-4c61-a994-ddbdaeebe90f",
+        "name": "10-13-08_SBM_080_NeoplasiaV",
+        "title": "Neoplasia V",
+        "class": "Item",
+        "tags":
+        [
+        "Week 7",
+        "Neoplasia",
+        "Hyperplasia",
+        "Pelling"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "99d60ed6-e20f-4920-bc17-f7910d1e7e51",
+        "name": "10-14-08_SBM_080_HemoDisord",
+        "title": "Hemodynamic Disorders, Thromboembolic Disease & Shock",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Intravascular space",
+        "Lymphatic space",
+        "Cellular (intracellular) space",
+        "Interstitial\/ intercellular space",
+        "Endothelial Cell Role in Maintenance of the Vascular Space",
+        "Edema",
+        "Transudate\/Exudate",
+        "Congestion",
+        "Thrombosis",
+        "Embolus",
+        "Infarct",
+        "Shock"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a99063e2-fa61-4fdf-bc06-08ba650a0e85",
+        "name": "10-14-08_SBM_081_PathReject",
+        "title": "Principles of Liver and Heart Transplantation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Autograft",
+        "Isograft",
+        "Allograft",
+        "Xenotransplant",
+        "Orthotopic transplantation",
+        "Heterotransplantation",
+        "Rejection"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "37f5c5f1-bf86-45ac-8b64-98343ad885a7",
+        "name": "10-15-08_SBM_082_Autoimmune",
+        "title": "Autoimmune Disorders",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "clonal deletion",
+        "Clonal anergy",
+        "Sustained activation",
+        "Suppressor cell (TH)",
+        "AUTOIMMUNE DISORDERS",
+        "Grave's Disease",
+        "Hashimoto's Thyroiditis",
+        "Myasthenia Gravis",
+        "Goodpasture's Syndrome",
+        "Pernicious Anemia"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e156454b-3ede-4154-8605-cb2ea73233a6",
+        "name": "10-15-08_SBM_083_ConnectTisDisI",
+        "title": "Connective Tissue Disorders I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Connective Tissue Disorders",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "679d0b2f-8cf1-41bc-bd0d-af04c4754ce2",
+        "name": "10-16-08_SBM_084_ConnectTisDisII",
+        "title": "Connective Tissue Disorders II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Connective Tissue Disorders",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "aa2c8d64-e177-489b-a552-b8088c5c5ed0",
+        "name": "10-16-08_SBM_085_AmyloidosisColl",
+        "title": "Amyloidosis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Primary amyloidosis",
+        "Secondary amylodosis",
+        "Familial amyloidosis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9e71b86f-44f0-4784-9911-e3dec99ccdb5",
+        "name": "10-17-08_SBM_086_Alloantibody",
+        "title": "Alloantibody-Mediated Diseases",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Alloantibody-Mediated Diseases",
+        "Ramsey"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d645397f-e8f9-4518-b23b-06d04ab7faff",
+        "name": "10-17-08_SBM_087_MolecularTech",
+        "title": "Molecular Diagnostics",
+        "class": "Item",
+        "tags":
+        [
+        "Week 8",
+        "Hybridization",
+        "DNA sequencing",
+        "Polymerase Chain Reaction",
+        "Southern blotting"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "1988ada8-e675-46af-8c38-b775f0d95377",
+        "name": "10-21-08_SBM_088_IntroHema",
+        "title": "Introduction to Hematology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9. Hemetology",
+        "Introduction to Hematology",
+        "Green"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b07da6df-4797-4bd9-bb7a-eb37318f47a8",
+        "name": "10-21-08_SBM_089_Hematopoiesis",
+        "title": "Hematopoiesis and Cytokines",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Hematopoiesis",
+        "Growth Factors",
+        "Eklund"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b5e9c058-6cf0-485b-95b0-7f7f215cba41",
+        "name": "10-21-08_SBM_090_IronDefOver",
+        "title": "Anemias: Introduction",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Iron deficiency and iron overload",
+        "Green"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "3ca02e4f-ec5a-46b8-adf0-2d6d1d6abe09",
+        "name": "10-21-08_SBM_091_HemoglobinopathiesII",
+        "title": "Hemoglobinopathies II: Thalassemia Syndromes",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Hemoglobinopathies II",
+        "Thompson"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9f93a192-057f-4055-9f50-258fbac10a9a",
+        "name": "10-22-08_SBM_092_ConHemoAnem",
+        "title": "Congenital Hemolytic Anemias",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Congenital Hemolytic Anemias",
+        "Zakarija"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "8370fb40-4450-4640-b56e-1d452ea54f71",
+        "name": "10-22-08_SBM_093_AcqHemoAnem",
+        "title": "Acquired Hemolytic Anemias",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "HHemetology",
+        "Acquired Hemolytic Anemias",
+        "Zakarija"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "59fed8ad-2945-42d3-a923-38575c07d2fa",
+        "name": "10-22-08_SBM_094_BloodComp",
+        "title": "Blood Components",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Blood Components",
+        "Ramsey"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5fe8240e-fc72-4cb0-bdba-9224042c083b",
+        "name": "10-22-08_SBM_095_Transfusion",
+        "title": "Transfusion Safety",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Transfusion Safety",
+        "Ramsey"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "90c7423c-432a-4359-8f0a-f6d1b8540a01",
+        "name": "08_SBM_096_HemoglobinopathiesI",
+        "title": "Hemoglobinopathies II: Sickle Cell Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Hemoglobinopathies I",
+        "Liem"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "49594346-6eca-43ac-bb7d-99ebe1ea1408",
+        "name": "10-23-08_SBM_097_MegaAnem",
+        "title": "Megaloblastic Anemias",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Megaloblastic Anemias",
+        "Nelson"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "42912256-f73b-457a-bd95-03a29d3697f4",
+        "name": "10-24-08_SBM_099_Thrombocytopenias",
+        "title": "Thrombocytopenia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 9",
+        "Hemetology",
+        "Thrombocytopenias",
+        "Zakarija"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6c1ac94c-9837-4093-9ee7-e60f311ea3ea",
+        "name": "10-27-08_SBM_100_CoagCas",
+        "title": "Coagulation Cascade & Physiological Anticoagulants",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Hemetology",
+        "Coagulation Cascade",
+        "Allen"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "97f382a7-1fe2-4291-aecb-87964269f4d1",
+        "name": "10-27-08_SBM_101_InBleedDis",
+        "title": "Inherited Bleeding Disorders",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "VHemetology",
+        "Inherited Bleeding disorders",
+        "Allen"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a2e8b101-1b50-4cf6-8041-a7121437452a",
+        "name": "10-27-08_SBM_102_InClotDis",
+        "title": "Inherited Thrombophilia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Hemetology",
+        "Inherited Clotting disorders",
+        "Green"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f1278e26-fc17-486c-be23-d1f05f3d5d9d",
+        "name": "10-28-08_SBM_103_AntiCoagI",
+        "title": "Pharmacology of Anticoagulants I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Hemetology",
+        "Anticoagulants I",
+        "Green"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "592682d4-e3bd-40ca-9786-33062365fae4",
+        "name": "10-28-08_SBM_104_AntiCoagII",
+        "title": "Pharmacology of Anticoagulants II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "WHemetology",
+        "Anticoagulants II",
+        "Green"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "13892227-3e31-474a-bee6-439380c3465b",
+        "name": "10-29-08_SBM_105_AcqCoagDis",
+        "title": "Acquired Coagulopathy",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Hemetology",
+        "Acquired Coagulation Disorders",
+        "McMahon"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "fbb18a3f-c9b4-4b90-81c1-c91f4c74645d",
+        "name": "10-29-08_SBM_106_FibriThrom",
+        "title": "Fibrinolysis and Thrombolytic Therapy",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Hemetology",
+        "Fibrinolysis & Thrombolytic Rx",
+        "Kwaan"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "48c0d7f2-2b5b-4c8a-87e3-1b16c941d279",
+        "name": "10-30-08_SBM_107_IntroOncol",
+        "title": "Introduction to Oncology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Oncology",
+        "Introduction to Oncology",
+        "Cianfrocca"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "3efec3ed-0136-459b-91f0-ee1d036f2fbd",
+        "name": "10-31-08_SBM_110_PlasmaCellDis",
+        "title": "Plasma Cell Disorders",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Oncology",
+        "Plasma Cell Disorders",
+        "Rosen"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6cd78e42-a832-44c5-b46e-790a4ec7265e",
+        "name": "10-31-08_SBM_111_ALL",
+        "title": "Acute Lymphoblastic Leukemia\/Lymphoma; ALLAcute Lymphoblastic Leukemia\/Lymphoma; ALL",
+        "class": "Item",
+        "tags":
+        [
+        "Week 10",
+        "Oncology",
+        "ALL",
+        "Nelson"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "cef052c6-d89d-42fa-bde5-4ec0606c06b2",
+        "name": "11-3-08_SBM_112_AML",
+        "title": "Acute Myeloid Leukemia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "AML",
+        "Frankfurt"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ecbe148c-6bad-4fb1-a15a-a382a5f991f5",
+        "name": "11-3-08_SBM_113_CML",
+        "title": "Chronic Myelogenous Leukemia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "CML",
+        "Frankfurt"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "dec2d259-66e5-4251-b603-93c377313a84",
+        "name": "11-4-08_SBM_114_MDS",
+        "title": "Myelodysplastic Syndromes",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "MDS",
+        "Eklund"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "46a73906-e6f1-4bc8-a569-b6703112fbdd",
+        "name": "11-5-08_SBM_115_NHL",
+        "title": "Non-Hodgkin Lymphomas",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "NHL",
+        "Evens"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "00d9ec21-cde8-48fd-ab55-d842f3fef9fd",
+        "name": "11-5-08_SBM_116_NHLPath",
+        "title": "Non-Hodgkin Lymphomas Pathology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "NHL Pathology",
+        "Variakojis"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "54131771-b1c7-40c1-ab7e-a7fe6103f327",
+        "name": "11-6-08_SBM_117_HD",
+        "title": "Hodgkin\u2019s Disease (aka Hodgkin Lymphoma)",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "HD",
+        "Evens"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2eedff2e-174d-4bb0-9b7b-7f0ad95475b0",
+        "name": "11-6-08_SBM_118_Transplant",
+        "title": "Hematopoietic Stem Cell Transplantation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 11",
+        "Oncology",
+        "Transplant",
+        "Mehta"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "4b2cc1fc-56df-4420-8525-1017322ecb01",
+        "name": "11-11-08_SBM_125_EndoPharmMetBoneI",
+        "title": "Endocrine Pharmacology I: Mineral Metabolism & Bone",
+        "class": "Item",
+        "tags":
+        [
+        "Week 12",
+        "Endocrinology",
+        "Endo Pharm I: Mineral Metabolism & Bone I",
+        "Stern"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d5cfb730-165a-43fb-b993-d69dfec5c79f",
+        "name": "11-11-08_SBM_126_EndoPharmMetBoneII",
+        "title": "Mineral Metabolism and Bone II ",
+        "class": "Item",
+        "tags":
+        [
+        "Week 12",
+        "Endocrinology",
+        "Endo Pharm I: Mineral Metabolism & Bone II",
+        "Edwards"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "86ce848a-6b49-4552-baa5-f6981fdadd96",
+        "name": "11-12-08_SBM_127_ReproEndoI",
+        "title": "Human Reproduction I",
+        "class": "Item",
+        "tags":
+        [
+        "Endocrinology",
+        "Reproductive Endocrinology I",
+        "Dunaif"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "cb85f909-c709-4101-9618-59b0e811899a",
+        "name": "11-12-08_SBM_128_ReproEndoII",
+        "title": "Human Reproduction II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 12",
+        "Endocrinology",
+        "Reproductive Endocrinology II",
+        "Dunaif"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d4904af5-ebd2-4626-a819-ec735597d077",
+        "name": "11-13-08_SBM_129_HypoPitI",
+        "title": "Hypothalamus\/Pituitary I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 12",
+        "Endocrinology",
+        "Hypothalamus\/Pituitary I",
+        "Molitch"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "459f64d5-c429-4f97-8711-fefcc0d1f1c9",
+        "name": "11-13-08_SBM_130_HypoPitII",
+        "title": "Hypothalamus\/Pituitary II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 12",
+        "Endocrinology",
+        "Hypothalamus\/Pituitary II",
+        "Molitch"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5fbe95b6-38da-449d-acc3-e005ef3859b4",
+        "name": "11-14-08_SBM_131_GrowthDev",
+        "title": "Growth & Development",
+        "class": "Item",
+        "tags":
+        [
+        "Week 12",
+        "Endocrinology",
+        "Growth and Development",
+        "Habiby"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "679794ff-5dc7-4c74-b93b-bbb54bfb1aee",
+        "name": "11-18-08_SBM_134_DiabetesI",
+        "title": "Diabetes I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 13",
+        "Endocrinology",
+        "Diabetes I",
+        "Lowe"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a675b518-b588-45b4-a7e0-44b4821fda40",
+        "name": "11-18-08_SBM_135_DiabetesII",
+        "title": "Diabetes II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 13",
+        "Endocrinology",
+        "Diabetes I",
+        "Lowe"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "74c23998-5cbc-4100-89f2-89472d21a726",
+        "name": "11-19-08_SBM_137_GonadHormAgen",
+        "title": "Endocrine Pharmacology II: Gonadal Hormones and Related Agents",
+        "class": "Item",
+        "tags":
+        [
+        "Week 13",
+        "Endocrinology",
+        "Endo Pharm II: Gonadal Hormones & Agents",
+        "Stern"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d6692150-6c8f-4fe2-8833-67221081f383",
+        "name": "11-21-08_SBM_141_SexDiff",
+        "title": "Sex Differentiation",
+        "class": "Item",
+        "tags":
+        [
+        "Week 13",
+        "Endocrinology",
+        "Sexual Differentiation",
+        "Brickman"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "8e377a53-141e-4f53-aa76-7ea23fa7e20d",
+        "name": "11-24-08_SBM_142_ThyAdPan",
+        "title": "Endocrine Pharmacology III: Thyroid, Adrenal and Pancreas",
+        "class": "Item",
+        "tags":
+        [
+        "Week 13",
+        "Endocrinology",
+        "Endo Pharm III: Thyroid",
+        "Adrenal",
+        "& Pancreas",
+        "Stern"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a68fec3f-b3ff-437c-a83c-42c87c1a94b8",
+        "name": "11-24-08_SBM_143_ThyAdPan",
+        "title": "Endocrine Pharmacology III: Thyroid, Adrenal and Pancreas",
+        "class": "Item",
+        "tags":
+        [
+        "Week 13",
+        "Endocrinology",
+        "Endo Pharm III: Thyroid",
+        "Adrenal",
+        "& Pancreas",
+        "Stern"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b41e82ac-21bf-431b-833a-1e5e69059826",
+        "name": "12-1-08_SBM_144_IntroRenalPhys",
+        "title": "Introduction to Renal Physiology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Introduction to Renal Physiology",
+        "Paparello"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "8d8c827c-f561-4c46-9452-b61d1ce22a1e",
+        "name": "12-1-08_SBM_145_RenalSyn",
+        "title": "Renal Syndromes",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Renal Syndromes",
+        "Paparello"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2221427e-f824-4ccb-8d9c-ef259fc8ddcd",
+        "name": "12-1-08_SBM_146_NephroticSyn",
+        "title": "Proteinuria and the Nephrotic Syndrome",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Proteinuria and the Nephrotic Syndrome",
+        "Schnaper"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2a3a84c7-6729-4487-912e-e7c340eef3c4",
+        "name": "12-2-08_SBM_147_RenalGlomDisI",
+        "title": "Renal Glomerular Disease I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Renal Glomerular Disease I",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d8213083-cc4e-4a19-95c6-1b913d2ae5c4",
+        "name": "12-2-08_SBM_148_RenalGlomDisII",
+        "title": "Renal Glomerular Disease II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Renal Glomerular Disease II",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c1b80291-05a9-4810-8bb0-2ee4a617cb71",
+        "name": "12-2-08_SBM_149_RenalGlomDisIII",
+        "title": "Renal Glomerular Disease III",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Renal Glomerular Disease III",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5ccfe005-0f97-4093-ac75-49c13e29c581",
+        "name": "12-2-08_SBM_150_MetaAcidosis",
+        "title": "Metabolic Acidosis and Alkalosis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "R Metabolic Acidosis and Alkalosis",
+        "Batlle"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "50145191-2a27-4960-800e-f641c3e436ea",
+        "name": "12-3-08_SBM_151_Dysnatremia",
+        "title": "Disorders of Water Metabolism: Hypernatremia and Hyponatremia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "R Disorders of Water Metabolism",
+        "Hypernatremia and Hyponatremia",
+        "Batlle"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "48305400-2f11-48bf-81b2-43f55987c17f",
+        "name": "12-3-08_SBM_152_PotassiumDis",
+        "title": "Disorders of Potassium Balance",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Disorders of Potassium Balance",
+        "Batlle"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "eecddfdf-9b47-4110-8454-dfed98a7c294",
+        "name": "12-3-08_SBM_153_LocalAnesthetics",
+        "title": "Local Anesthetics",
+        "class": "Item",
+        "tags":
+        [
+        "Week 15",
+        "Local Anesthetics",
+        "Yeh"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "bc0e9aa2-de72-4790-adfd-c4098e9a68a5",
+        "name": "12-08-08_SBM_161_KidneyTrans",
+        "title": "Kidney Transplantation Rejection",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Kidney Transplantation Rejection",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "345f5b37-a8f5-469d-9868-06e5b59f2198",
+        "name": "12-08-08_SBM_162_TuboCysticDis",
+        "title": "Renal Tubulointerstitial Diseases I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Renal Tubulointerstitial Diseases I",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "13e451c6-70e0-4ca5-a75c-90001899fa1c",
+        "name": "12-9-08_SBM_163_TuboCysticDisII",
+        "title": "Renal Tubulointerstitial Diseases II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Renal Tubulointerstitial Diseases II",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "46ee95a6-b066-4b1c-88c9-5449212c6b50",
+        "name": "12-9-08_SBM_164_CysticDisease",
+        "title": "Congenital Anomalies & Renal Cystic Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Congenital Anomalies & Renal Cystic Disease",
+        "Kanwar"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "900f44bd-726e-4259-b31f-eb2cd8d2d8fd",
+        "name": "12-11-08_SBM_168_RenCalcium",
+        "title": "Renal Calcium",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Chronic Renal Failure",
+        "Ghossein"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ec632673-bd52-45ee-91dd-8b628ef15166",
+        "name": "12-11-08_SBM_169_ChronicRenalFail",
+        "title": "Chronic Kidney Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Chronic Renal Failure",
+        "Ghossein"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9627d881-cfe1-444a-b3cd-fef4c704897a",
+        "name": "12-11-08_SBM_170_AcuteRenalFail",
+        "title": "Acute Renal Failure",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "CAcute Renal Failure",
+        "Friedewald"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "fbe45b09-c42a-40eb-a544-a5df7d197d24",
+        "name": "12-11-08_SBM_171_DisVolBal",
+        "title": "Disorders of Volume Balance",
+        "class": "Item",
+        "tags":
+        [
+        "Week16",
+        "Disorders of Volume Balance",
+        "Paparello"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "bb955002-9dd1-44fa-8a76-f3524f9776f9",
+        "name": "12-12-2008_SBM_172_DiabeticNeph",
+        "title": "Diabetic Nephropathy",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "Diabetic Nephropathy",
+        "Chen"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ebaf6795-e50b-41aa-b2b1-218dd9a442da",
+        "name": "12-12-2008_SBM_173_DiureticsIVF",
+        "title": "IVF, Diuretics, & Summary",
+        "class": "Item",
+        "tags":
+        [
+        "Week 16",
+        "IVF",
+        "Diuretics",
+        "& Summary",
+        "Paparello"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5ad45300-2f0b-42aa-85bd-86c9c171382b",
+        "name": "12-15-08_SBM_174_RenalUroCanI",
+        "title": "Renal and Urothelial Cancers I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Renal and Urothelial Cancers I",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "67fd9be6-19e4-4455-85bd-0469eb545972",
+        "name": "12-15-08_SBM_175_RenalUroCanII",
+        "title": "Renal and Urothelial Cancer II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Renal and Urothelial Cancers II",
+        "Kozlowski"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c7707f5f-5471-4ff4-a66f-a88c4638b84e",
+        "name": "12-15-08_SBM_176_PathProstate",
+        "title": "Pathology of the Prostate Gland & Male External Genitalia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Pathology of the Prostate Gland & Male External Genitalia",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d1baa34f-1a81-400c-a948-a01b7e299b84",
+        "name": "12-15-08_SBM_177_UrniaryInfec",
+        "title": "Urinary Tract Infection: A Military Migration of Microbes",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Urinary Tract Infection: A Military Migration of Microbes",
+        "Schaeffer"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "16c658db-496f-4873-84e8-3aa90208d8d7",
+        "name": "12-16-08_SBM_178_UrinObstSTone",
+        "title": "Hydronephrosis, Nephrolithiasis: Urinary Obstruction\/Urinary Stone Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "PHydronephrosis",
+        "Nephrolithiasis: Urinary Obstruction\/Urinary Stone Disease",
+        "Nadler"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d4491ef3-d32d-4d42-9c41-35e6d932de4e",
+        "name": "12-16-08_SBM_179_ProstateCan",
+        "title": "Benign Prostatic Hyperplasia\/Prostate Cancer",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Benign Prostatic Hyperplasia\/Prostate Cancer",
+        "McVary"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "db2ec88a-f70f-44f4-8768-f95f58711f43",
+        "name": "12-17-08_SBM_180_PathTestis",
+        "title": "Pathology of the Testis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Pathology of the Testis",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "7131c46f-899c-4460-9b00-d2e17a56e866",
+        "name": "12-17-08_SBM_181_DisScrotumTestis",
+        "title": "Benign Scrotal Conditions, Testis Cancer, Penile Cancer, & Urethral Cancer",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Benign Scrotal Conditions",
+        "Testis Cancer",
+        "Penile Cancer",
+        "& Urethral Cancer",
+        "Kozlowski"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "27f5cc26-122a-4fa5-a0af-911a1bfc76c1",
+        "name": "12-18-08_SBM_182_Neurourology",
+        "title": "Neurourology and Voiding Dysfunction",
+        "class": "Item",
+        "tags":
+        [
+        "Week 17",
+        "Neurourology and Voiding Dysfunction",
+        "Kielb"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5d16fe92-d1e3-44db-aca2-ccf472093a7d",
+        "name": "01-05-09_SBM_183_EmbDevRepro",
+        "title": "Embryology, Developmental Biology, Reproductive Biology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Embryology",
+        "Developmental Biology",
+        "Reproductive Biology",
+        "Bulun"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "1f675594-9756-4b70-a64a-0bca8ae6db1e",
+        "name": "01-05-09_SBM_184_GynePathI",
+        "title": "Gynecological Pathology I: Vulva, Vagina and Cervix",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Gynecological Pathology I: Vulva",
+        "Vagina and Cervix",
+        "Pins",
+        "Haines",
+        "Laskin"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6279c29b-d2a4-4b88-9015-f5b39e20658d",
+        "name": "01-05-09_SBM_185_GynePathII",
+        "title": "Gynecological Pathology II: Uterus",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Gynecological Pathology II: Uterus",
+        "Pins",
+        "Haines",
+        "Laskin"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "023434bd-4374-4908-b38f-a8587cc7dcf1",
+        "name": "01-05-09_SBM_186_GynePathIII",
+        "title": "Gynecological Pathology III: Ovaries",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Gynecological Pathology III: Ovaries",
+        "Pins",
+        "Haines",
+        "Laskin"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "37f98bd2-81f8-46ae-b785-dd9a53775af0",
+        "name": "01-06-09_SBM_187_BreastI",
+        "title": "Breast I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Breast I",
+        "Cothran"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "418f946b-bcab-44a5-8ccc-f347bb50dd73",
+        "name": "01-06-09_SBM_188_BreastII_Part1",
+        "title": "Breast Pathology II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Breast Pathology II",
+        "Susnik"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c2ce7996-a676-4fce-9db9-a067aaf547f7",
+        "name": "01-07-09_SBM_189_BreastII_Part2",
+        "title": "Breast Pathology II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Breast Pathology II",
+        "Susnik"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c6b7ef42-d687-45c9-9101-62e442c85dfe",
+        "name": "01-07-09_SBM_190_GyneOncology",
+        "title": "Gynecologic Oncology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Gynecologic Oncology",
+        "Lowe"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2540b0cd-cc95-4b5b-859a-6967ab8cc1c2",
+        "name": "01-07-09_SBM_191_MicroSTD",
+        "title": "Microbiology of Sexually Transmitted Diseases",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Microbiology of Sexually Transmitted Diseases",
+        "Hauser"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2e988321-7026-49b5-9fc1-a8674b288abc",
+        "name": "01-07-09_SBM_192_MicroHIV",
+        "title": "HIV-1 Virology and Pathophysiology",
+        "class": "Item",
+        "tags":
+        [
+        "Flaherty",
+        "HIV-1 Virology and Pathophysiology",
+        "Week 18"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "71578059-a6bc-45cc-9d4d-6f224c5453ad",
+        "name": "01-08-09_SBM_193_STDRepro",
+        "title": "Sexually Transmitted Infections: Impact on Reproductive Health",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Sexually Transmitted Infections: Impact on Reproductive Health",
+        "Garcia"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "134deaaf-867c-4814-ae7d-bc84e603e81d",
+        "name": "01-08-09_SBM_194_MensCycle",
+        "title": "The Menstrual Cycle and Amenorrhea",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "The Menstrual Cycle and Amenorrhea",
+        "Baer"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "78a9a201-e96c-47fa-a0c8-8f2c7ff3bc98",
+        "name": "01-09-09_SBM_195_Infertility",
+        "title": "Infertility",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Infertility",
+        "Kazer"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a0e1100c-7cec-453e-8c9c-36e31cfa5b4e",
+        "name": "01-09-09_SBM_196_Contra",
+        "title": "Science of Contraception",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Science of Contraception",
+        "Stika"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "20db1264-15f2-46e2-b1d3-348ae3466550",
+        "name": "01-09-09_SBM_197_PregFail",
+        "title": "Pregnancy Failure",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Pregnancy Failure",
+        "Stika"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c02fd77e-2ca5-46cd-9377-43eb39be0525",
+        "name": "01-09-09_SBM_198_NormPregI",
+        "title": "Normal Pregnancy I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 18",
+        "Normal Pregnancy",
+        "McKnight"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5704f40e-c7fe-47f5-ac92-b416f1271190",
+        "name": "01-12-09_SBM_199_NormPregII",
+        "title": "Normal Pregnancy II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "Normal Pregnancy II",
+        "Peaceman"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c8db0bf6-72a8-4057-b314-d19ca9f8b1f1",
+        "name": "01-12-09_SBM_200_AbnPregI",
+        "title": "Abnormalities of Pregnancy: General Survey",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "Abnormalities of Pregnancy: General Survey",
+        "Grobman"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "4a2b5fea-9c50-42f4-9174-9c34a51d243d",
+        "name": "01-12-09_SBM_201_AbnPregII",
+        "title": "Abnormal Pregnancy",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "Abnormal Pregnancy",
+        "Grobman"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c97287c9-00e1-4e52-8f9a-d36dabc45b50",
+        "name": "01-12-09_SBM_202_FemSexDis",
+        "title": "Female Sexual Dysfunction",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "Female Sexual Dysfunction",
+        "Donahey"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "44c896d6-8566-4db9-b3e7-1a49e2a2ec58",
+        "name": "01-14-09_SBM_203_MenoTherapy",
+        "title": "Menopause, Hormone Replacement",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "FMenopause",
+        "Hormone Replacement",
+        "Tsai"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d6534fc2-bf7b-4208-8c91-41b19037cfcd",
+        "name": "01-15-09_SVM_208_CompCirrhosis",
+        "title": "GI Pathophysiology: Complications Of Cirrhosis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "FGI Pathophysiology: Complications Of Cirrhosis",
+        "Blei"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d6ac1bd3-486e-416e-9f9d-303311785721",
+        "name": "01-16-09_SBM_211_PancreasI",
+        "title": "Pancreas I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "PancreasI",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "e075a948-7248-45e8-8af4-b0811b0e773a",
+        "name": "01-16-09_SBM_212_PancreasII",
+        "title": "Pancreas II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 19",
+        "PancreasII",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "18001e85-4bad-4161-964a-e369c6760e8f",
+        "name": "01-20-09_SBM_214_BiliaryDisorder",
+        "title": "Biliary tract disorders and cholestasis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 20",
+        "Biliary tract disorders and cholestasis",
+        "Green"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d64931f0-4454-4c93-8cd6-34a1a66ca4e1",
+        "name": "01-21-09_SBM_215_Stomach",
+        "title": "Stomach",
+        "class": "Item",
+        "tags":
+        [
+        "Week 20",
+        "Stomach",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5365c600-101b-4cae-a093-f6c6d34891f4",
+        "name": "01-21-09_SBM_216_SmIntestine",
+        "title": "Small Intestine",
+        "class": "Item",
+        "tags":
+        [
+        "Week20",
+        "Small Intestine",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a1c463ea-7b71-4a9e-89be-c3c2c14eedae",
+        "name": "01-22-09_SBM_217_Colon",
+        "title": "Colon",
+        "class": "Item",
+        "tags":
+        [
+        "Week 20",
+        "Colon",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c008c1b3-e429-409f-be82-b9279c380977",
+        "name": "01-22-09_SBM_218_ColorectalCan-2",
+        "title": "Colorectal Cancer",
+        "class": "Item",
+        "tags":
+        [
+        "Week 20",
+        "Colorectal Cancer",
+        "Ferreira"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a57a8dfd-5dd2-45fb-b630-cce2f61dcd8e",
+        "name": "01-23-09_SBM_219_Esophagus",
+        "title": "Esophagus",
+        "class": "Item",
+        "tags":
+        [
+        "Week 20",
+        "Esophagus",
+        "Yang"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2b13e295-9de9-436e-b050-c4ce1a3fde56",
+        "name": "01-26-09_SBM_221_PepticUlcer",
+        "title": "Peptic Ulcer Disease & Helicobacter Pylori Infection",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Peptic Ulcer Disease & Helicobacter Pylori Infection",
+        "Vanagunas"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "247cae68-8bd7-4c11-bc6a-7be6de0b57fb",
+        "name": "01-26-09_SBM_222_GIDisorders",
+        "title": "Functional GI Disorders",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Functional GI Disorders",
+        "Brenner"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "1a9c22a4-a05f-4f06-a5f3-87be3f992c2b",
+        "name": "01-27-09_SBM_223_MotilityDis",
+        "title": "Gastrointestinal Motility",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Gastrointestinal Motility",
+        "Hirano"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "c9ed56e3-853b-4068-8dc0-d8688fd52efc",
+        "name": "01-27-09_SBM_224_Malabsorption",
+        "title": "Malabsorption and Diarrhea",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Malabsorption and Diarrhea",
+        "Craig"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "de972d0d-421d-41ef-b7a0-a32176df0131",
+        "name": "01-28-09_SBM_225_Antihistamines",
+        "title": "Antihistamines: Alllergy and Acid Suppresive Therapy",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Antihistamines: Alllergy and Acid Suppresive Therapy",
+        "Silinsky"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "435cec30-eb8e-409d-8cf8-52ac1501adfd",
+        "name": "01-28-09_SBM_226_EnerticMicroPath",
+        "title": "Microbial Pathogens of the Gastrointestinal Tract",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Microbial Pathogens of the Gastrointestinal Tract",
+        "Hauser"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ae963493-6756-4a5d-bd3d-a6b16022fe7a",
+        "name": "01-29-09_SBM_227_InflamBowelDis",
+        "title": "Inflammatory Bowel Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Inflammatory Bowel Disease"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "3987f9c1-4fa6-4290-bb33-eac1e07dbe6a",
+        "name": "01-29-09_SBM_228_InfectDisGI",
+        "title": "Intraabdominal Infections",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Intraabdominal Infections",
+        "Flaherty"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "3681f34f-ffbb-477d-b31b-4ba5ed38d09b",
+        "name": "01-30-09_SBM_229_GIPhramI",
+        "title": "Pharmacology of GI Disorders I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Pharmacology of GI Disorders I",
+        "Howden"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "25f29c84-cc65-44fa-b2d0-144625e0f9d3",
+        "name": "1-30-09_SBM_230_GIPhramII",
+        "title": "Pharmacology of GI Disorders II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 21",
+        "Pharmacology of GI Disorders II",
+        "Howden"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b5a6540e-ba73-4669-87ac-b562aec2609e",
+        "name": "02-03-09_SBM_231_IntroCardioDis",
+        "title": "Introduction to Cardiovascular Diseases",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Introduction to Cardiovascular Diseases",
+        "Shah"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "291f6167-e282-4811-b649-37dbe360a3fe",
+        "name": "02-03-09_SBM_233_AtherPath",
+        "title": "The Pathogenesis of Atherosclerosis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "IThe Pathogenesis of Atherosclerosis",
+        "Muller"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "cf7d278a-8a5b-4886-b0f9-b3734d70952f",
+        "name": "02-04-09_SBM_238_PharmLipidDrugs",
+        "title": "Strategies for Atherosclerosis Treatment",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Strategies for Atherosclerosis Treatment",
+        "Stone"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9a55d8df-bbd4-4c8c-9dfd-15a35e53f0a2",
+        "name": "02-05-09_SBM_239_AcuteCorSyn",
+        "title": "Acute Coronary Syndromes",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Acute Coronary Syndromes",
+        "Fintel"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "717f89fc-f35d-4361-9c21-31f2c7ad4548",
+        "name": "02-05-09_SBM_240_CVDrugPharm",
+        "title": "Cardiovascular Drug Pharmacology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Cardiovascular Drug Pharmacology",
+        "Fintel"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "d4eda967-014c-4fad-af5d-355bb5728adf",
+        "name": "02-05-09_SBM_241_IschemicHeartDis",
+        "title": "Chronic Ischemic Heart Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Chronic Ischemic Heart Disease",
+        "Fintel"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "fc9fc83b-4cb8-4f9a-a2b7-bd87c813b595",
+        "name": "02-06-09_SBM_242_MyoPeriDis",
+        "title": "Pericardial\/Myocardial Disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Vericardial\/Myocardial Disease",
+        "Lomasney"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "8db03dd9-97b7-4370-b103-cd61e2835dda",
+        "name": "02-06-09_SBM_243_ValvHeartDis",
+        "title": "Valvular Pathology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 22",
+        "Valvular Pathology",
+        "Lomasney"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "f37dda0e-2ed0-4919-9f2f-9a2dbfc3c0d5",
+        "name": "02-09-09_SBM_244_CongHeartPath",
+        "title": "Heart Failure - Pathophysiology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 23",
+        "Heart Failure",
+        "Pathophysiology",
+        "O'Connell"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "967c77e0-4363-4714-82b2-413710efb8e8",
+        "name": "02-09-09_SBM_245_CongHeartPharm",
+        "title": "Heart Failure - Pharmacology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 23",
+        "Heart Failure",
+        "Pharmacology",
+        "O'Connell"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "85f54b0f-edf6-45f8-b0df-c4ae6ab14821",
+        "name": "02-09-09_SBM_246_BradycardiaCond",
+        "title": "Bradycardia and Heart Block",
+        "class": "Item",
+        "tags":
+        [
+        "Week 23",
+        "Bradycardia",
+        "Heart Block",
+        "Kadish"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "bc8f5da6-4fe5-4da8-8d63-7141fa5c63ce",
+        "name": "02-09-09_SBM_247_IntroArrhySyn",
+        "title": "Syncope",
+        "class": "Item",
+        "tags":
+        [
+        "Week 23",
+        "Syncope",
+        "Kadish"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "a465bde5-300c-4b55-88c1-20a9cd266229",
+        "name": "02-11-09_SBM_250_AntiarrhyDrugRecep",
+        "title": "The Cellular Electrophysiological Basis of Cardiac Arrhythmia 1",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "27e4c245-260e-4b60-9e0b-bd88366a76fb",
+        "name": "02-11-09_SBM_251_SupraventArrhy",
+        "title": "Supraventricular Arrhythmias",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6e41bd24-18e4-4570-bf0e-2662e3b7f538",
+        "name": "02-11-09_SBM_253_PharmAntiArrhyI",
+        "title": "Antiarrhythmic Drugs I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 23",
+        " Antiarrhythmic Drugs I",
+        " Arora"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ca6c349b-5474-4b4e-abec-8d7f79d2d4f0",
+        "name": "02-12-09_SBM_254_PharmAntiArrhyII",
+        "title": "Antiarrhythmic Drugs II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 23",
+        " Antiarrhythmic Drugs II",
+        " Arora"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "0f0f80b4-ab6f-4a8f-a33e-b19e080cd0ec",
+        "name": "02-16-09_SBM_257_AnatomPathCHDI",
+        "title": "Congenital Heart Disease I",
+        "class": "Item",
+        "tags":
+        [
+        "Week 24",
+        " Congenital Heart Disease I",
+        " Bharati"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "771e3dc8-6e45-4942-b5d3-74e295eae465",
+        "name": "02-16-09_SBM_258_AnatomPathCHDII",
+        "title": "Congenital Heart Disease II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 24",
+        " Congenital Heart Disease II",
+        " Bharati"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "8fa1885a-3254-4b67-8266-ea287781d5fa",
+        "name": "02-16-09_SBM_260_PerVascDisPath",
+        "title": "Peripheral Vascular Disease Pathology",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b30c6a23-ce2f-4d42-8d72-915962052cb9",
+        "name": "02-17-09_SBM_261_HypertensPath",
+        "title": "Hypertension: Pathophysiology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 24",
+        " Hypertension: Pathophysiology",
+        " Battle"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "85fb4f9a-dabe-4950-8df3-3b6aa9740062",
+        "name": "02-17-09_SBM_262_PVDII",
+        "title": "Peripheral Vascular Disease II",
+        "class": "Item",
+        "tags":
+        [
+        "Week 24",
+        " Peripheral Vascular Disease II",
+        " Kibbe"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "2ae0bea8-57ad-442b-996a-1d4984e4ccd2",
+        "name": "02-18-09_SBM_263_HypertenOver",
+        "title": "Hypertension: Agents for Treatment",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "73d5d5e8-5102-4139-a24b-d58c24ae86cf",
+        "name": "02-18-09_SBM_264_HypertenPharm",
+        "title": "Hypertension: Agents for Treatment",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "5d85923c-0577-4732-aab8-207a50c9556e",
+        "name": "02-23-09_SBM_271_Asthma",
+        "title": "Asthma",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9c4a956f-457a-41cc-9e44-e011e5abcf0d",
+        "name": "02-23-09_SBM272_PulmonaryEdema",
+        "title": "Pulmonary Edema",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " Pulmonary Edema",
+        " Corbridge"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "ca44e375-a0d9-406b-9611-9d03f4251553",
+        "name": "02-24-09_SBM_273_AllergicRhinSin",
+        "title": "Allergic Rhinitis & Sinusitis",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "6081960b-9cf8-453e-a01f-9361d75a928a",
+        "name": "02-24-09_SBM_274_InterLungDis",
+        "title": "Interstitial Lung Disease I: Alveolar Wall Disease",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "afa375ce-ddc5-4595-a28b-8d456898fa18",
+        "name": "02-25-09_SBM_275_Phenumonia",
+        "title": "Pneumonia",
+        "class": "Item",
+        "tags":
+        [
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "9938afac-bda7-47a7-a471-d650b813ba2d",
+        "name": "02-25-09_SBM_275_Phenumonia-1",
+        "title": "Pneumonia",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " Pneumonia",
+        " Flaherty"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "0da7dd76-048e-41e2-8e78-b9e655955272",
+        "name": "02-25-09_SBM_276_Tuberculosis",
+        "title": "Tuberculosis",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " Tuberculosis",
+        " Flaherty"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "b9c87b39-b4f2-42b7-b81e-e516582eb3e8",
+        "name": "02-25-09_SBM_277_MOTTFungInfec",
+        "title": "MOTT & Fungal Infection",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " PMOTT & Fungal Infection",
+        " Flaherty"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "39a711f9-6996-4ad1-a18a-a153523e1a98",
+        "name": "02-25-09_SBM_278_COPD",
+        "title": "Chronic obstructive airway disease (COPD)",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " Chronic obstructive airway disease (COPD)",
+        " Kalhan"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "43502738-ad0e-4ae0-81b6-aae0d2b63371",
+        "name": "02-27-09_SBM_279_PathNonNeoLung",
+        "title": "Pathology of non-malignant disease",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " Pathology of non-malignant disease",
+        " Yeldandi"
+        ],
+        "incomplete": true,
+        "count": 0
+    },
+    {
+        "uuid": "99f08acc-68e5-4a23-b9c8-2a41de103ae2",
+        "name": "02-27-09_SBM_280_AsthmaPharm",
+        "title": "Asthma Pharmacology",
+        "class": "Item",
+        "tags":
+        [
+        "Week 25",
+        " Asthma Pharmacology",
+        " Avila"
+        ],
+        "incomplete": true,
+        "count": 0
     }
+    ],
+    "content":
+    {
+        "id": 4,
+        "description": null
     }
+}
