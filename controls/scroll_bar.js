@@ -30,7 +30,7 @@
 
         class_name: "ScrollBar",
         
-        BUTTON_HEIGHT: 18,
+        BUTTON_HEIGHT: 14,
 
         constructor: function (options) {
             this.base(options, {css_class: 'wa_sbar'});
@@ -45,7 +45,8 @@
         },
 
         generate: function (dom_element) { 
-            var up_button = new ScrollButton({css_class: "wa_sbar_up"});
+            var up_button = new ScrollButton({
+                    css_class: "wa_sbar_up", pressed_css: "wa_sbar_up_pressed"});
             this.add(up_button);
             up_button.addListener("up", this, "onUpPressed");
             this.up_button = up_button;
@@ -55,7 +56,8 @@
             this.handle = handle;
             
             var down_button = new ScrollButton({css_class: "wa_sbar_down", 
-                    top: this.height - this.BUTTON_HEIGHT});
+                    pressed_css: "wa_sbar_down_pressed", 
+                    top: this.height - this.BUTTON_HEIGHT - 1});
             this.add(down_button);
             down_button.addListener("up", this, "onDownPressed");
             this.down_button = down_button;
@@ -70,11 +72,13 @@
                 self.startTracking(event);
             });
             
-            dom_element.mousemove(function (event) {
+            var doc_element = jQuery(document);
+            
+            doc_element.mousemove(function (event) {
                 if (self.is_tracking) self.track(event);
             });
             
-            dom_element.mouseup(function (event) {
+            doc_element.mouseup(function (event) {
                 self.stopTracking(event);
             });
         },
@@ -90,14 +94,14 @@
                 shown = Math.round(this.max / 10);
             var handle_height = Math.round(slide_height * shown / this.max);
                 
-            this.handle.adjust(handle_top, handle_height);
+            this.handle.adjust(handle_top, handle_height, this.is_tracking);
         },
         
         setScroll: function (value, shown) {
             if (shown == undefined)
                 shown = this.shown;
-            this.value = value;
-            this.shown = shown;
+            this.value = Math.round(value);
+            this.shown = Math.round(shown);
             this.update();
         },
         
@@ -116,7 +120,7 @@
         },
         
         onDownPressed: function () {
-            if (this.value < this.max) {
+            if (this.value < (this.max - this.shown)) {
                 this.value += 1;
                 this.update();
             }
@@ -132,9 +136,12 @@
         
         track: function (event) {
             var offset = event.clientY - this.start_y;
-            var scaled_offset = this.max * offset / this.slide_height; 
+            var scaled_offset = Math.round(this.max * offset / this.slide_height); 
             var shown = this.shown;
-            if (shown < 1) shown = Math.round(this.max / 10);
+            if (shown < 1) {
+                shown = Math.round(this.max / 10);
+                this.shown = shown;
+            }
             var new_value = Math.min(Math.max(0, this.start_value + scaled_offset), 
                 this.max - shown);
             if (new_value != this.value) {
@@ -145,6 +152,7 @@
         
         stopTracking: function (event) {
             this.is_tracking = false;
+            this.update();
         }
     });
 
@@ -165,6 +173,9 @@
             dom_element.mouseup(function () {
             	self.onMouseUp();
             });
+            dom_element.mouseleave(function () {
+                self.onMouseLeave();
+            })
         },
         
         onMouseDown: function () {
@@ -175,8 +186,11 @@
         onMouseUp: function () {
             this.dom_element.removeClass(this.pressed_css);
             this.broadcast("up");
+        },
+        
+        onMouseLeave: function () {
+            this.dom_element.removeClass(this.pressed_css);    
         }
-    
     });
     
     var Handle = Control.extend({
@@ -185,16 +199,20 @@
         
         constructor: function (options) {
             this.base(options, {css_class: 'wa_sbar_handle',
-                top: 18});
+                top: ScrollBar.BUTTON_HEIGHT});
         },
 
         generate: function (dom_element) {
-            dom_element.append(div({}));
         },
         
-        adjust: function (top, height) {
+        adjust: function (top, height, is_tracking) {
             this.dom_element.css("top", top);
             this.dom_element.css("height", height - 2);
+            
+            if (is_tracking)
+                this.dom_element.addClass("wa_sbar_handle_pressed");
+            else
+                this.dom_element.removeClass("wa_sbar_handle_pressed");
         }
      
     });

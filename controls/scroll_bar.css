@@ -2,61 +2,74 @@
 
 .wa_sbar {
     position:relative;
-    width: 16px;
+    width: 12px;
     overflow: hidden;
     background-color: #EEE;
-    border: 1px solid #CCC;
+    border: 1px solid #BBB;
 }
 
 .wa_sbar_handle {
     position:absolute;
-    width: 14px;
-    margin: 1px 1px;
-    background-color: #FFF;
+    width: 12px;
+    margin: 0;
+    background: #FFF url(../images/scroll-thumb.png) no-repeat center center;
+    border-top: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+	cursor: pointer; cursor: hand;
+}
+
+.wa_sbar_handle_pressed {
+    background: #BDD5FD url(../images/scroll-thumb-pressed.png) no-repeat center center;
 	cursor: pointer; cursor: hand;
 }
 
 .wa_sbar > .wa_button {
     position:absolute;
-	width: 16px;
-	height: 17px;
+	width: 12px;
+	height: 14px;
 	padding: 0px;
 	margin-right: 0px;
     border: none;
 	background-color: #FDFDFD;
 }
 
-.wa_sbar > .wa_button:hover {
-	background-color: #F0F2F9;
-}
-
 .wa_sbar > .wa_button_pressed {
-    color: #FFFFFF;
-	background-color: red;
+    background: #AAA url(../images/scroll-up.png);
 }
 
 .wa_sbar_up {
     position:absolute;
-	width: 16px;
-	height: 17px;
-	background-color: #FFF;
-    border-bottom: 1px solid #CCC;
+	width: 12px;
+	height: 14px;
+	background: #FFF url(../images/scroll-up.png);
+    border-bottom: 1px solid #BBB;
 	cursor: pointer; cursor: hand;
 }
 
-.wa_sbar_down {    position:absolute;
-	width: 16px;
-	height: 17px;
-	background-color: #FFF;
+.wa_sbar_up_pressed {    
+	background: #BDD5FD url(../images/scroll-up-pressed.png);
 	cursor: pointer; cursor: hand;
-    border-top: 1px solid #CCC;
+}
+
+.wa_sbar_down {    
+    position:absolute;
+	width: 12px;
+	height: 14px;
+	background:#FFF url(../images/scroll-down.png);
+	cursor: pointer; cursor: hand;
+    border-top: 1px solid #BBB;
+	cursor: pointer; cursor: hand;
+}
+
+.wa_sbar_down_pressed {    
+	background: #BDD5FD url(../images/scroll-down-pressed.png);
 	cursor: pointer; cursor: hand;
 }
 
 .wa_sbar_button {
     position:absolute;
-	width: 16px;
-	height: 17px;
+	width: 12px;
+	height: 14px;
 	background-color: #FFF;
 	cursor: pointer; cursor: hand;
 }
