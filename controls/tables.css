@@ -6,7 +6,7 @@
     top:3px;
     height: 18px;
     padding: 0px;
-    background-image: url(../../webaction/images/grad-blue-20.png);
+    background-image: url(../images/grad-blue-20.png);
     border-left: 1px dotted #AAAAAA;;
     overflow: hidden;
 }
@@ -67,7 +67,7 @@
 }
 
 .wa_table_cell_highlight {
-    background-image: url(../../webaction/images/grad-blue-20r.png);
+    background-image: url(../images/grad-blue-20r.png);
 }
 
 .wa_table_selected {
@@ -87,7 +87,7 @@
     margin-right: 3px;
     width: 16px;
     height: 16px;
-    background-image: url(../../webaction/images/sort-both-16.png);
+    background-image: url(../images/sort-both-16.png);
 }
 
 .wa_sort_icon_up {
@@ -96,7 +96,7 @@
     margin-right: 3px;
     width: 16px;
     height: 16px;
-    background-image: url(../../webaction/images/sort-up-16.png);
+    background-image: url(../images/sort-up-16.png);
 }
 
 .wa_sort_icon_down {
@@ -105,5 +105,5 @@
     margin-right: 3px;
     width: 16px;
     height: 16px;
-    background-image: url(../../webaction/images/sort-down-16.png);
+    background-image: url(../images/sort-down-16.png);
 }

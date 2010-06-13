@@ -62,7 +62,8 @@ SCRIPT_FILES = [
   "controls/dialogs.js",
   "controls/checklist.js",
   "controls/addlist.js",
-  "controls/scroller.js"
+  "controls/scroller.js",
+  "controls/scroll_bar.js"
 ]
 
 CSS_FILES = [
@@ -77,7 +78,8 @@ CSS_FILES = [
   "controls/addlist.css",
   "controls/tag_selector.css",
   "controls/text_selector.css",
-  "controls/scroller.css"
+  "controls/scroller.css",
+  "controls/scroll_bar.css"
 ]
 
 desc "Generate script and CSS files"
@@ -102,8 +104,10 @@ file COMBINED_CSS_FILE => CSS_FILES do
     css = LICIENCE.clone
     CSS_FILES.each do | file_name |
       puts "adding: #{file_name}"
-      css << JSMin.minify(File.new(file_name))
+      css << "\n\n/*** From: #{file_name} ***/\n\n"
+      css << IO.read(file_name)
     end
+    css = css.gsub("../images/", "images/")
     puts "writing #{COMBINED_CSS_FILE}.."
     File.new(COMBINED_CSS_FILE, 'w').write(css)
 end

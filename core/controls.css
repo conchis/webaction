@@ -99,7 +99,7 @@ a {
 	margin-top: 3px;
 	margin-left: 5px;
 	padding-top: 1px;
-	background-image: url(images/left-arrow.png);
+	background-image: url(../images/left-arrow.png);
 }
 
 .wa_slide_right {
@@ -109,7 +109,7 @@ a {
 	margin-top: 3px;
 	margin-left: 5px;
 	padding-top: 1px;
-	background-image: url(images/right-arrow.png);
+	background-image: url(../images/right-arrow.png);
 }
 
 .wa_slide_play {
@@ -122,14 +122,14 @@ a {
 	margin-right: 10px;
 	padding-top: 1px;
 	border: 1px solid #DDDDDD;
-	background-image: url(images/play.png);
+	background-image: url(../images/play.png);
 }
 
 .wa_slide_pause {
 	color: #FFFFFF;
 	background-color: #666666;
 	border: 1px solid #CCCCCC;
-	background-image: url(images/pause.png);
+	background-image: url(../images/pause.png);
 }
 
 .wa_slide_content {
