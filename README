@@ -14,7 +14,7 @@ jQuery stands out as an excellent open-source library (second to none) for manip
 
 The Near Future
 ---------------
-The 1.0 release is due at the end of March, before then I will be adding:
+The 1.0 release is due at the end of June, before then I will be adding:
 
 - Support for accessing content via Jackrabbit's web service, which, using JCR-Connect software can also be used to provide a hub for content from Fedora and XTF repositories.
 
@@ -22,7 +22,7 @@ The 1.0 release is due at the end of March, before then I will be adding:
 
 - Support for working with content structured according to JCR-Connect's Default Content Model.
 
-- Better web accessability.
+- Better web accessibility.
 
 Links
 -----
