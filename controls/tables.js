@@ -562,6 +562,7 @@
             var table = jQuery("#" + this.id + " table");
             this.table = table;
             //table.empty();
+            table.find("tr").remove(); //rbv218 -- keep the <COLS>
 
             var self = this;
             model.each(function (item, index) {
