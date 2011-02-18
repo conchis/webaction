@@ -78,6 +78,11 @@
             var search_label = new Label("Search");
             this.search_label = search_label;
             search_label.makeControl(dom_element);
+            var self = this;
+            jQuery("#"+search_label.id).live('click', function(){
+              self.control.focus();
+            });
+            this.clear();
         },
         
         // Clears the value of the text field
